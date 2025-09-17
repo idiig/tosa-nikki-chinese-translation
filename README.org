@@ -1,0 +1,162 @@
+#+title: 土佐日记多层次中译
+#+author:  idiig, yamagen
+* 简介
+** 土佐日记
+土佐日记是日本平安时代文学家纪贯之所著的一部日记体散文，成书于935年。
+全书以第一人称视角，记录了作者一行人从土佐国（今高知县）回京的旅程及其
+所见所感。
+** 中译的背景与目标
+- 中译本缺失 ::
+  目前市面上已知不存在土佐日记的中文译本。
+- 开源、透明、易纠错的译本 ::
+  本项目旨在通过开源协作的方式，创建一个编辑过程透明，翻译模块透明的土
+  佐日记的免费中译本。在翻译缺乏确认的情况下，可以细化到词表级别进行讨
+  论和修正。且所有修正都作为提交记录保留，便于追溯和纠错。
+- 直译与意译 ::
+  翻译尽可能保留源语的语言学特征，不因为过度注重语言的流畅与优美破坏解
+  读的可能性，因此项目区分提供：
+  + 直译 :: 不顾忌中文句子通畅性，
+  + 意译 :: 考虑到中文合法性的自然翻译
+- 作为语言学资料的翻译 ::
+  在翻译过程中查阅辞典是，我们发现，很多词的词义初出和唯一用例本身来自
+  于土佐日记的解读，这时候词的意思往往形成了一种循环论证。对于仅出现土
+  佐日记的、缺乏旁证词义的词，保持其词义的开放性，避免过度解释。最终，
+  本项目基于基础词本位进行翻译，又基于翻译更新词义。形成一个语料本位的
+  词表，为辞典学、语料库语言学、语料库语用学等研究提供资料。
+- 带语言学标注的翻译文本 ::
+  本项目同时基于Leipzig Gloss Rule和Zisk (2024)等语言学标注体系对每一
+  个morpheme进行标注。同时给出非学术界读者也可以理解的解释，为跨语言的
+  对比阅读提供便利。
+- 教学用途 ::
+  本项目自带的语言学标注和词表可以作为语言学、日语学习等课程的教学资料。
+* 多层次中译
+这个项目通过多层次的翻译方法，将原文的语言特征和尽可能保留在译文中。每
+一条记录包含以下几个部分：
+- 句子ID (=id=) :: 句子的唯一标识符
+- 原文 (=koutei-yamagen=) :: 以校订原文和假名表示的日语原文
+- 直译 (=translation-zh=) :: 逐词翻译，尽可能保留原文的语言特征
+- 切片解释 (=phrase-gloss=) :: 对原文进行切片，并对每个切片进行逐词解释
+- 词语解释 (=word=) :: 对每个切片中的词语进行逐词解释
+- 注释符号表 (=glossary-abbreviations=) :: 对注释符号进行解释
+- 自然译文 (=translation-zh-natural=) :: 符合中文语法和习惯的自然译文
+- 其他解释 (=notes-zh) :: 其他相关的解释和注释
+
+如下所示：
+#+begin_src json
+  {
+      "id": 1,
+      "koutei-yamagen": "男もすなる日記といふものを、女もしてみむとてするなり。",
+      "translation-zh": "听说是男性所做的叫日记的东西，但想着女性也做着试试吧，便做了。",
+      "phrase-gloss": [
+          {
+              "phrase": "男もすなる日記",
+              "gloss-zh": "（传闻）男人也做的日记",
+              "gloss-morph-zh": "男人=IFO 做-CCL HEV-ADN 日记",
+              "words": [
+  		{
+                      "word": "男",
+                      "gloss-zh": "男人",
+                      "gloss-morph-zh": "男人"
+  		},
+  		{
+                      "word": "も",
+                      "gloss-zh": "也",
+                      "gloss-morph-zh": "=IFO"
+  		},
+  		{
+                      "word": "す",
+                      "gloss-zh": "做",
+                      "gloss-morph-zh": "做-CCL"
+  		},
+  		{
+                      "word": "なる",
+                      "gloss-zh": "传闻...的",
+                      "gloss-morph-zh": "HEV-ADN"
+  		},
+  		{
+                      "word": "日記",
+                      "gloss-zh": "日记",
+                      "gloss-morph-zh": "日记"
+  		}
+              ]
+          },
+          {
+              "phrase": "といふものを",
+              "gloss-zh": "所谓的东西（让步）",
+              "gloss-morph-zh": "QUOT 说-ADN [物=ACC](=CON)",
+              "words": [
+  		{
+                      "word": "と",
+                      "gloss-zh": "（补语）",
+                      "gloss-morph-zh": "=CMP"
+  		},
+  		{
+                      "word": "いふ",
+                      "gloss-zh": "所谓的",
+                      "gloss-morph-zh": "说-ADN"
+  		},
+  		{
+                      "word": "もの",
+                      "gloss-zh": "东西",
+                      "gloss-morph-zh": "东西"
+  		},
+  		{
+                      "word": "を",
+                      "gloss-zh": "（让步）",
+                      "gloss-morph-zh": "=CON"
+  		}
+              ]
+          },
+          {
+              "phrase": "女もしてみむとてするなり",
+              "gloss-zh": "想着女人也做着试试吧，便做了",
+              "gloss-morph-zh": "女人=IFO 做-ADV=SEQ 试-ADV+VOL-CCL=SCM 做-ADN COP-CCL",
+              "words": [
+  		{
+                      "word": "女",
+                      "gloss-zh": "女人",
+                      "gloss-morph-zh": "女人"
+  		},
+  		{
+                      "word": "も",
+                      "gloss-zh": "也",
+                      "gloss-morph-zh": "=IFO"
+  		},
+  		{
+                      "word": "し",
+                      "gloss-zh": "做",
+                      "gloss-morph-zh": "做-ADV"
+  		},
+  		{
+                      "word": "て",
+                      "gloss-zh": "着",
+                      "gloss-morph-zh": "=SEQ"
+  		},
+  		{
+                      "word": "みむ",
+                      "gloss-zh": "试试吧",
+                      "gloss-morph-zh": "试-ADV+CJT"
+  		},
+  		{
+                      "word": "とて",
+                      "gloss-zh": "SCM",
+                      "gloss-morph-zh": "=SCM"
+  		},
+  		{
+                      "word": "する",
+                      "gloss-zh": "做",
+                      "gloss-morph-zh": "做-ADN"
+  		},
+  		{
+                      "word": "なり",
+                      "gloss-zh": "是",
+                      "gloss-morph-zh": "COP-CCL"
+  		}
+              ]
+          }
+      ],
+      "glossary-abbreviations": null,
+      "translation-zh-natural": "虽说日记通常是用男人写的东西，但我想试着用作为女人来写写看，于是便写下了这本日记。"
+  }
+#+end_src
+* 

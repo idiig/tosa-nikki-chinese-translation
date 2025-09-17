@@ -1,0 +1,81 @@
+\setchapterpreamble[u]{\margintoc}
+
+\begin{margintable}
+\caption{符号一览表（1）}
+\small
+\begin{tabular}{rl}
+\toprule
+\bfseries 符号 & \bfseries 语法功能\\\midrule
+-: & affix boundaries\\
+=: & clitic boundaries\\
++: & compound boundaries\\
+\sc{adn}: & adnominal\\
+\sc{adv}: & adverbal\\
+\sc{ccl}: & conclusive\\
+\sc{cjt}: & conjectural\\
+\sc{cmp}: & complementizer\\
+\sc{con}: & concessive\\
+\sc{cop}: & copula\\
+\sc{hev}: & hearsay evidential\\
+\sc{ifo}: & inclusive focus\\
+\sc{scm}: & sequential complementizer\\
+\sc{seq}: & sequential\\\bottomrule
+\end{tabular}
+\end{margintable}
+
+\lingset{textanchor=numleft,
+labelanchor=numleft,
+labeloffset=.35in,
+textoffset=.8in}
+
+\pex[tag=id1] 男もすなる日記といふものを、女もしてみむとてするなり。\footnote{%
+小松英雄认为，这篇日记并非女性的模仿，而是作者意图用假名而非汉字书写，巧妙地利用了假名的独特特性。这一解释由小松英雄提出，但尚未被广泛接受。小松英雄认为开头的一句话巧妙地表达了用假名书写的意图，强调了其风格特点。\\%
+田边圣子认为，使用假名可以更细腻地表达悲伤，而古典汉语则受限于较为生硬的表达方式。\\%
+桥本治指出，纪贯之作为诗人，选择使用假名反映了他作为诗人的背景，因为传统上诗歌是用假名书写的。%
+}
+\a[label=\textbf{\underline{かな}}] 
+をとこもすなるにきといふものを、をんなもしてみむとてするなり。
+\a[label=\textbf{\underline{直译}}] 
+听说是男性所做的叫日记的东西，但想着女性也做着试试吧，便做了。
+\a[label=\textbf{\underline{意译}}] 
+虽说日记通常是用男人写的东西，但我想试着用作为女人来写写看，于是便写下了这本日记。
+\a
+\begingl[glstyle=nlevel,glneveryline={\it,\it\footnotesize,\sc\footnotesize,\bfseries\footnotesize},
+glnabovelineskip={,-.4ex,-.4ex},extraglskip=0pt,glwordalign=center]
+\glpreamble 男もすなる日記
+\endpreamble
+男[onoko///男人]
+も[=mo/=\sc{ifo}//也]
+す[s-u/做-\sc{ccl}//做]
+なる[nar-u/\sc{hev}-\sc{adn}/传闻证据/传闻是...的]
+日記[nikki///日记]
+\glft `传闻是男人做的日记'
+\endgl
+\a
+\begingl[glstyle=nlevel,glneveryline={\it,\it\footnotesize,\sc\footnotesize,\bfseries\footnotesize},
+glnabovelineskip={,-.4ex,-.4ex},extraglskip=0pt,glwordalign=center]
+\glpreamble というものを \endpreamble
+と[=to/=\sc{cmp}/补语/]
+いふ[ip-u/说-\sc{adn}/{}/所谓的]
+もの[mono/{}/{}/东西]
+を[=wo/=\sc{con}/让步/但]
+\glft `虽说，但'
+\endgl
+\a
+\begingl[glstyle=nlevel,glneveryline={\it,\it\footnotesize,\sc\footnotesize,\bfseries\footnotesize},
+glnabovelineskip={,-.4ex,-.4ex},extraglskip=0pt,glwordalign=center]
+\glpreamble 女もしてみむとてするなり \endpreamble
+女[womina///女人]
+も[=mo/=\sc{ifo}]
+し[s-i/做-\sc{adv}//做]
+て[=te/=\sc{seq}/接续/着]
+み[m-i/试-\sc{adv}//试试]
+む[+m-u/+\sc{cjt}-\sc{ccl}/意志/吧]
+とて[=tote/=\sc{scm}/补语接续/想着]
+する[s-ur-u/做-\sc{adn}//做]
+なり[nar-i/\sc{cop}-\sc{ccl}/系辞/乃]
+\glft `想着女性也做着试试吧，便做了。'
+\endgl
+\xe
+
+\newpage
