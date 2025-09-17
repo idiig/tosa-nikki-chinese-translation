@@ -179,6 +179,8 @@
 ** 文化特有的词汇
 如，特色食物，节日，官职，地名，所谓的 proper name 类词语不翻译，使用
 脚注灵活处理。
+** 无标记
+格、时态等若无语法标记，则不做明示化处理。
 * 语法标注参考
 - [[https://www.eva.mpg.de/lingua/resources/glossing-rules.php][Max Planck Institute for Evolutionary Anthropology Department of Linguistics (2015): Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses]]
 - [[https://researchmap.jp/mzisk/published_papers/42178558][Zisk, Matthew. 2023. “Glossing Glosses: Methods for Transcribing and Glossing Japanese Kundoku Texts”. In: Cinato, Franck et al. (eds.) Glossing Practice: Comparative Perspectives, pp. 47-82. Lexington Books.]]
