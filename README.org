@@ -176,6 +176,12 @@
   こころ+もと+なし => heart+root+none = 不安的
 #+end_example
 来处理。
+
+此外，虽然很多复合词可以在辞典里被查到，但如果是透明度较高的复合词，则
+在形态的标注上尽量不做处理。比如
+#+begin_example
+  もてく => もて く = hold SEQ come-CCL
+#+end_example
 ** 文化特有的词汇
 如，特色食物，节日，官职，地名，所谓的 proper name 类词语不翻译，使用
 脚注灵活处理。
