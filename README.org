@@ -44,7 +44,7 @@
 - 词语解释 (=word=) :: 对每个切片中的词语进行逐词解释与标注
 - 注释符号表 (=glossary-abbreviations=) :: 对注释符号进行解释
 - 自然译文 (=translation-zh-natural=) :: 符合中文语法和习惯的自然译文
-- 其他解释 (=notes-zh) :: 其他相关的解释和注释
+- 其他解释 (=notes-zh=) :: 其他相关的解释和注释
 
 如下所示：
 #+begin_src json
