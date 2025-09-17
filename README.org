@@ -191,3 +191,6 @@
 - [[https://www.eva.mpg.de/lingua/resources/glossing-rules.php][Max Planck Institute for Evolutionary Anthropology Department of Linguistics (2015): Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses]]
 - [[https://researchmap.jp/mzisk/published_papers/42178558][Zisk, Matthew. 2023. “Glossing Glosses: Methods for Transcribing and Glossing Japanese Kundoku Texts”. In: Cinato, Franck et al. (eds.) Glossing Practice: Comparative Perspectives, pp. 47-82. Lexington Books.]]
 - [[https://michinorishimoji.github.io/searchgloss/][下地理則 (2025) SearchGloss (DOI: 10.5281/zenodo.16419404) Version 1.0.]]
+* TODO
+- [ ] ===, =+=, =-= 的使用
+- [ ] 词表的生成
