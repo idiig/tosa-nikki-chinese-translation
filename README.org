@@ -4,7 +4,11 @@
 
 [[https://doi.org/10.5281/zenodo.15563257][file:https://zenodo.org/badge/DOI/10.5281/zenodo.15563257.svg]]
 
+#+begin_quote
+[!IMPORTANT]
 本项目 fork 自 [[https://github.com/yamagen/tosa-translation][yamagen/tosa-translation]]。
+#+end_quote
+
 * 简介
 ** 土佐日记
 土佐日记是日本平安时代文学家纪贯之所著的一部日记体散文，成书于935年。
