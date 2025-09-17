@@ -2504,7 +2504,7 @@
       {
         "id": 25,
         "koutei-yamagen": "となむありければ、帰る前の守の詠めりける、",
-        "translation-zh": null,
+        "translation-zh": "有此，于是返回前的国守吟唱道，",
         "phrase-gloss": [
           {
             "phrase": "と",
@@ -2815,7 +2815,7 @@
       {
         "id": 28,
         "koutei-yamagen": "とかく言ひて、前の守も今のも、諸共におりて、今の主も前のも手取りかはしてゑひごとに心よげなることして出でにけり。",
-        "translation-zh": null,
+        "translation-zh": "这般那般说着，之前的国守和现在的一起下来，现在的宅主和之前的手相互拉着，因醉意做着欢愉之事后，离开了。",
         "phrase-gloss": [
           {
             "phrase": "とかくいひて",
@@ -7128,7 +7128,141 @@
         "id": 70,
         "koutei-yamagen": "このかうやうの物持て来る人に、なほしもえあらでいさざげわざせさすものもなし。",
         "translation-zh": "更不在这个带来这样的东西的人，请他实行少许神事的东西也没有。？",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "このかうやうの物",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "かうやう",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "の",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "物",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "もて來るひとに",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "も",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "來る",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ひと",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "なほしもえあらで",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "なほ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "しも",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "え",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "あら",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "で",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "いさゝげわざせさすものもなし。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "いさゝげ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "わざ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "せ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "さす",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "もの",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "も",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なし",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": null,
         "translation-zh-natural": "我不能就这样让带来这些东西的人空手而回，连一点小小的回礼都没有。"
       },
@@ -7144,7 +7278,69 @@
         "id": 72,
         "koutei-yamagen": "五日、風浪やまねば、猶、同じ所にあり。",
         "translation-zh": "五日，风浪未息，仍在同处。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "五日、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "五日",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "風浪やまねば、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "風浪",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "やま",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ねば",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "猶同じ所にあり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "猶",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "同じ所",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "あり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": null,
         "translation-zh-natural": "第五天，风浪未平，仍停泊在同一处。"
       },
@@ -8783,7 +8979,7 @@
       {
         "id": 277,
         "koutei-yamagen": "その歌、",
-        "translation-zh": null,
+        "translation-zh": "那歌，",
         "phrase-gloss": null,
         "glossary-abbreviations": null,
         "translation-zh-natural": "那首歌，"
