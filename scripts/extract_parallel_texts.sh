@@ -1,5 +1,5 @@
 #!/bin/bash
-# extract_chinese_natural.sh - Extract Chinese natural translations from processed JSON
+# extract_parallel_texts.sh - Extract Chinese parallel texts from processed JSON
 
 # Check input parameters
 if [ $# -eq 0 ]; then

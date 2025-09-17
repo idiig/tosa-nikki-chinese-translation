@@ -1,6 +1,7 @@
 #+title: 脚本说明
 * =extract_chinese_full.sh=
 用于从 [[https://github.com/idiig/tosa-translation][idiig/tosa-translation]] 项目中提取中文相关结构的脚本。
+
 用法如下：
 #+begin_src shell
   sh extract_chinese_full.sh <input.json> <output.json>
@@ -62,20 +63,21 @@
   echo "Extraction completed, results saved to: $OUTPUT_FILE"
 #+end_src
 #+end_details
-* =extract_chinese_natural.sh=
-用于从 [[../tosa-zh.json][tosa-zh.json]] 项目中单独提取中文自然译文的脚本。
+* =extract_parallel_texts.sh=
+此脚本用于从 [[../tosa-zh.json][tosa-zh.json]] 项目中单独提取中文译文的脚本。
+
 用法如下：
 #+begin_src shell
-  sh extract_chinese_natural.sh <output.json>
+  sh extract_parallel_texts.sh <input.json> <output.json>
   #+end_src
 
 #+begin_details
 #+begin_summary
 展开阅读脚本文件
 #+end_summary
-#+begin_src shell :tangle ./extract_chinese_natural.sh
+#+begin_src shell :tangle ./extract_parallel_texts.sh
   #!/bin/bash
-  # extract_chinese_natural.sh - Extract Chinese natural translations from processed JSON
+  # extract_parallel_texts.sh - Extract Chinese parallel texts from processed JSON
 
   # Check input parameters
   if [ $# -eq 0 ]; then
@@ -112,5 +114,165 @@
   }]' "$INPUT_FILE" > "$OUTPUT_FILE"
 
   echo "Natural translation extraction completed, results saved to: $OUTPUT_FILE"
+  #+end_src
+#+end_details
+* =extract_chinese_by_days.sh=
+此脚本用于从 [[../tosa-zh.json][tosa-zh.json]] 项目中提取按日记所记录的日子分组的中文译文自
+然翻译的脚本。
+
+用法如下：
+#+begin_src shell
+  sh extract_chinese_by_days.sh <input.json> <output.json>
+#+end_src
+
+** 输出结构
+输出结构如下：
+#+begin_details
+#+begin_summary
+展开阅读
+#+end_summary
+#+begin_src json
+  [
+      {
+  	"title": "土佐日記",
+  	"author": "紀貫之",
+  	"translations": [
+  	    {
+  		"chapter": "序",
+  		"contents": "虽说日记通常是用男人写的东西，但我想试着用作为女人来写写看，于是便写下了这本日记。"
+  	    },
+  	    {
+  		"chapter": "二十一日",
+  		"contents": "我们在那年的十二月二十一日的晚上八点左右出发。\n我记录下有关此事的一些原由。\n某人结束了四、五年作为国司的任期，完成了所有的例行公事，拿到了解由状，于是从住所出发，前往乘船的地方。\n这个人那个人，无论认识不认识，大家都来为他送行。\n长年亲密相伴的人们感到难舍难分，离别的那天，他们整日都在忙碌着这般，谈笑着那般，不知不觉间夜色已深。"
+  	    },
+  	    {
+  		"chapter": "二十二日",
+  		"contents": "在二十二日，国司祈愿能平安抵达和泉国。\n虽说国司走的是海路，藤原言实却为他操办了名为“马饯”的送别仪式。\n无关上下阶级，所有人皆酩酊大醉，十分古怪地在海岸边嬉闹。"
+  	    },
+  	    ...
+  	]
+      }
+  ]
+      
+#+end_src
+#+end_details
+
+** 脚本逻辑
+脚本逻辑如下：
+#+begin_details
+#+begin_summary
+展开阅读
+#+end_summary
+- 例外处理
+  + 序 :: 序章没有日期信息，单独处理 (=id = 1=)
+  + 二十一日 :: 二十一日的记录 (=id = 2,3,4,5,6=)
+  + 二月一日 :: 明确了月份的二月一日 (=id = 335=)
+- 一般规则
+  + 检测日期 :: 用正则检索 =koutei-yamagen= 的开头是否存在 =二十五日= =十日=
+    这样的日期。
+    + 如果匹配到且与当前 =chapter= 不同，则新建 =chapter= 变量，把当前自然
+      翻译加入新的 =chapter= 的 =contents=
+    + 如果没有匹配到则把当前自然翻译加入当前 =chapter= 的 =contents=
+#+end_details
+
+** 脚本文件
+脚本文件如下：
+#+begin_details
+#+begin_summary
+展开阅读脚本文件
+#+end_summary
+#+begin_src shell :tangle ./extract_chinese_by_days.sh
+  #!/bin/bash
+  # extract_chinese_by_days.sh - Extract Chinese translations grouped by days from processed JSON
+
+  # Check input parameters
+  if [ $# -eq 0 ]; then
+      echo "Usage: $0 <input_JSON_file> [output_file]"
+      echo "Example: $0 tosa-zh.json translations_by_days.json"
+      exit 1
+  fi
+
+  INPUT_FILE="$1"
+  OUTPUT_FILE="${2:-translations_by_days.json}"
+
+  # Check if jq is installed
+  if ! command -v jq &> /dev/null; then
+      echo "Error: jq command not found, please install jq first"
+      exit 1
+  fi
+
+  # Check if input file exists
+  if [ ! -f "$INPUT_FILE" ]; then
+      echo "Error: Input file '$INPUT_FILE' does not exist"
+      exit 1
+  fi
+
+  # Extract translations grouped by days using jq
+  jq '[.[] | {
+    title: (.title // null),
+    author: (.author // null),
+    translations: (
+      [.paragraph[]? | select(."translation-zh-natural" != null)] |
+      reduce .[] as $item (
+        {current_chapter: null, chapters: []};
+        
+        # Determine chapter name based on id and content
+        if $item.id == 1 then
+          .current_chapter = "序" |
+          .chapters += [{
+            chapter: "序",
+            contents: ($item."translation-zh-natural" // "")
+          }]
+        elif $item.id >= 2 and $item.id <= 6 then
+          if .current_chapter != "二十一日" then
+            .current_chapter = "二十一日" |
+            .chapters += [{
+              chapter: "二十一日",
+              contents: ($item."translation-zh-natural" // "")
+            }]
+          else
+            .chapters[-1].contents += "\n" + ($item."translation-zh-natural" // "")
+          end
+        elif $item.id == 335 then
+          if .current_chapter != "二月一日" then
+            .current_chapter = "二月一日" |
+            .chapters += [{
+              chapter: "二月一日",
+              contents: ($item."translation-zh-natural" // "")
+            }]
+          else
+            .chapters[-1].contents += "\n" + ($item."translation-zh-natural" // "")
+          end
+        else
+          # Check if koutei-yamagen starts with a date pattern
+          ($item."koutei-yamagen" // "") as $original |
+          if ($original | test("^(元日|[一二三四五六七八九]日|十日|十[一二三四五六七八九]日|二十日|二十[一二三四五六七八九]日|三十日|三十[一二三四五六七八九]日|二月一日)")) then
+            # Extract date from the beginning
+            ($original | capture("^(?<date>元日|[一二三四五六七八九]日|十日|十[一二三四五六七八九]日|二十日|二十[一二三四五六七八九]日|三十日|三十[一二三四五六七八九]日|二月一日)").date) as $new_chapter |
+            # Only create new chapter if different from current
+            if .current_chapter != $new_chapter then
+              .current_chapter = $new_chapter |
+              .chapters += [{
+                chapter: $new_chapter,
+                contents: ($item."translation-zh-natural" // "")
+              }]
+            else
+              .chapters[-1].contents += "\n" + ($item."translation-zh-natural" // "")
+            end
+          else
+            # Add to current chapter if exists (continuation of current day)
+            if .current_chapter != null and (.chapters | length > 0) then
+              .chapters[-1].contents += "\n" + ($item."translation-zh-natural" // "")
+            else
+              # Skip this item if no current chapter exists
+              .
+            end
+          end
+        end
+      ) | .chapters
+    )
+  }]' "$INPUT_FILE" > "$OUTPUT_FILE"
+
+  echo "Day-grouped translation extraction completed, results saved to: $OUTPUT_FILE"
 #+end_src
 #+end_details
