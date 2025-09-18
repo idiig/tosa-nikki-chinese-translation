@@ -62,31 +62,31 @@
               "gloss-zh": "（传闻）男人也做的日记",
               "gloss-morph-zh": "男人=IFO 做-CCL HEV-ADN 日记",
               "words": [
-  		{
+                  {
                       "word": "男",
                       "gloss-zh": "男人",
                       "gloss-morph-zh": "男人"
-  		},
-  		{
+                  },
+                  {
                       "word": "も",
                       "gloss-zh": "也",
                       "gloss-morph-zh": "=IFO"
-  		},
-  		{
+                  },
+                  {
                       "word": "す",
                       "gloss-zh": "做",
                       "gloss-morph-zh": "做-CCL"
-  		},
-  		{
+                  },
+                  {
                       "word": "なる",
                       "gloss-zh": "传闻...的",
                       "gloss-morph-zh": "HEV-ADN"
-  		},
-  		{
+                  },
+                  {
                       "word": "日記",
                       "gloss-zh": "日记",
                       "gloss-morph-zh": "日记"
-  		}
+                  }
               ]
           },
           {
@@ -94,26 +94,26 @@
               "gloss-zh": "所谓的东西（让步）",
               "gloss-morph-zh": "QUOT 说-ADN [物=ACC](=CON)",
               "words": [
-  		{
+                  {
                       "word": "と",
                       "gloss-zh": "（补语）",
                       "gloss-morph-zh": "=CMP"
-  		},
-  		{
+                  },
+                  {
                       "word": "いふ",
                       "gloss-zh": "所谓的",
                       "gloss-morph-zh": "说-ADN"
-  		},
-  		{
+                  },
+                  {
                       "word": "もの",
                       "gloss-zh": "东西",
                       "gloss-morph-zh": "东西"
-  		},
-  		{
+                  },
+                  {
                       "word": "を",
                       "gloss-zh": "（让步）",
                       "gloss-morph-zh": "=CON"
-  		}
+                  }
               ]
           },
           {
@@ -121,46 +121,46 @@
               "gloss-zh": "想着女人也做着试试吧，便做了",
               "gloss-morph-zh": "女人=IFO 做-ADV=SEQ 试-ADV+VOL-CCL=SCM 做-ADN COP-CCL",
               "words": [
-  		{
+                  {
                       "word": "女",
                       "gloss-zh": "女人",
                       "gloss-morph-zh": "女人"
-  		},
-  		{
+                  },
+                  {
                       "word": "も",
                       "gloss-zh": "也",
                       "gloss-morph-zh": "=IFO"
-  		},
-  		{
+                  },
+                  {
                       "word": "し",
                       "gloss-zh": "做",
                       "gloss-morph-zh": "做-ADV"
-  		},
-  		{
+                  },
+                  {
                       "word": "て",
                       "gloss-zh": "着",
                       "gloss-morph-zh": "=SEQ"
-  		},
-  		{
+                  },
+                  {
                       "word": "みむ",
                       "gloss-zh": "试试吧",
                       "gloss-morph-zh": "试-ADV+CJT"
-  		},
-  		{
+                  },
+                  {
                       "word": "とて",
                       "gloss-zh": "SCM",
                       "gloss-morph-zh": "=SCM"
-  		},
-  		{
+                  },
+                  {
                       "word": "する",
                       "gloss-zh": "做",
                       "gloss-morph-zh": "做-ADN"
-  		},
-  		{
+                  },
+                  {
                       "word": "なり",
                       "gloss-zh": "是",
                       "gloss-morph-zh": "COP-CCL"
-  		}
+                  }
               ]
           }
       ],
@@ -188,9 +188,21 @@
 ** 无标记
 格、时态等若无语法标记，则不做明示化处理。
 * 语法标注参考
-- [[https://www.eva.mpg.de/lingua/resources/glossing-rules.php][Max Planck Institute for Evolutionary Anthropology Department of Linguistics (2015): Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses]]
-- [[https://researchmap.jp/mzisk/published_papers/42178558][Zisk, Matthew. 2023. “Glossing Glosses: Methods for Transcribing and Glossing Japanese Kundoku Texts”. In: Cinato, Franck et al. (eds.) Glossing Practice: Comparative Perspectives, pp. 47-82. Lexington Books.]]
-- [[https://michinorishimoji.github.io/searchgloss/][下地理則 (2025) SearchGloss (DOI: 10.5281/zenodo.16419404) Version 1.0.]]
-* TODO
+
+- [[https://www.eva.mpg.de/lingua/resources/glossing-rules.php][Max Planck Institute for Evolutionary Anthropology, Department of
+  Linguistics (2015). Leipzig Glossing Rules: Conventions for
+  interlinear morpheme-by-morpheme glosses.]]
+- [[https://researchmap.jp/mzisk/published_papers/42178558][Zisk, Matthew (2023). “Glossing Glosses: Methods for Transcribing
+  and Glossing Japanese Kundoku Texts.” In Franck Cinato et
+  al. (eds.), Glossing Practice: Comparative Perspectives,
+  pp. 47–82. Lexington Books.]]
+- [[https://researchmap.jp/mzisk/misc/47645778][ジスク マシュー (Zisk, Matthew) (2024). 古代日本語と現代日本語の機能
+  形態素リスト (2024.09.10).]]
+- [[https://michinorishimoji.github.io/searchgloss/][下地 理則 (Shimoji, Michinori) (2025). SearchGloss (Version
+  1.0). DOI: 10.5281/zenodo.16419404.]]
+
+  详细可查看 [[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
+  
+* TODO TODO List
 - [ ] ===, =+=, =-= 的使用
 - [ ] 词表的生成
