@@ -2,79 +2,81 @@
   description = "Dev environment for Tosa Nikki";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url      = "github:NixOS/nixpkgs/nixos-unstable";
+    flake-parts.url  = "github:hercules-ci/flake-parts";
+    gloss-tools.url  = "github:idiig/koten-gloss-table-zh";
+    # For local development:
+    # gloss-tools.url = "path:../koten-gloss-table-zh";
   };
 
-  outputs =
-    { self, nixpkgs }:
-    let
-      allSystems = [
+  outputs = inputs@{ self, flake-parts, gloss-tools, ... }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      # Expose outputs for all major platforms
+      systems = [
         "x86_64-linux"
-        "aarch64-linux" 
+        "aarch64-linux"
         "x86_64-darwin"
         "aarch64-darwin"
       ];
 
-      forAllSystems =
-        f:
-        nixpkgs.lib.genAttrs allSystems (
-          system:
-          f {
-            pkgs = import nixpkgs { inherit system; };
-          }
-        );
-    in
-    {
-      devShells = forAllSystems (
-        { pkgs }:
-        {
-          default = pkgs.mkShell {
-            packages = with pkgs; [
-              jq
+      # Import the provider's flake-parts module (adds apps/packages/devShells)
+      imports = [ gloss-tools.flakeModule ];
 
-              # LaTeX 发行版
-              (texlive.combine {
-                inherit (texlive) 
-                  scheme-basic
-                  xecjk
-                  latexmk
-                  fontspec
-                  
-                  # 图形和绘图
-                  graphics
-                                    
-                  # 语言学包
-                  expex;
-              })
-              
-              # 字体
-              noto-fonts-cjk-sans
-              noto-fonts-cjk-serif
-              source-code-pro
-              ipafont
-              ipaexfont
-              
-              # 工具
-              inkscape
-              ghostscript      # PDF 处理工具
-            ];
-            
-            shellHook = ''
-              echo "Tosa Nikki dev"
-              echo ""
-              echo "Usage:"
-              echo "  latexmk document.tex    # 自动编译"
-              echo "  xelatex -shell-escape document.tex  # 手动编译"
-              echo ""
-              
-              fc-cache -f 2>/dev/null || true
-              
-              echo "Tools available:"
-              echo "  Inkscape: $(inkscape --version 2>/dev/null | head -1 || echo 'Not found')"
-              echo "  Shell escape: Enabled in latexmkrc"
-            '';
-          };
-        }
-      );
+      perSystem = { pkgs, inputs', lib, system, ... }: {
+        # Override the provider's default devShell while reusing it as a base
+        devShells.default = lib.mkForce (pkgs.mkShell {
+          # Reuse provider devShell contents (jq, make, CLI tools)
+          inputsFrom = [ inputs'.gloss-tools.devShells.default ];
+
+          # Add TeX/graphics stack and extra tools
+          packages = with pkgs; [
+            (texlive.combine {
+              inherit (texlive)
+                scheme-basic
+                xecjk
+                latexmk
+                fontspec
+                graphics
+                expex;
+            })
+            # Fonts
+            noto-fonts-cjk-sans
+            noto-fonts-cjk-serif
+            source-code-pro
+            ipafont
+            ipaexfont
+            # Tools
+            inkscape
+            ghostscript
+            gnumake
+          ];
+
+          # Keep shell startup fast; do not rebuild font cache on every entry.
+          shellHook = ''
+            echo "Tosa Nikki dev"
+            echo "Use: make glossary | make fill"
+            # Optional: one-time font cache refresh; create a stamp file and add it to .gitignore.
+            # if command -v fc-cache >/dev/null; then
+            #   if [ ! -e .font-cache.stamp ]; then
+            #     fc-cache -r >/dev/null 2>&1 || true
+            #     touch .font-cache.stamp
+            #   fi
+            # fi
+            # Optional: check inkscape availability
+            # if command -v inkscape >/dev/null 2>&1; then
+            #   inkscape --version >/dev/null 2>&1
+            # fi
+          '';
+        });
+
+        # Optional: provide local aliases without conflicting with provider names
+        apps."gloss-generate" = gloss-tools.apps.${system}.generate-glossary;
+        apps."gloss-fill"     = gloss-tools.apps.${system}.fill-glossary;
+
+        # Optional: alias packages for convenience
+        packages.zisk = gloss-tools.packages.${system}.zisk-conventions;
+        packages.gloss-generate = gloss-tools.packages.${system}.generate-glossary;
+        packages.gloss-fill     = gloss-tools.packages.${system}.fill-glossary;
+      };
     };
 }
