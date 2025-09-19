@@ -1,39 +1,33 @@
 [
   {
     "gloss": "+",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "auxiliary boundary",
+    "grammatical_function_ja": "助動詞境界",
+    "grammatical_function_zh": "助动词边界"
   },
   {
     "gloss": "-",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "affix boundary",
+    "grammatical_function_ja": "接辞境界",
+    "grammatical_function_zh": "接辞边界"
   },
   {
     "gloss": ".",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "explicition", 
+    "grammatical_function_ja": "明示",
+    "grammatical_function_zh": "明示"
   },
   {
     "gloss": "1SG",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "first person singular",
+    "grammatical_function_ja": "一人称単数",
+    "grammatical_function_zh": "第一人称单数"
   },
   {
     "gloss": "=",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "?",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "clitic boundary",
+    "grammatical_function_ja": "付属語境界",
+    "grammatical_function_zh": "附属语边界"
   },
   {
     "gloss": "ABL",
@@ -61,9 +55,9 @@
   },
   {
     "gloss": "ADV",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "adverbial",
+    "grammatical_function_ja": "連用形",
+    "grammatical_function_zh": "连用形"
   },
   {
     "gloss": "ALL",
@@ -109,9 +103,9 @@
   },
   {
     "gloss": "CMP",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "complementizer",
+    "grammatical_function_ja": "補語表示",
+    "grammatical_function_zh": "补语表示"
   },
   {
     "gloss": "CON",
@@ -139,21 +133,15 @@
   },
   {
     "gloss": "DEM",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "demonstrative",
+    "grammatical_function_ja": "指示語",
+    "grammatical_function_zh": "指示语"
   },
   {
     "gloss": "EMP",
     "grammatical_function_en": "emphatic",
     "grammatical_function_ja": "強意",
     "grammatical_function_zh": "强调"
-  },
-  {
-    "gloss": "EMPH",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   },
   {
     "gloss": "EXE",
@@ -235,9 +223,9 @@
   },
   {
     "gloss": "NL",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "nominal",
+    "grammatical_function_ja": "連体形準体",
+    "grammatical_function_zh": "连体形准体"
   },
   {
     "gloss": "NML",
@@ -247,21 +235,15 @@
   },
   {
     "gloss": "NOM",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "nominative",
+    "grammatical_function_ja": "主格",
+    "grammatical_function_zh": "主格"
   },
   {
     "gloss": "PAS",
     "grammatical_function_en": "passive",
     "grammatical_function_ja": "受身",
     "grammatical_function_zh": "被动"
-  },
-  {
-    "gloss": "PL",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   },
   {
     "gloss": "PLU",
@@ -271,9 +253,9 @@
   },
   {
     "gloss": "PN",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "proper noun",
+    "grammatical_function_ja": "固有名詞",
+    "grammatical_function_zh": "实名"
   },
   {
     "gloss": "POT",
@@ -313,9 +295,9 @@
   },
   {
     "gloss": "SCM",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "sequential complementizer",
+    "grammatical_function_ja": "継起補語表示",
+    "grammatical_function_zh": "继起补语表示"
   },
   {
     "gloss": "SEQ",
@@ -349,9 +331,9 @@
   },
   {
     "gloss": "THM",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "thematic vowel",
+    "grammatical_function_ja": "語幹母音",
+    "grammatical_function_zh": "词干元音"
   },
   {
     "gloss": "TOP",
@@ -367,9 +349,9 @@
   },
   {
     "gloss": "VOL",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
+    "grammatical_function_en": "volitional",
+    "grammatical_function_ja": "意志",
+    "grammatical_function_zh": "意志"
   },
   {
     "gloss": "XCC",
@@ -388,17 +370,5 @@
     "grammatical_function_en": "exclamative",
     "grammatical_function_ja": "感嘆",
     "grammatical_function_zh": "感叹"
-  },
-  {
-    "gloss": "＋",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "＝",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   }
 ]
