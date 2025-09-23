@@ -305,6 +305,18 @@
   > echo "[DONE] update pipeline finished"
 #+end_src
 ** 基于 Zisk 的 glossing rule 生成 Glossary，自动注释
+工具来自[[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。分成2个步骤：
+- 基于手工标注生成 glossary.json
+#+begin_src shell
+  make generate
+#+end_src
+- 手工修正 glossary.json 为 glossary.edited.json，因为使用了一部分不存
+  在于 gloss 表的缩写
+- 基于 glossary.edited.json 填充每个段落的 =glossary-abbreviations= 字段
+#+begin_src shell
+  make fill
+#+end_src
+详细内容可以查看如下：
 *** 文件
 #+begin_src makefile :noweb-ref path
   # Paths for annotated pipeline (glossary)
@@ -319,18 +331,6 @@
   GLOSSARY := $(strip $(GLOSSARY))
 #+end_src
 *** 流程
-工具来自[[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。分成2个步骤：
-- 基于手工标注生成 glossary.json
-#+begin_src shell
-  make generate
-#+end_src
-- 手工修正 glossary.json 为 glossary.edited.json，因为使用了一部分不存
-  在于 gloss 表的缩写
-- 基于 glossary.edited.json 填充每个段落的 =glossary-abbreviations= 字段
-#+begin_src shell
-  make fill
-#+end_src
-详细内容可以查看如下：
 **** 脚本
 脚本为独立的
 #+begin_src makefile :noweb-ref path
