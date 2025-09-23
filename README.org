@@ -202,20 +202,247 @@
   1.0). DOI: 10.5281/zenodo.16419404.]]
 
   详细可查看 [[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
-* 使用方法
+* 复现流程
 ** 克隆
 #+begin_src shell
   git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
 #+end_src
-** Devshell
+** 开发环境
 #+begin_src shell
   cd ./tosa-nikki-chinese-translation
   nix develop
 #+end_src
-** 更新翻译
-在 devshell 里运行
+** 基于submodule中的变更，更新翻译
+源来自[[https://github.com/idiig/tosa-translation/tree/zh-translation][这个fork]]，如果需要更新源，可以使用
 #+begin_src shell
-  git submodule update --recursive --remote
+  make update
+#+end_src
+详细可以查看如下：
+*** 文件
+#+begin_src makefile :noweb-ref path
+  # Where to publish build results
+  ARTIFACTS ?= artifacts
+  # RAW source and outputs
+  RAW        ?= tosa-translation/tosa.json
+  INPUT_JSON ?= data/tosa-zh.json
+  PARALLEL   ?= $(ARTIFACTS)/zh-jp-parallel-texts.json
+  BYDAY      ?= $(ARTIFACTS)/zh-translation-by-day.json
+#+end_src
+*** 流程
+**** 脚本
+脚本位于 scripts 目录下，说明详见[[./scripts/README.org][scripts/README.org]]。
+- extract_chinese_full.sh :: 从原始 JSON 提取并生成中译 JSON（结果为本 repo 的基础数据）
+- extract_chinese_by_days.sh :: 将中译 JSON 按照日期拆分
+- extract_parallel_texts.sh :: 从中译 JSON 提取中日对照文本
+#+begin_src makefile :noweb-ref path
+  # Scripts directory
+  SCRIPTS_DIR ?= scripts
+  SCRIPT_EXTRACT_FULL      ?= $(SCRIPTS_DIR)/extract_chinese_full.sh
+  SCRIPT_EXTRACT_BY_DAYS   ?= $(SCRIPTS_DIR)/extract_chinese_by_days.sh
+  SCRIPT_EXTRACT_PARALLEL  ?= $(SCRIPTS_DIR)/extract_parallel_texts.sh
+#+end_src
+**** 参数
+无特殊需求可以不设置
+#+begin_src makefile :noweb-ref params
+  # Optional extra args for the three extractors
+  FULL_ARGS    ?=
+  BY_DAYS_ARGS ?=
+  PAR_ARGS     ?=
+#+end_src
+**** Phony targets
+#+begin_src makefile :noweb-ref phony
+  update raw-full raw-by-days raw-parallel raw-all 
+#+end_src
+**** 输出完整结果
+#+begin_src makefile :noweb-ref scripts
+  raw-full: $(INPUT_JSON) ## Generate $(INPUT_JSON) from RAW
+  $(INPUT_JSON): $(RAW) $(SCRIPT_EXTRACT_FULL) | dirs
+  > $(TRACE) echo "[RAW→FULL] $(RAW) -> $@"; \
+  > bash "$(SCRIPT_EXTRACT_FULL)" $(FULL_ARGS) "$(RAW)" "$@"
+#+end_src
+**** 输出按日拆分结果
+#+begin_src makefile :noweb-ref scripts
+  raw-by-days: $(BYDAY) ## Generate BYDAY from INPUT_JSON
+  $(BYDAY): $(SCRIPT_EXTRACT_BY_DAYS) $(INPUT_JSON) | dirs
+  > $(TRACE) echo "[RAW→BY-DAYS] $(INPUT_JSON) -> $@"; \
+  > if [ -f "$(SCRIPT_EXTRACT_BY_DAYS)" ]; then \
+  >   bash "$(SCRIPT_EXTRACT_BY_DAYS)" $(BY_DAYS_ARGS) "$(INPUT_JSON)" "$@"; \
+  > else \
+  >   echo "[ERROR] Day-split script not found: $(SCRIPT_EXTRACT_BY_DAYS)"; exit 1; \
+  > fi
+#+end_src
+**** 输出中日对照文本
+#+begin_src makefile :noweb-ref scripts
+  raw-parallel: $(PARALLEL) ## Generate PARALLEL from tosa-zh.json/tosa.zh.json or $(INPUT_JSON)
+  $(PARALLEL): $(SCRIPT_EXTRACT_PARALLEL) | dirs
+  > $(TRACE) src="tosa-zh.json"; \
+  > [ -f "$$src" ] || src="tosa.zh.json"; \
+  > [ -f "$$src" ] || src="$(INPUT_JSON)"; \
+  > echo "[RAW→PARALLEL] $$src -> $@"; \
+  > bash "$(SCRIPT_EXTRACT_PARALLEL)" $(PAR_ARGS) "$$src" "$@"
+#+end_src
+**** 输出所有结果
+#+begin_src makefile :noweb-ref scripts
+  raw-all: raw-full raw-parallel raw-by-days ## Run all RAW → artifacts extractors
+#+end_src
+**** 更新
+#+begin_src makefile :noweb-ref scripts
+  update: ## Update submodules and regenerate artifacts from RAW
+  > $(TRACE) echo "[UPDATE] git submodule update --recursive --remote"; \
+  > git submodule update --recursive --remote
+  > $(TRACE) mkdir -p "$(ARTIFACTS)" "$(dir $(INPUT_JSON))" "$(dir $(PARALLEL))" "$(dir $(BYDAY))"
+  > $(TRACE) echo "[RUN] $(SCRIPT_EXTRACT_FULL) $(RAW) -> $(INPUT_JSON)"; \
+  > bash "$(SCRIPT_EXTRACT_FULL)" $(FULL_ARGS) "$(RAW)" "$(INPUT_JSON)"
+  > $(TRACE) src="tosa-zh.json"; [ -f "$$src" ] || src="tosa.zh.json"; [ -f "$$src" ] || src="$(INPUT_JSON)"; \
+  > echo "[RUN] $(SCRIPT_EXTRACT_PARALLEL) $$src -> $(PARALLEL)"; \
+  > bash "$(SCRIPT_EXTRACT_PARALLEL)" $(PAR_ARGS) "$$src" "$(PARALLEL)"
+  > $(TRACE) echo "[RUN] $(SCRIPT_EXTRACT_BY_DAYS) $(INPUT_JSON) -> $(BYDAY)"; \
+  > if [ -f "$(SCRIPT_EXTRACT_BY_DAYS)" ]; then \
+  >   bash "$(SCRIPT_EXTRACT_BY_DAYS)" $(BY_DAYS_ARGS) "$(INPUT_JSON)" "$(BYDAY)"; \
+  > else \
+  >   echo "[ERROR] Day-split script not found: $(SCRIPT_EXTRACT_BY_DAYS)"; exit 1; \
+  > fi
+  > echo "[DONE] update pipeline finished"
+#+end_src
+** 基于 Zisk 的 glossing rule 生成 Glossary，自动注释
+*** 文件
+#+begin_src makefile :noweb-ref path
+  # Paths for annotated pipeline (glossary)
+  INPUT    ?= data/tosa-zh.json
+  ZISK     ?= $(shell nix build --no-link --print-out-paths .\#zisk-conventions)
+  OUT      ?= build/glossary.json           # auto-generated global glossary
+  FILLED   ?= build/out.json                # per-paragraph filled JSON
+  EDITED   ?= data/glossary.edited.json     # user-edited glossary
+  DST      ?= data/final/glossary.json      # staged final glossary
+  # Prefer EDITED if it exists; otherwise use OUT (trim whitespace)
+  GLOSSARY ?= $(if $(wildcard $(EDITED)),$(EDITED),$(OUT))
+  GLOSSARY := $(strip $(GLOSSARY))
+#+end_src
+*** 流程
+工具来自[[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。分成2个步骤：
+- 基于手工标注生成 glossary.json
+#+begin_src shell
+  make generate
+#+end_src
+- 手工修正 glossary.json 为 glossary.edited.json，因为使用了一部分不存
+  在于 gloss 表的缩写
+- 基于 glossary.edited.json 填充每个段落的 =glossary-abbreviations= 字段
+#+begin_src shell
+  make fill
+#+end_src
+详细内容可以查看如下：
+**** 脚本
+脚本为独立的
+#+begin_src makefile :noweb-ref path
+  # Commands (flake apps; escape '#' so make does not treat it as a comment)
+  GEN  ?= nix run .\#generate-glossary --
+  FILL ?= nix run .\#fill-glossary --
+  # Load optional overrides
+  -include .env
+#+end_src
+**** Phony targets
+#+begin_src makefile :noweb-ref phony
+  glossary fill stage activate publish publish-edited
+#+end_src
+**** Glossary 生成
+#+begin_src makefile :noweb-ref scripts
+  glossary: $(OUT) ## Generate global glossary to $(OUT)
+  $(OUT): $(INPUT) $(ZISK) | dirs
+  > $(TRACE) tmp="$$(mktemp)"; \
+  >   echo "[GEN] $(INPUT) + $(ZISK) -> $@"; \
+  >   $(GEN) "$(INPUT)" "$(ZISK)" > "$$tmp"; \
+  >   mv -f "$$tmp" "$@"
+#+end_src
+**** Glossary 填充
+#+begin_src makefile :noweb-ref scripts
+  fill: $(FILLED) ## Fill per-paragraph glossary-abbreviations using $(GLOSSARY)
+  $(FILLED): $(INPUT) $(GLOSSARY) | dirs
+  > $(TRACE) tmp="$$(mktemp)"; \
+  >   echo "[FILL] $(INPUT) + $(GLOSSARY) -> $@"; \
+  >   if [ ! -f "$(GLOSSARY)" ]; then echo "[ERROR] Glossary not found: $(GLOSSARY)"; exit 1; fi; \
+  >   $(FILL) "$(INPUT)" "$(GLOSSARY)" > "$$tmp"; \
+  >   mv -f "$$tmp" "$@"
+#+end_src
+**** 确认状态
+#+begin_src makefile :noweb-ref scripts
+  stage: ## Copy edited glossary to $(DST)
+  > $(TRACE) test -f "$(EDITED)"
+  > $(TRACE) mkdir -p "$(dir $(DST))"
+  > $(TRACE) cp -f "$(EDITED)" "$(DST)"
+  > echo "[STAGE] $(EDITED) -> $(DST)"
+#+end_src
+**** 激活修改词表
+#+begin_src makefile :noweb-ref scripts
+  activate: ## Symlink build/glossary.active.json -> EDITED
+  > $(TRACE) mkdir -p build
+  > $(TRACE) ln -sfn "$(abspath $(EDITED))" build/glossary.active.json
+  > echo "[ACTIVATE] build/glossary.active.json -> $(EDITED)"
+#+end_src
+**** 输出结果
+#+begin_src makefile :noweb-ref scripts
+  publish: glossary fill ## Copy auto-generated results into artifacts/
+  > $(TRACE) mkdir -p "$(ARTIFACTS)"
+  > install -m 0644 "$(OUT)"    "$(ARTIFACTS)/glossary.json"
+  > install -m 0644 "$(FILLED)" "$(ARTIFACTS)/out.json"
+  > echo "[PUBLISH] $(OUT) -> $(ARTIFACTS)/glossary.json"
+  > echo "[PUBLISH] $(FILLED) -> $(ARTIFACTS)/out.json"
+  publish-edited: ## Copy your edited glossary into artifacts/
+  > $(TRACE) mkdir -p "$(ARTIFACTS)"
+  > $(TRACE) test -f "$(EDITED)" || { echo "[ERROR] EDITED not found: $(EDITED)"; exit 1; }
+  > install -m 0644 "$(EDITED)" "$(ARTIFACTS)/glossary.json"
+  > echo "[PUBLISH] $(EDITED) -> $(ARTIFACTS)/glossary.json"
+#+end_src
+** Makefile
+Makefile 管理流程，使用 GNU make 4.x+ 编写。
+*** 一般设置
+#+begin_src makefile :noweb-ref general
+  # Use bash with strict flags for all recipes
+  SHELL := /usr/bin/env bash
+  .SHELLFLAGS := -euo pipefail -c
+
+  # Use a custom recipe prefix to avoid TAB requirements (GNU make 4.x+)
+  .RECIPEPREFIX := >
+
+  # Debug (set DEBUG=1 to enable command tracing)
+  DEBUG ?= 0
+  ifeq ($(DEBUG),1)
+    TRACE := set -x;
+  else
+    TRACE :=
+  endif
+#+end_src
+*** 文件系统 helper
+**** Phony targets
+#+begin_src makefile :noweb-ref phony
+  dirs
+#+end_src
+**** body
+#+begin_src makefile :noweb-ref scripts
+  dirs: ## Create output directories
+  > $(TRACE) mkdir -p $(dir $(OUT)) $(dir $(FILLED)) $(dir $(DST)) "$(ARTIFACTS)"
+#+end_src
+*** help
+**** Phony targets
+#+begin_src makefile :noweb-ref phony
+  help
+#+end_src
+**** body
+#+begin_src makefile :noweb-ref scripts
+  help: ## Show help
+  > awk 'BEGIN{FS=":.*##"; printf "\nTargets:\n"} /^[a-zA-Z0-9_.-]+:.*##/{printf "  \033[1m%-18s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+#+end_src
+*** Entry point
+#+begin_src makefile :noweb yes :tangle ./Makefile
+  # Makefile
+  <<general>>
+
+  <<path>>
+
+  <<params>>
+
+  .PHONY: <<phony>>
+
+  <<scripts>>
 #+end_src
 * TODO TODO List
 - [ ] ===, =+=, =-= 的使用

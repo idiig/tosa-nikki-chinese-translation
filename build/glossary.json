@@ -18,6 +18,12 @@
     "grammatical_function_zh": null
   },
   {
+    "gloss": "/",
+    "grammatical_function_en": null,
+    "grammatical_function_ja": null,
+    "grammatical_function_zh": null
+  },
+  {
     "gloss": "1SG",
     "grammatical_function_en": null,
     "grammatical_function_ja": null,
@@ -150,12 +156,6 @@
     "grammatical_function_zh": "强调"
   },
   {
-    "gloss": "EMPH",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
     "gloss": "EXE",
     "grammatical_function_en": "exemplificative",
     "grammatical_function_ja": "例示",
@@ -210,6 +210,12 @@
     "grammatical_function_zh": "反复"
   },
   {
+    "gloss": "LAB",
+    "grammatical_function_en": "laborative (difficult)",
+    "grammatical_function_ja": "困難",
+    "grammatical_function_zh": "困难"
+  },
+  {
     "gloss": "LOC",
     "grammatical_function_en": "locative",
     "grammatical_function_ja": "所格",
@@ -256,12 +262,6 @@
     "grammatical_function_en": "passive",
     "grammatical_function_ja": "受身",
     "grammatical_function_zh": "被动"
-  },
-  {
-    "gloss": "PL",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   },
   {
     "gloss": "PLU",
@@ -388,17 +388,5 @@
     "grammatical_function_en": "exclamative",
     "grammatical_function_ja": "感嘆",
     "grammatical_function_zh": "感叹"
-  },
-  {
-    "gloss": "＋",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "＝",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   }
 ]
