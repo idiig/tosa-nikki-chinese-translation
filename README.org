@@ -305,7 +305,7 @@
   > echo "[DONE] update pipeline finished"
 #+end_src
 ** 基于 Zisk 的 glossing rule 生成 Glossary，自动注释
-工具来自[[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。分成2个步骤：
+这一步分成2个步骤：
 - 基于手工标注生成 glossary.json
 #+begin_src shell
   make generate
@@ -332,7 +332,7 @@
 #+end_src
 *** 流程
 **** 脚本
-脚本为独立的
+脚本为独立的 flake apps，来自[[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
 #+begin_src makefile :noweb-ref path
   # Commands (flake apps; escape '#' so make does not treat it as a comment)
   GEN  ?= nix run .\#generate-glossary --
