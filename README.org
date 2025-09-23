@@ -203,6 +203,18 @@
 
   详细可查看 [[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
 * 复现流程
+#+begin_src shell
+  git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
+  cd tosa-nikki-chinese-translation
+  make update
+  make generate
+  make fill
+#+end_src
+
+#+begin_quote
+[!IMPORTANT]
+Tl;dr
+#+end_quote
 ** 克隆
 #+begin_src shell
   git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
@@ -212,7 +224,7 @@
   cd ./tosa-nikki-chinese-translation
   nix develop
 #+end_src
-** 基于submodule中的变更，更新翻译
+** 基于 submodule 中的变更，更新翻译
 源来自[[https://github.com/idiig/tosa-translation/tree/zh-translation][这个fork]]，如果需要更新源，可以使用
 #+begin_src shell
   make update
