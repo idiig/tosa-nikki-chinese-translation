@@ -202,7 +202,21 @@
   1.0). DOI: 10.5281/zenodo.16419404.]]
 
   详细可查看 [[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
-  
+* 使用方法
+** 克隆
+#+begin_src shell
+  git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
+#+end_src
+** Devshell
+#+begin_src shell
+  cd ./tosa-nikki-chinese-translation
+  nix develop
+#+end_src
+** 更新翻译
+在 devshell 里运行
+#+begin_src shell
+  git submodule update --recursive --remote
+#+end_src
 * TODO TODO List
 - [ ] ===, =+=, =-= 的使用
 - [ ] 词表的生成
