@@ -393,7 +393,7 @@
   > echo "[PUBLISH] $(EDITED) -> $(ARTIFACTS)/glossary.json"
 #+end_src
 ** Makefile
-Makefile 管理流程，使用 GNU make 4.x+ 编写。
+Makefile 管理流程，使用 GNU make 4.x+ 编写。整体可见[[./Makefile][Makefile]]。
 *** 一般设置
 #+begin_src makefile :noweb-ref general
   # Use bash with strict flags for all recipes
