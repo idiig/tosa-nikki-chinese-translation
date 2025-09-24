@@ -219,6 +219,7 @@ Tl;dr
   make publish			# publish the auto-generated results
   make publish-edited		# publish the edited glossary
 #+end_src
+详细流程见下：
 ** 克隆
 #+begin_src shell
   git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
