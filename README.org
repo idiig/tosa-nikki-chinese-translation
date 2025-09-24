@@ -203,18 +203,22 @@
 
   详细可查看 [[https://github.com/idiig/koten-gloss-table-zh][这个repo]]。
 * 复现流程
-#+begin_src shell
-  git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
-  cd tosa-nikki-chinese-translation
-  make update
-  make generate
-  make fill
-#+end_src
-
 #+begin_quote
 [!IMPORTANT]
 Tl;dr
 #+end_quote
+#+begin_src shell
+  git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git # clone the repo
+  cd tosa-nikki-chinese-translation # enter the repo
+  make update			  # update the submodule and extract the raw translation
+  make glossary			  # generate glossary.json
+  # Manually edit ./build/glossary.json to ./data/glossary.edited.json
+  make stage			# stage the edited glossary
+  make activate			# activate the edited glossary
+  make fill			# fill the glossary abbreviations in the main text
+  make publish			# publish the auto-generated results
+  make publish-edited		# publish the edited glossary
+#+end_src
 ** 克隆
 #+begin_src shell
   git clone --recurse-submodules https://github.com/idiig/tosa-nikki-chinese-translation.git
@@ -320,7 +324,7 @@ Tl;dr
 这一步分成2个步骤：
 - 基于手工标注生成 glossary.json
 #+begin_src shell
-  make generate
+  make glossary
 #+end_src
 - 手工修正 glossary.json 为 glossary.edited.json，因为使用了一部分不存
   在于 gloss 表的缩写
