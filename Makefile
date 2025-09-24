@@ -29,10 +29,10 @@ SCRIPT_EXTRACT_PARALLEL  ?= $(SCRIPTS_DIR)/extract_parallel_texts.sh
 # Paths for annotated pipeline (glossary)
 INPUT    ?= data/tosa-zh.json
 ZISK     ?= $(shell nix build --no-link --print-out-paths .\#zisk-conventions)
-OUT      ?= build/glossary.json           # auto-generated global glossary
-FILLED   ?= build/out.json                # per-paragraph filled JSON
-EDITED   ?= data/glossary.edited.json     # user-edited glossary
-DST      ?= data/final/glossary.json      # staged final glossary
+OUT      ?= build/glossary.json
+FILLED   ?= build/out.json
+EDITED   ?= data/glossary.edited.json
+DST      ?= data/final/glossary.json
 # Prefer EDITED if it exists; otherwise use OUT (trim whitespace)
 GLOSSARY ?= $(if $(wildcard $(EDITED)),$(EDITED),$(OUT))
 GLOSSARY := $(strip $(GLOSSARY))
@@ -64,11 +64,9 @@ $(BYDAY): $(SCRIPT_EXTRACT_BY_DAYS) $(INPUT_JSON) | dirs
 > else \
 >   echo "[ERROR] Day-split script not found: $(SCRIPT_EXTRACT_BY_DAYS)"; exit 1; \
 > fi
-raw-parallel: $(PARALLEL) ## Generate PARALLEL from tosa-zh.json/tosa.zh.json or $(INPUT_JSON)
+raw-parallel: $(PARALLEL) ## Generate PARALLEL from data/tosa-zh.json (INPUT_JSON)
 $(PARALLEL): $(SCRIPT_EXTRACT_PARALLEL) | dirs
-> $(TRACE) src="tosa-zh.json"; \
-> [ -f "$$src" ] || src="tosa.zh.json"; \
-> [ -f "$$src" ] || src="$(INPUT_JSON)"; \
+> $(TRACE) src="$(INPUT_JSON)"; \
 > echo "[RAW→PARALLEL] $$src -> $@"; \
 > bash "$(SCRIPT_EXTRACT_PARALLEL)" $(PAR_ARGS) "$$src" "$@"
 raw-all: raw-full raw-parallel raw-by-days ## Run all RAW → artifacts extractors
@@ -78,7 +76,7 @@ update: ## Update submodules and regenerate artifacts from RAW
 > $(TRACE) mkdir -p "$(ARTIFACTS)" "$(dir $(INPUT_JSON))" "$(dir $(PARALLEL))" "$(dir $(BYDAY))"
 > $(TRACE) echo "[RUN] $(SCRIPT_EXTRACT_FULL) $(RAW) -> $(INPUT_JSON)"; \
 > bash "$(SCRIPT_EXTRACT_FULL)" $(FULL_ARGS) "$(RAW)" "$(INPUT_JSON)"
-> $(TRACE) src="tosa-zh.json"; [ -f "$$src" ] || src="tosa.zh.json"; [ -f "$$src" ] || src="$(INPUT_JSON)"; \
+> $(TRACE) src="$(INPUT_JSON)"; \
 > echo "[RUN] $(SCRIPT_EXTRACT_PARALLEL) $$src -> $(PARALLEL)"; \
 > bash "$(SCRIPT_EXTRACT_PARALLEL)" $(PAR_ARGS) "$$src" "$(PARALLEL)"
 > $(TRACE) echo "[RUN] $(SCRIPT_EXTRACT_BY_DAYS) $(INPUT_JSON) -> $(BYDAY)"; \
