@@ -5266,22 +5266,22 @@
             "grammatical_function_zh": "连续"
           }
         ],
-        "translation-zh-natural": "正咏着这般那般，前任国守和现任国守一起走下庭院，现在宅主和前任宅主手拉着手，借着醉意愉快地嬉戏后，我们离开了宅邸。"
+        "translation-zh-natural": "正咏着这般那般，前任国守和现任国守一起走下庭院，现在的宅主和前任宅主手拉着手，借着醉意愉快地嬉戏后，我们离开了宅邸。"
       },
       {
         "id": 29,
         "koutei-yamagen": "二十七日、大津より浦戸をさして漕ぎ出づ。",
-        "translation-zh": "廿七日，从大津驶向浦户。",
+        "translation-zh": "廿七日，从大津向浦户坐船离开。",
         "phrase-gloss": [
           {
             "phrase": "廿七日",
-            "gloss-zh": "廿七日",
+            "gloss-zh": "二十七日",
             "gloss-morph-zh": "廿+七日",
             "words": [
               {
                 "word": "廿",
-                "gloss-zh": "廿",
-                "gloss-morph-zh": "廿"
+                "gloss-zh": "二十",
+                "gloss-morph-zh": "廿+"
               },
               {
                 "word": "七日",
@@ -5292,7 +5292,7 @@
           },
           {
             "phrase": "大津より",
-            "gloss-zh": "大津 从",
+            "gloss-zh": "从大津",
             "gloss-morph-zh": "Otsu.PN=ABL",
             "words": [
               {
@@ -5309,8 +5309,8 @@
           },
           {
             "phrase": "浦戸をさして",
-            "gloss-zh": "浦户 目标",
-            "gloss-morph-zh": "浦户.PN=ACC 目标-ADV=SEQ",
+            "gloss-zh": "向着浦户",
+            "gloss-morph-zh": "浦户.PN=ACC 指向-ADV=SEQ",
             "words": [
               {
                 "word": "浦戸",
@@ -5319,24 +5319,24 @@
               },
               {
                 "word": "を",
-                "gloss-zh": "目标",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "さし",
-                "gloss-zh": "目标",
-                "gloss-morph-zh": "目标-ADV"
+                "gloss-zh": "向",
+                "gloss-morph-zh": "指向-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "着",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "漕ぎ出づ",
-            "gloss-zh": "划船 出发",
+            "gloss-zh": "驶船离开",
             "gloss-morph-zh": "划船-ADV 出发-CCL",
             "words": [
               {
@@ -5346,8 +5346,8 @@
               },
               {
                 "word": "出づ",
-                "gloss-zh": "出发",
-                "gloss-morph-zh": "出发-CCL"
+                "gloss-zh": "离开/出发",
+                "gloss-morph-zh": "出-CCL"
               }
             ]
           }
@@ -5414,48 +5414,48 @@
             "grammatical_function_zh": "继起"
           }
         ],
-        "translation-zh-natural": "在二十七日，从大津出发乘船向浦户出发。"
+        "translation-zh-natural": "在二十七日，从大津离开坐船向浦户出发。"
       },
       {
         "id": 30,
         "koutei-yamagen": "かくあるうちに、京にて生れたりし女子、ここにて俄にうせにしかば、この頃の出立いそぎを見れど、何事もえ言はず。",
-        "translation-zh": "持续这般的时候，（国守）出生于京城的女孩就此突然离世了，因此，（其他人）看着（国守）这时的出发准备，什么也没说。",
+        "translation-zh": "这时侯，出生在京都的女孩在此突然离世了，因此看着这时的出发准备，什么也没能说。",
         "phrase-gloss": [
           {
             "phrase": "かくあるうちに",
-            "gloss-zh": "此般 有 之间",
-            "gloss-morph-zh": "此般 有-ADN 之间=DAT",
+            "gloss-zh": "这时候",
+            "gloss-morph-zh": "此般=COP-ADN 之间=DAT",
             "words": [
               {
                 "word": "かく",
-                "gloss-zh": "此般",
-                "gloss-morph-zh": "此般 有"
+                "gloss-zh": "这样",
+                "gloss-morph-zh": "此般"
               },
               {
                 "word": "ある",
-                "gloss-zh": "有",
-                "gloss-morph-zh": "有-ADN"
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=COP-ADN"
               },
               {
                 "word": "うち",
-                "gloss-zh": "之间",
+                "gloss-zh": "时候",
                 "gloss-morph-zh": "之间"
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "京にて生れたりし女子",
-            "gloss-zh": "京 于 被出生-了-的 女子",
-            "gloss-morph-zh": "京=LOC 被出生-ADV+STA-THM+PST.ADN 女子",
+            "gloss-zh": "生于京都的女孩",
+            "gloss-morph-zh": "京=LOC 被出生-ADV+STA-THM+PST.ADN 女孩",
             "words": [
               {
                 "word": "京",
-                "gloss-zh": "京",
+                "gloss-zh": "京都",
                 "gloss-morph-zh": "京=LOC"
               },
               {
@@ -5466,7 +5466,7 @@
               {
                 "word": "生れ",
                 "gloss-zh": "出生",
-                "gloss-morph-zh": "被生产-ADV"
+                "gloss-morph-zh": "生产-THM+PAS-ADV"
               },
               {
                 "word": "たり",
@@ -5475,20 +5475,20 @@
               },
               {
                 "word": "し",
-                "gloss-zh": "了-的",
+                "gloss-zh": "了的",
                 "gloss-morph-zh": "+PST.ADN"
               },
               {
                 "word": "女子",
-                "gloss-zh": "女子",
-                "gloss-morph-zh": "女子"
+                "gloss-zh": "女孩",
+                "gloss-morph-zh": "女孩"
               }
             ]
           },
           {
             "phrase": "こゝにて俄にうせにしかば",
-            "gloss-zh": "此 于 突然-的 离世 了 因为",
-            "gloss-morph-zh": "此=LOC 突然=ADV 离世-ADV+MNF-THM+PST.INC=XCD",
+            "gloss-zh": "在这里突然离世了，因此",
+            "gloss-morph-zh": "此=LOC 突然=SER 离世-ADV+MNF-THM+PST.INC=XCD",
             "words": [
               {
                 "word": "こゝ",
@@ -5503,7 +5503,7 @@
               {
                 "word": "俄に",
                 "gloss-zh": "突然",
-                "gloss-morph-zh": "突然=ADV"
+                "gloss-morph-zh": "突然=SER"
               },
               {
                 "word": "うせ",
@@ -5522,20 +5522,20 @@
               },
               {
                 "word": "ば",
-                "gloss-zh": "因为",
+                "gloss-zh": "因此",
                 "gloss-morph-zh": "=XCD"
               }
             ]
           },
           {
             "phrase": "この頃の出立いそぎを見れど",
-            "gloss-zh": "此 时 的 出发+准备 见 虽",
-            "gloss-morph-zh": "DEM=GEN time=GEN 出发+准备-NML=ACC 见-INC=XCC",
+            "gloss-zh": "虽然看见此时的出发准备，但",
+            "gloss-morph-zh": "DEM=GEN time=GEN 离开-ADV+出发-ADV+准备-NML=ACC 见-INC=XCC",
             "words": [
               {
                 "word": "この頃",
-                "gloss-zh": "此 时",
-                "gloss-morph-zh": "DEM=GEN time=GEN"
+                "gloss-zh": "此时",
+                "gloss-morph-zh": "DEM=GEN time"
               },
               {
                 "word": "の",
@@ -5545,7 +5545,7 @@
               {
                 "word": "出立",
                 "gloss-zh": "出发",
-                "gloss-morph-zh": "出发"
+                "gloss-morph-zh": "离开-ADV+出发-ADV"
               },
               {
                 "word": "いそぎ",
@@ -5554,17 +5554,17 @@
               },
               {
                 "word": "を",
-                "gloss-zh": "见",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "見れ",
-                "gloss-zh": "见",
+                "gloss-zh": "见到",
                 "gloss-morph-zh": "见-INC"
               },
               {
                 "word": "ど",
-                "gloss-zh": "虽",
+                "gloss-zh": "虽然...但",
                 "gloss-morph-zh": "=XCC"
               }
             ]
@@ -5572,22 +5572,22 @@
           {
             "phrase": "何事もえいはず",
             "gloss-zh": "什么事 也 说不出",
-            "gloss-morph-zh": "什么+事=IFO NEG+说-THM=NEG.CCL",
+            "gloss-morph-zh": "什么+事=IFO POT 说-THM=NEG.CCL",
             "words": [
               {
                 "word": "何事",
                 "gloss-zh": "什么事",
-                "gloss-morph-zh": "什么+事=IFO"
+                "gloss-morph-zh": "什么+事"
               },
               {
                 "word": "も",
                 "gloss-zh": "也",
-                "gloss-morph-zh": "=ADD"
+                "gloss-morph-zh": "=IFO"
               },
               {
                 "word": "え",
-                "gloss-zh": "打消",
-                "gloss-morph-zh": "NEG+"
+                "gloss-zh": "能",
+                "gloss-morph-zh": "POT"
               },
               {
                 "word": "いは",
@@ -5634,12 +5634,6 @@
             "grammatical_function_zh": "宾格"
           },
           {
-            "gloss": "ADD",
-            "grammatical_function_en": "additive",
-            "grammatical_function_ja": "添加",
-            "grammatical_function_zh": "添加"
-          },
-          {
             "gloss": "ADN",
             "grammatical_function_en": "adnominal",
             "grammatical_function_ja": "連体形",
@@ -5656,6 +5650,12 @@
             "grammatical_function_en": "conclusive",
             "grammatical_function_ja": "終止形",
             "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
           },
           {
             "gloss": "DAT",
@@ -5712,10 +5712,28 @@
             "grammatical_function_zh": "质的名词化辞"
           },
           {
+            "gloss": "PAS",
+            "grammatical_function_en": "passive",
+            "grammatical_function_ja": "受身",
+            "grammatical_function_zh": "被动"
+          },
+          {
+            "gloss": "POT",
+            "grammatical_function_en": "potential",
+            "grammatical_function_ja": "可能",
+            "grammatical_function_zh": "可能"
+          },
+          {
             "gloss": "PST",
             "grammatical_function_en": "past",
             "grammatical_function_ja": "過去",
             "grammatical_function_zh": "过去"
+          },
+          {
+            "gloss": "SER",
+            "grammatical_function_en": "serial",
+            "grammatical_function_ja": "連続",
+            "grammatical_function_zh": "连续"
           },
           {
             "gloss": "STA",
@@ -5742,16 +5760,16 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "在这样的情况下，国守生在京都的女儿在这里突然离世，所以，人们这次看到他的出发准备，终于什么也说不出来。"
+        "translation-zh-natural": "在之前这种情况持续的时候，生于京都的女孩在这里突然离世了，所以人们这次看到我们的出发准备，什么也说不出来了。"
       },
       {
         "id": 31,
         "koutei-yamagen": "京へ帰るに、女子の亡きのみぞ悲しみ恋ふる。",
-        "translation-zh": "回京时，唯有女孩的离世（令人）悲伤和思念。",
+        "translation-zh": "回京时，唯有女孩的不在令人悲伤和思念。",
         "phrase-gloss": [
           {
             "phrase": "京へ歸るに",
-            "gloss-zh": "京 向 回的 时",
+            "gloss-zh": "回京时",
             "gloss-morph-zh": "京=ALL 回-ADN.NL=DAT",
             "words": [
               {
@@ -5761,7 +5779,7 @@
               },
               {
                 "word": "へ",
-                "gloss-zh": "向",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ALL"
               },
               {
@@ -5778,12 +5796,12 @@
           },
           {
             "phrase": "女子のなきのみぞ",
-            "gloss-zh": "女子 的 不在 仅 FOC",
-            "gloss-morph-zh": "女子=GEN NEG-ADN.NL=ISO=FOC",
+            "gloss-zh": "唯有女孩的不在",
+            "gloss-morph-zh": "女子=GEN absent-ADN.NL=ISO=FOC",
             "words": [
               {
                 "word": "女子",
-                "gloss-zh": "女子",
+                "gloss-zh": "女孩",
                 "gloss-morph-zh": "女子"
               },
               {
@@ -5798,25 +5816,25 @@
               },
               {
                 "word": "のみ",
-                "gloss-zh": "仅",
+                "gloss-zh": "唯有",
                 "gloss-morph-zh": "=ISO"
               },
               {
                 "word": "ぞ",
-                "gloss-zh": "FOC",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=FOC"
               }
             ]
           },
           {
             "phrase": "悲しび戀ふる",
-            "gloss-zh": "悲伤 和 思念",
-            "gloss-morph-zh": "悲伤-ADV 思念-CCL",
+            "gloss-zh": "令人悲伤和思念",
+            "gloss-morph-zh": "为...悲伤-ADV 思念-CCL",
             "words": [
               {
                 "word": "悲しび",
-                "gloss-zh": "悲伤",
-                "gloss-morph-zh": "悲伤-ADV"
+                "gloss-zh": "为...悲伤",
+                "gloss-morph-zh": "为...悲伤-ADV"
               },
               {
                 "word": "戀ふる",
@@ -5894,12 +5912,6 @@
             "grammatical_function_zh": "限定/单独"
           },
           {
-            "gloss": "NEG",
-            "grammatical_function_en": "negative",
-            "grammatical_function_ja": "否定",
-            "grammatical_function_zh": "否定"
-          },
-          {
             "gloss": "NL",
             "grammatical_function_en": "nominal",
             "grammatical_function_ja": "連体形準体",
@@ -5915,12 +5927,12 @@
         "phrase-gloss": [
           {
             "phrase": "ある人々も",
-            "gloss-zh": "有-的 人们 也",
+            "gloss-zh": "有的人也",
             "gloss-morph-zh": "有-ADN+人+人=IFO",
             "words": [
               {
                 "word": "ある",
-                "gloss-zh": "有-的",
+                "gloss-zh": "有的",
                 "gloss-morph-zh": "有-ADN"
               },
               {
@@ -5937,12 +5949,12 @@
           },
           {
             "phrase": "え堪へず",
-            "gloss-zh": "（打消） 忍受 不",
+            "gloss-zh": "忍受不了",
             "gloss-morph-zh": "POT 忍受-THM=NEG.CCL",
             "words": [
               {
                 "word": "え",
-                "gloss-zh": "（打消）",
+                "gloss-zh": "能",
                 "gloss-morph-zh": "POT"
               },
               {
@@ -6020,21 +6032,21 @@
             "grammatical_function_zh": "词干元音"
           }
         ],
-        "translation-zh-natural": "其他人也难以忍受。"
+        "translation-zh-natural": "其他人也难忍悲伤。"
       },
       {
         "id": 33,
         "koutei-yamagen": "この間に、ある人の書きて出だせる歌、",
-        "translation-zh": "在此期间，有人所写下并献上了和歌，（曰）",
+        "translation-zh": "在此期间，有人所写下并献上的和歌",
         "phrase-gloss": [
           {
             "phrase": "この間に",
-            "gloss-zh": "此 期间",
+            "gloss-zh": "在这期间",
             "gloss-morph-zh": "DEM=GEN interval=DAT",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": "此",
+                "gloss-zh": "这",
                 "gloss-morph-zh": "DEM=GEN"
               },
               {
@@ -6044,19 +6056,19 @@
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "在",
                 "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "ある人の",
-            "gloss-zh": "有-的 人 的",
+            "gloss-zh": "有人",
             "gloss-morph-zh": "有-ADN+人=GEN",
             "words": [
               {
                 "word": "ある",
-                "gloss-zh": "有-的",
+                "gloss-zh": "有",
                 "gloss-morph-zh": "有-ADN"
               },
               {
@@ -6066,14 +6078,14 @@
               },
               {
                 "word": "の",
-                "gloss-zh": "的",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=GEN"
               }
             ]
           },
           {
             "phrase": "かきて",
-            "gloss-zh": "写 SEQ",
+            "gloss-zh": "写",
             "gloss-morph-zh": "写-ADV=SEQ",
             "words": [
               {
@@ -6083,14 +6095,14 @@
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "出せる歌",
-            "gloss-zh": "呈现-了-的 和歌",
+            "gloss-zh": "呈现的和歌",
             "gloss-morph-zh": "呈现-INC+STA-ADN 和歌",
             "words": [
               {
@@ -6100,7 +6112,7 @@
               },
               {
                 "word": "る",
-                "gloss-zh": "了-的",
+                "gloss-zh": "了的",
                 "gloss-morph-zh": "+STA-ADN"
               },
               {
@@ -6179,39 +6191,39 @@
             "grammatical_function_zh": "静态"
           }
         ],
-        "translation-zh-natural": "在此期间，有人所写下并献上的和歌，歌曰，"
+        "translation-zh-natural": "在此期间，有人所写下并献上了一首和歌。"
       },
       {
         "id": 34,
         "koutei-yamagen": "都へと/思ふものの/悲しきは/帰らぬ人の/あればなりけり",
-        "translation-zh": "向京城/虽欲（归）/悲伤之因乃/不归之人/听闻已在（京城）",
+        "translation-zh": "京都/虽欲（归）/悲伤的是/不归之人/已经有",
         "phrase-gloss": [
           {
             "phrase": "都へと",
-            "gloss-zh": "京城 向 QUOT",
+            "gloss-zh": "向着京都",
             "gloss-morph-zh": "京城=ALL=CMP",
             "words": [
               {
                 "word": "都",
-                "gloss-zh": "京城",
-                "gloss-morph-zh": "京城"
+                "gloss-zh": "京都",
+                "gloss-morph-zh": "京"
               },
               {
                 "word": "へ",
-                "gloss-zh": "向",
+                "gloss-zh": "向着",
                 "gloss-morph-zh": "=ALL"
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
           },
           {
             "phrase": "おもふものゝ",
-            "gloss-zh": "思 QUOT 虽",
-            "gloss-morph-zh": "思-ADN=CON[thing=GEN]",
+            "gloss-zh": "虽思",
+            "gloss-morph-zh": "思-ADN=CON",
             "words": [
               {
                 "word": "おもふ",
@@ -6219,25 +6231,20 @@
                 "gloss-morph-zh": "思-ADN"
               },
               {
-                "word": "もの",
-                "gloss-zh": "QUOT",
-                "gloss-morph-zh": "thing"
-              },
-              {
-                "word": "の",
-                "gloss-zh": "虽",
-                "gloss-morph-zh": "=GEN"
+                "word": "ものの",
+                "gloss-zh": "但是",
+                "gloss-morph-zh": "=CON"
               }
             ]
           },
           {
             "phrase": "かなしきは",
-            "gloss-zh": "悲伤-的 是",
+            "gloss-zh": "悲伤是",
             "gloss-morph-zh": "悲伤-ADN.NL=TOP",
             "words": [
               {
                 "word": "かなしき",
-                "gloss-zh": "悲伤-的",
+                "gloss-zh": "悲伤",
                 "gloss-morph-zh": "悲伤-ADN.NL"
               },
               {
@@ -6249,8 +6256,8 @@
           },
           {
             "phrase": "かへらぬ人の",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "不归之人",
+            "gloss-morph-zh": "回-THM=NEG-ADN person=GEN",
             "words": [
               {
                 "word": "かへら",
@@ -6260,7 +6267,7 @@
               {
                 "word": "ぬ",
                 "gloss-zh": "不",
-                "gloss-morph-zh": "=NEG"
+                "gloss-morph-zh": "=NEG-ADN"
               },
               {
                 "word": "人",
@@ -6276,7 +6283,7 @@
           },
           {
             "phrase": "あればなりけり",
-            "gloss-zh": "有-了-的 因为 PST",
+            "gloss-zh": "因为已经有了",
             "gloss-morph-zh": "有-INC=XCD COP-ADV+RET-CCL",
             "words": [
               {
@@ -6291,7 +6298,7 @@
               },
               {
                 "word": "なり",
-                "gloss-zh": "是",
+                "gloss-zh": "",
                 "gloss-morph-zh": "COP-ADV"
               },
               {
@@ -6418,17 +6425,17 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "虽想要回到京城，但我悲伤是因为，听闻那里有人已经不会再回来了。"
+        "translation-zh-natural": "虽想要回到京城，但我悲伤是因为，听闻那里有人已经不会再回去了。"
       },
       {
         "id": 35,
         "koutei-yamagen": "また、ある時には、",
-        "translation-zh": "又，有时，",
+        "translation-zh": "又有时",
         "phrase-gloss": [
           {
             "phrase": "又、或時には、",
-            "gloss-zh": "又 有时 于 TOP",
-            "gloss-morph-zh": "also some.time=DAT=TOP",
+            "gloss-zh": "又有时",
+            "gloss-morph-zh": "also exist-ADN time=DAT=TOP",
             "words": [
               {
                 "word": "又",
@@ -6438,16 +6445,16 @@
               {
                 "word": "或時",
                 "gloss-zh": "有时",
-                "gloss-morph-zh": "some.time"
+                "gloss-morph-zh": "exist-ADN time"
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "は",
-                "gloss-zh": "TOP",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=TOP"
               }
             ]
@@ -6455,16 +6462,22 @@
         ],
         "glossary-abbreviations": [
           {
-            "gloss": ".",
-            "grammatical_function_en": "explicition",
-            "grammatical_function_ja": "明示",
-            "grammatical_function_zh": "明示"
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
           },
           {
             "gloss": "=",
             "grammatical_function_en": "clitic boundary",
             "grammatical_function_ja": "付属語境界",
             "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
           },
           {
             "gloss": "DAT",
@@ -6479,38 +6492,38 @@
             "grammatical_function_zh": "主题"
           }
         ],
-        "translation-zh-natural": "再者，有时，"
+        "translation-zh-natural": "又有时，"
       },
       {
         "id": 36,
         "koutei-yamagen": "あるものと/忘れつつなお/なき人を/いづらと問ふぞ/悲しかりける",
-        "translation-zh": "以为在/却又忘/逝者/何在，问者/神伤",
+        "translation-zh": "（以为是）在的人/忘了但/逝者/何在，问者/神伤",
         "phrase-gloss": [
           {
             "phrase": "あるものと",
-            "gloss-zh": "有-的 QUOT",
+            "gloss-zh": "在的人",
             "gloss-morph-zh": "有-ADN+thing=CMP",
             "words": [
               {
                 "word": "ある",
-                "gloss-zh": "有-的",
+                "gloss-zh": "在的",
                 "gloss-morph-zh": "有-ADN"
               },
               {
                 "word": "もの",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "人",
                 "gloss-morph-zh": "thing"
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "（以为）",
                 "gloss-morph-zh": "=CMP"
               }
             ]
           },
           {
             "phrase": "忘れつつ",
-            "gloss-zh": "忘记 ITR",
+            "gloss-zh": "忘记了又",
             "gloss-morph-zh": "忘记-ADV+ITR",
             "words": [
               {
@@ -6520,15 +6533,15 @@
               },
               {
                 "word": "つつ",
-                "gloss-zh": "持续",
+                "gloss-zh": "",
                 "gloss-morph-zh": "+ITR"
               }
             ]
           },
           {
             "phrase": "なほなき人を",
-            "gloss-zh": "仍然 不在 的 人 ACC",
-            "gloss-morph-zh": "仍然-ADN+NEG+person=ACC",
+            "gloss-zh": "仍然不在的人",
+            "gloss-morph-zh": "仍然 absent-ADN person=ACC",
             "words": [
               {
                 "word": "なほ",
@@ -6537,7 +6550,7 @@
               },
               {
                 "word": "なき",
-                "gloss-zh": "不在",
+                "gloss-zh": "不在的",
                 "gloss-morph-zh": "不在-ADN"
               },
               {
@@ -6547,14 +6560,14 @@
               },
               {
                 "word": "を",
-                "gloss-zh": "ACC",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ACC"
               }
             ]
           },
           {
             "phrase": "いづらと問ふぞ",
-            "gloss-zh": "何处 QUOT 问-的 EMP",
+            "gloss-zh": "问何处",
             "gloss-morph-zh": "何处=CMP 问-ADN.NL=EMP",
             "words": [
               {
@@ -6564,24 +6577,24 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "問ふ",
-                "gloss-zh": "问-的",
+                "gloss-zh": "问",
                 "gloss-morph-zh": "问-ADN.NL"
               },
               {
                 "word": "ぞ",
-                "gloss-zh": "EMP",
-                "gloss-morph-zh": "=EMP"
+                "gloss-zh": "",
+                "gloss-morph-zh": "=FOC"
               }
             ]
           },
           {
             "phrase": "悲しかりける",
-            "gloss-zh": "令人悲伤 了-的",
+            "gloss-zh": "令人悲伤",
             "gloss-morph-zh": "悲伤-VBL-ADV+RET-ADN",
             "words": [
               {
@@ -6591,7 +6604,7 @@
               },
               {
                 "word": "ける",
-                "gloss-zh": "了-的",
+                "gloss-zh": "了的",
                 "gloss-morph-zh": "+RET-ADN"
               }
             ]
@@ -6653,16 +6666,16 @@
             "grammatical_function_zh": "强调"
           },
           {
+            "gloss": "FOC",
+            "grammatical_function_en": "definite focus",
+            "grammatical_function_ja": "確定焦点",
+            "grammatical_function_zh": "确定焦点"
+          },
+          {
             "gloss": "ITR",
             "grammatical_function_en": "iterative",
             "grammatical_function_ja": "反復",
             "grammatical_function_zh": "反复"
-          },
-          {
-            "gloss": "NEG",
-            "grammatical_function_en": "negative",
-            "grammatical_function_ja": "否定",
-            "grammatical_function_zh": "否定"
           },
           {
             "gloss": "NL",
@@ -6683,90 +6696,90 @@
             "grammatical_function_zh": "动词化辞"
           }
         ],
-        "translation-zh-natural": "我以为她还在这里，我忘记了她已经不在了，竟然还会问她在哪里。这是多么悲伤。"
+        "translation-zh-natural": "以为她还在，忘记了她已经不在了，竟然还会问她在哪里。这是多么悲伤。"
       },
       {
         "id": 37,
         "koutei-yamagen": "といひける間に、鹿児の崎といふ所に、守の兄弟、またこと人これかれ、酒なにと持て追ひきて、磯におり居て別れ難きことをいふ。",
-        "translation-zh": "说着的时候，在叫鹿儿之崎的地方，国守的同胞和其他人携酒等追来，走下坐于礁石，说着分离之难。",
+        "translation-zh": "咏着的时候，在叫做鹿儿之崎的地方，国守的同胞和其他人都携酒等追来，走下坐于礁石，说着分离之难。",
         "phrase-gloss": [
           {
             "phrase": "といひける間に",
-            "gloss-zh": "QUOT 说-了-的 期间 于",
+            "gloss-zh": "在咏着的时候",
             "gloss-morph-zh": "=CMP say-ADV+RET-ADN period=DAT",
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "いひ",
-                "gloss-zh": "说",
+                "gloss-zh": "咏",
                 "gloss-morph-zh": "说-ADV"
               },
               {
                 "word": "ける",
-                "gloss-zh": "了-的",
+                "gloss-zh": "了的",
                 "gloss-morph-zh": "+RET-ADN"
               },
               {
                 "word": "間",
-                "gloss-zh": "期间",
+                "gloss-zh": "时候",
                 "gloss-morph-zh": "间"
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "在",
                 "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "鹿兒の崎といふ所に",
-            "gloss-zh": "鹿儿 的 崎 QUOT 叫 地点 于",
-            "gloss-morph-zh": "鹿儿=GEN 崎=CMP 叫-ADN 地方=DAT",
+            "gloss-zh": "在叫做鹿儿之崎的地方",
+            "gloss-morph-zh": "鹿儿.PN=GEN+崎.PN=CMP 说-ADN 地方=DAT",
             "words": [
               {
                 "word": "鹿兒",
                 "gloss-zh": "鹿儿",
-                "gloss-morph-zh": "鹿儿"
+                "gloss-morph-zh": "鹿儿.PN"
               },
               {
                 "word": "の",
-                "gloss-zh": "的",
+                "gloss-zh": "之",
                 "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "崎",
-                "gloss-zh": "崎",
-                "gloss-morph-zh": "崎"
+                "gloss-zh": "崎.PN",
+                "gloss-morph-zh": "崎.PN"
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "いふ",
-                "gloss-zh": "叫",
-                "gloss-morph-zh": "叫-ADN"
+                "gloss-zh": "叫做...的",
+                "gloss-morph-zh": "说-ADN"
               },
               {
                 "word": "所",
-                "gloss-zh": "地点",
+                "gloss-zh": "地方",
                 "gloss-morph-zh": "地方"
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "在",
                 "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "守のはらから",
-            "gloss-zh": "国守 的 同胞",
+            "gloss-zh": "国守的同胞",
             "gloss-morph-zh": "国守=GEN 同胞",
             "words": [
               {
@@ -6788,34 +6801,29 @@
           },
           {
             "phrase": "またこと人これかれ",
-            "gloss-zh": "也 其他 人 这 和 那",
-            "gloss-morph-zh": "还 其他人 这+那",
+            "gloss-zh": "还有其他人都",
+            "gloss-morph-zh": "还其他人 这+那",
             "words": [
               {
                 "word": "また",
-                "gloss-zh": "也",
-                "gloss-morph-zh": "还"
+                "gloss-zh": "还有",
+                "gloss-morph-zh": "还有"
               },
               {
                 "word": "こと人",
                 "gloss-zh": "其他人",
-                "gloss-morph-zh": "其他人"
+                "gloss-morph-zh": "其他+人"
               },
               {
-                "word": "これ",
-                "gloss-zh": "这",
-                "gloss-morph-zh": "这"
-              },
-              {
-                "word": "かれ",
-                "gloss-zh": "那",
-                "gloss-morph-zh": "那"
+                "word": "これかれ",
+                "gloss-zh": "都",
+                "gloss-morph-zh": "这+那"
               }
             ]
           },
           {
             "phrase": "酒など持て追ひきて",
-            "gloss-zh": "酒=EXE 携 带 追来",
+            "gloss-zh": "带着酒追来",
             "gloss-morph-zh": "酒=EXE 携带.SEQ 追来-ADV 来-ADV=SEQ",
             "words": [
               {
@@ -6845,15 +6853,15 @@
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "磯におり居て",
-            "gloss-zh": "礁石=ALL 下 坐",
-            "gloss-morph-zh": "礁石=ALL 下-ADV 坐-ADV=SEQ",
+            "gloss-zh": "走下来坐在礁石上",
+            "gloss-morph-zh": "礁石=DAT 下-ADV 坐-ADV=SEQ",
             "words": [
               {
                 "word": "磯",
@@ -6862,8 +6870,8 @@
               },
               {
                 "word": "に",
-                "gloss-zh": "向",
-                "gloss-morph-zh": "=ALL"
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "おり",
@@ -6877,15 +6885,15 @@
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "了",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "別れ難きことをいふ",
-            "gloss-zh": "分离难 事 说",
-            "gloss-morph-zh": "分离-ADV+LAB-ADN thing=ACC 说-CCL",
+            "gloss-zh": "说离别之难",
+            "gloss-morph-zh": "分离-ADV+LAB-ADN+NML=ACC 说-CCL",
             "words": [
               {
                 "word": "別れ",
@@ -6899,12 +6907,12 @@
               },
               {
                 "word": "こと",
-                "gloss-zh": "事",
-                "gloss-morph-zh": "事"
+                "gloss-zh": "",
+                "gloss-morph-zh": "+NML"
               },
               {
                 "word": "を",
-                "gloss-zh": "ACC",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ACC"
               },
               {
@@ -6959,12 +6967,6 @@
             "grammatical_function_zh": "连用形"
           },
           {
-            "gloss": "ALL",
-            "grammatical_function_en": "allative",
-            "grammatical_function_ja": "向格",
-            "grammatical_function_zh": "向格"
-          },
-          {
             "gloss": "CCL",
             "grammatical_function_en": "conclusive",
             "grammatical_function_ja": "終止形",
@@ -7001,6 +7003,18 @@
             "grammatical_function_zh": null
           },
           {
+            "gloss": "NML",
+            "grammatical_function_en": "qualitative nominalizer",
+            "grammatical_function_ja": "質的名詞化辞",
+            "grammatical_function_zh": "质的名词化辞"
+          },
+          {
+            "gloss": "PN",
+            "grammatical_function_en": "proper noun",
+            "grammatical_function_ja": "固有名詞",
+            "grammatical_function_zh": "实名"
+          },
+          {
             "gloss": "RET",
             "grammatical_function_en": "retrospective",
             "grammatical_function_ja": "回想",
@@ -7013,12 +7027,12 @@
             "grammatical_function_zh": "继起"
           }
         ],
-        "translation-zh-natural": "在这么说着的时候，在一个叫做鹿儿之崎的地方，国守的同胞和其他人带着酒等追了上来。他们走下来坐在海边，说着分离之难。"
+        "translation-zh-natural": "在这么说着的时候，在一个叫做鹿儿之崎的地方，国守的同胞和其他人都带着酒之类的东西追了上来。他们走下来坐在海边，说着分离之难。"
       },
       {
         "id": 38,
         "koutei-yamagen": "守の館の人々の中に、この来る人々ぞ、心あるようにはいはれほのめく。",
-        "translation-zh": "在国守的宅邸的人们中，这些来的人们被据说是有心的，也稍微看得出来（有心）。",
+        "translation-zh": "在国守邸的人们中，这些来的人们据说是有心的，（这点）也稍微看得出来。",
         "phrase-gloss": [
           {
             "phrase": "守のたちの人々の中に",
