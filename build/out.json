@@ -10162,17 +10162,17 @@
       {
         "id": 55,
         "koutei-yamagen": "元日、なほ同じ泊まりなり。",
-        "translation-zh": "元日，仍停泊于同（处）。",
+        "translation-zh": "元日，仍停泊于同泊地。",
         "phrase-gloss": [
           {
             "phrase": "元日、",
             "gloss-zh": "元日",
-            "gloss-morph-zh": "元日",
+            "gloss-morph-zh": "元+日",
             "words": [
               {
                 "word": "元日",
                 "gloss-zh": "元日",
-                "gloss-morph-zh": "元日"
+                "gloss-morph-zh": "元+日"
               }
             ]
           },
@@ -10190,40 +10190,52 @@
           },
           {
             "phrase": "同じとまり",
-            "gloss-zh": "同 停泊-NML",
+            "gloss-zh": "同一个泊地",
             "gloss-morph-zh": "同 停泊-NML",
             "words": [
               {
                 "word": "同じ",
-                "gloss-zh": "同",
+                "gloss-zh": "同一个",
                 "gloss-morph-zh": "同"
               },
               {
                 "word": "とまり",
-                "gloss-zh": "停泊",
+                "gloss-zh": "停泊处",
                 "gloss-morph-zh": "停泊-NML"
               }
             ]
           },
           {
             "phrase": "なり。",
-            "gloss-zh": "是",
-            "gloss-morph-zh": "COP-CCL",
+            "gloss-zh": "",
+            "gloss-morph-zh": "=COP-CCL",
             "words": [
               {
                 "word": "なり",
-                "gloss-zh": "是",
-                "gloss-morph-zh": "COP-CCL"
+                "gloss-zh": "",
+                "gloss-morph-zh": "=COP-CCL"
               }
             ]
           }
         ],
         "glossary-abbreviations": [
           {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
             "gloss": "-",
             "grammatical_function_en": "affix boundary",
             "grammatical_function_ja": "接辞境界",
             "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
           },
           {
             "gloss": "CCL",
@@ -10244,16 +10256,16 @@
             "grammatical_function_zh": "质的名词化辞"
           }
         ],
-        "translation-zh-natural": "元旦这天，我们仍停泊在同一个地方。"
+        "translation-zh-natural": "元旦，我们还是停泊在同一个地方。"
       },
       {
         "id": 56,
         "koutei-yamagen": "白散をある者、夜の間とて船屋形に差し挟めりければ、風に吹きならさせて海に入れてえ飲まずなりぬ。",
-        "translation-zh": "白散，某人想着夜间，（将之）塞入船屋形，结果被风吹得发响，入海，不得饮。",
+        "translation-zh": "白散，某人想着夜间，（将之）塞入船屋，结果被风吹得发响，落入了海，喝不了了。",
         "phrase-gloss": [
           {
             "phrase": "白散をあるもの",
-            "gloss-zh": "白散 有-的 人",
+            "gloss-zh": "白散，有人",
             "gloss-morph-zh": "白散=ACC exist-ADN+人?",
             "words": [
               {
@@ -10263,12 +10275,12 @@
               },
               {
                 "word": "を",
-                "gloss-zh": "的",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "ある",
-                "gloss-zh": "有-的",
+                "gloss-zh": "有的",
                 "gloss-morph-zh": "exist-ADN"
               },
               {
@@ -10280,7 +10292,7 @@
           },
           {
             "phrase": "夜のまとて",
-            "gloss-zh": "夜 的 间 想着",
+            "gloss-zh": "想着夜间",
             "gloss-morph-zh": "夜=GEN 期间=SCM",
             "words": [
               {
@@ -10290,12 +10302,12 @@
               },
               {
                 "word": "の",
-                "gloss-zh": "的",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "ま",
-                "gloss-zh": "期间",
+                "gloss-zh": "间",
                 "gloss-morph-zh": "期间"
               },
               {
@@ -10308,7 +10320,7 @@
           {
             "phrase": "ふなやかた",
             "gloss-zh": "船屋",
-            "gloss-morph-zh": "船屋",
+            "gloss-morph-zh": "船+屋",
             "words": [
               {
                 "word": "ふな",
@@ -10324,7 +10336,7 @@
           },
           {
             "phrase": "さしはさめりければ",
-            "gloss-zh": "塞 夹-着-了 于是",
+            "gloss-zh": "塞着夹了，结果",
             "gloss-morph-zh": "插入-ADV 夹-INC+STA-ADV+RET-INC=XCD",
             "words": [
               {
@@ -10349,14 +10361,14 @@
               },
               {
                 "word": "ば",
-                "gloss-zh": "于是",
+                "gloss-zh": "结果",
                 "gloss-morph-zh": "=XCD"
               }
             ]
           },
           {
             "phrase": "風に吹きならさせて",
-            "gloss-zh": "风 DAT 吹 发响-使 SEQ",
+            "gloss-zh": "让风吹得发响",
             "gloss-morph-zh": "风=DAT 吹-ADV 发响-ADV+CAU-ADV=SEQ",
             "words": [
               {
@@ -10366,7 +10378,7 @@
               },
               {
                 "word": "に",
-                "gloss-zh": "DAT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=DAT"
               },
               {
@@ -10382,19 +10394,19 @@
               {
                 "word": "せ",
                 "gloss-zh": "使",
-                "gloss-morph-zh": "使-ADV"
+                "gloss-morph-zh": "CAU-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "海に入れて",
-            "gloss-zh": "海 于 入-SEQ",
-            "gloss-morph-zh": "海=DAT 进入-ADV=SEQ",
+            "gloss-zh": "落入了海中",
+            "gloss-morph-zh": "海=DAT 入-ADV=SEQ",
             "words": [
               {
                 "word": "海",
@@ -10403,34 +10415,34 @@
               },
               {
                 "word": "に",
-                "gloss-zh": "于",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "入れ",
-                "gloss-zh": "入",
-                "gloss-morph-zh": "进入-ADV"
+                "gloss-zh": "落入",
+                "gloss-morph-zh": "入-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": "SEQ",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "え飮まずなりぬ",
-            "gloss-zh": "（不）能 饮-不 是-了",
-            "gloss-morph-zh": "POT drink-THM=NEG.CCL HEV-ADV+MNF-CCL",
+            "gloss-zh": "不能喝了",
+            "gloss-morph-zh": "POT drink-THM=NEG.CCL=HEV-ADV+MNF-CCL",
             "words": [
               {
                 "word": "え",
-                "gloss-zh": "（不）能",
+                "gloss-zh": "能",
                 "gloss-morph-zh": "POT"
               },
               {
                 "word": "飮ま",
-                "gloss-zh": "饮",
+                "gloss-zh": "喝",
                 "gloss-morph-zh": "饮-THM"
               },
               {
@@ -10440,8 +10452,8 @@
               },
               {
                 "word": "なり",
-                "gloss-zh": "HEV",
-                "gloss-morph-zh": "HEV-ADV"
+                "gloss-zh": "",
+                "gloss-morph-zh": "=HEV-ADV"
               },
               {
                 "word": "ぬ",
@@ -10591,7 +10603,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "有个人拿着用于元旦祈愿健康的白散而来，但想着因为是夜间，所以他没有直接上船，只是默默把白散塞进了船屋，结果白散被大风刮进了海里，喝不到了。"
+        "translation-zh-natural": "有个人拿着用于元旦祈愿健康的白散而来，但想着因为是夜间，所以他没有直接上船，只是默默把白散塞进了船屋，结果白散被大风刮进了海里，喝不了了。"
       },
       {
         "id": 57,
@@ -10600,7 +10612,7 @@
         "phrase-gloss": [
           {
             "phrase": "芋しも",
-            "gloss-zh": "芋薯 也",
+            "gloss-zh": "芋薯也",
             "gloss-morph-zh": "芋薯=IFO",
             "words": [
               {
@@ -10617,7 +10629,7 @@
           },
           {
             "phrase": "あらめも",
-            "gloss-zh": "海藻 也",
+            "gloss-zh": "海藻也",
             "gloss-morph-zh": "海藻=IFO",
             "words": [
               {
@@ -10634,7 +10646,7 @@
           },
           {
             "phrase": "齒固めもなし",
-            "gloss-zh": "歯固 也 没有",
+            "gloss-zh": "歯固也没有",
             "gloss-morph-zh": "歯固=IFO 没有-CCL",
             "words": [
               {
@@ -10681,7 +10693,7 @@
             "grammatical_function_zh": "包容性焦点"
           }
         ],
-        "translation-zh-natural": "船里，没有芋头，没有海藻，也没有元旦要吃的庆祝长寿的“歯固”。"
+        "translation-zh-natural": "船里没有元旦要吃的芋头，没有海藻，也没有庆祝长寿的“歯固”。"
       },
       {
         "id": 58,
@@ -10690,13 +10702,13 @@
         "phrase-gloss": [
           {
             "phrase": "かやうの物",
-            "gloss-zh": "这样 的 物",
-            "gloss-morph-zh": "这样=GEN 物",
+            "gloss-zh": "这样的东西",
+            "gloss-morph-zh": "那+样=GEN 物",
             "words": [
               {
                 "word": "かやう",
-                "gloss-zh": "这样",
-                "gloss-morph-zh": "这样"
+                "gloss-zh": "那样",
+                "gloss-morph-zh": "那+样"
               },
               {
                 "word": "の",
@@ -10705,14 +10717,14 @@
               },
               {
                 "word": "物",
-                "gloss-zh": "物",
+                "gloss-zh": "东西",
                 "gloss-morph-zh": "物"
               }
             ]
           },
           {
             "phrase": "もなき",
-            "gloss-zh": "也 没有-的",
+            "gloss-zh": "也没有的",
             "gloss-morph-zh": "=IFO 没有-ADN",
             "words": [
               {
@@ -10729,13 +10741,13 @@
           },
           {
             "phrase": "國なり",
-            "gloss-zh": "国 是",
-            "gloss-morph-zh": "国 COP-CCL",
+            "gloss-zh": "是...的地方",
+            "gloss-morph-zh": "地方=COP-CCL",
             "words": [
               {
                 "word": "國",
-                "gloss-zh": "国",
-                "gloss-morph-zh": "国"
+                "gloss-zh": "地方",
+                "gloss-morph-zh": "地方"
               },
               {
                 "word": "なり",
@@ -10746,6 +10758,12 @@
           }
         ],
         "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
           {
             "gloss": "-",
             "grammatical_function_en": "affix boundary",
@@ -10815,13 +10833,13 @@
           },
           {
             "phrase": "おかず",
-            "gloss-zh": "不事先做",
-            "gloss-morph-zh": "事先做-THM=NEG.CCL",
+            "gloss-zh": "不事先准备",
+            "gloss-morph-zh": "事先准备-THM=NEG.CCL",
             "words": [
               {
                 "word": "おか",
-                "gloss-zh": "事先做",
-                "gloss-morph-zh": "事先做-THM"
+                "gloss-zh": "事先准备",
+                "gloss-morph-zh": "事先准备-THM"
               },
               {
                 "word": "ず",
@@ -10929,7 +10947,7 @@
           },
           {
             "phrase": "のみぞ吸ふ",
-            "gloss-zh": "只吸",
+            "gloss-zh": "只是吸",
             "gloss-morph-zh": "=ISO=FOC 吸-ADN",
             "words": [
               {
@@ -11011,16 +11029,16 @@
       {
         "id": 61,
         "koutei-yamagen": "この吸ふ人々の口を押年魚もし思ふやうあらむや。",
-        "translation-zh": "对这些吸着的人的嘴巴，押鮎如果在想的话...（会怎么想呢？）",
+        "translation-zh": "对着这些吸着的人的嘴巴，押鮎如果在想的话，会怎么样呢？",
         "phrase-gloss": [
           {
             "phrase": "このすふ人々の口を",
-            "gloss-zh": "这些吸着的人们的嘴",
+            "gloss-zh": "这些吸着（押鮎的嘴）的人的嘴",
             "gloss-morph-zh": "这=GEN 吸-ADN 人+人=GEN 嘴=ACC",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": "这",
+                "gloss-zh": "这些",
                 "gloss-morph-zh": "DEM=GEN"
               },
               {
@@ -11030,7 +11048,7 @@
               },
               {
                 "word": "人々",
-                "gloss-zh": "人们",
+                "gloss-zh": "人",
                 "gloss-morph-zh": "人+人=GEN"
               },
               {
@@ -11052,8 +11070,8 @@
           },
           {
             "phrase": "押年魚もし",
-            "gloss-zh": "押鮎或许",
-            "gloss-morph-zh": "压-NML+香鱼 maybe",
+            "gloss-zh": "押鮎如果",
+            "gloss-morph-zh": "压-NML+香鱼 如果",
             "words": [
               {
                 "word": "押年魚",
@@ -11062,15 +11080,15 @@
               },
               {
                 "word": "もし",
-                "gloss-zh": "或许",
-                "gloss-morph-zh": "或许"
+                "gloss-zh": "如果",
+                "gloss-morph-zh": "如果"
               }
             ]
           },
           {
             "phrase": "思ふやうあらむや",
-            "gloss-zh": "是否会有所想法吧",
-            "gloss-morph-zh": "想-ADN 样子 存在-THM+MNF-CCL=XCL",
+            "gloss-zh": "想的话，会怎么想呢",
+            "gloss-morph-zh": "想-ADN 样=COP-THM+MNF-CCL=XCL",
             "words": [
               {
                 "word": "思ふ",
@@ -11080,12 +11098,12 @@
               {
                 "word": "やう",
                 "gloss-zh": "样子",
-                "gloss-morph-zh": "样子"
+                "gloss-morph-zh": "样"
               },
               {
                 "word": "あら",
-                "gloss-zh": "存在",
-                "gloss-morph-zh": "存在-THM"
+                "gloss-zh": "",
+                "gloss-morph-zh": "=COP-THM"
               },
               {
                 "word": "む",
@@ -11138,6 +11156,12 @@
             "grammatical_function_zh": "终止形"
           },
           {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
             "gloss": "DEM",
             "grammatical_function_en": "demonstrative",
             "grammatical_function_ja": "指示語",
@@ -11174,7 +11198,7 @@
             "grammatical_function_zh": "感叹"
           }
         ],
-        "translation-zh-natural": "被吸着的押年魚（kuchi-oshi ayu）会怎么想这些人的嘴巴呢？也许它们会觉得自己是“可惜的（kuchi-oshi ayu）”。"
+        "translation-zh-natural": "押鮎（kuchi-oshi ayu）会怎么想这些吸着的它的嘴的人们的嘴巴呢？【也许它们会觉得“可惜（kuchi-oshi ayu）”吧。】"
       },
       {
         "id": 62,
@@ -11183,12 +11207,12 @@
         "phrase-gloss": [
           {
             "phrase": "今日は",
-            "gloss-zh": "今日",
+            "gloss-zh": "今天",
             "gloss-morph-zh": "今日=TOP",
             "words": [
               {
                 "word": "今日",
-                "gloss-zh": "今日",
+                "gloss-zh": "今天",
                 "gloss-morph-zh": "今日"
               },
               {
@@ -11222,7 +11246,7 @@
           },
           {
             "phrase": "思ひやらるゝ",
-            "gloss-zh": "（不自觉地）思念",
+            "gloss-zh": "不自觉地思念",
             "gloss-morph-zh": "想-ADV+远去-THM+PAS-ADN",
             "words": [
               {
@@ -11237,7 +11261,7 @@
               },
               {
                 "word": "るゝ",
-                "gloss-zh": "（不自觉地）",
+                "gloss-zh": "不自觉地",
                 "gloss-morph-zh": "+PAS-ADN"
               }
             ]
@@ -11305,7 +11329,7 @@
             "grammatical_function_zh": "主题"
           }
         ],
-        "translation-zh-natural": "今天他们只在遥想京城。"
+        "translation-zh-natural": "今天我们只在不自觉地遥想京城。"
       },
       {
         "id": 63,
@@ -11539,7 +11563,7 @@
             "words": [
               {
                 "word": "なほ",
-                "gloss-zh": "仍然",
+                "gloss-zh": "还是",
                 "gloss-morph-zh": "仍然"
               }
             ]
@@ -11547,12 +11571,12 @@
           {
             "phrase": "大湊に",
             "gloss-zh": "在大湊",
-            "gloss-morph-zh": "大湊=LOC",
+            "gloss-morph-zh": "大湊=DAT",
             "words": [
               {
                 "word": "大湊",
                 "gloss-zh": "大湊",
-                "gloss-morph-zh": "大湊"
+                "gloss-morph-zh": "大湊.PN"
               },
               {
                 "word": "に",
@@ -11593,6 +11617,12 @@
             "grammatical_function_zh": "接辞边界"
           },
           {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
             "gloss": "=",
             "grammatical_function_en": "clitic boundary",
             "grammatical_function_ja": "付属語境界",
@@ -11617,10 +11647,10 @@
             "grammatical_function_zh": "非终止"
           },
           {
-            "gloss": "LOC",
-            "grammatical_function_en": "locative",
-            "grammatical_function_ja": "所格",
-            "grammatical_function_zh": "处所格"
+            "gloss": "PN",
+            "grammatical_function_en": "proper noun",
+            "grammatical_function_ja": "固有名詞",
+            "grammatical_function_zh": "实名"
           },
           {
             "gloss": "STA",
@@ -11629,7 +11659,7 @@
             "grammatical_function_zh": "静态"
           }
         ],
-        "translation-zh-natural": "第二天，我们仍停泊在大湊。"
+        "translation-zh-natural": "二日，我们仍停泊在大湊。"
       },
       {
         "id": 65,
@@ -11744,7 +11774,7 @@
             "grammatical_function_zh": "静态"
           }
         ],
-        "translation-zh-natural": "高僧给我们送来了食物和酒等。"
+        "translation-zh-natural": "讲师给我们送来了食物和酒等。"
       },
       {
         "id": 66,
@@ -11766,7 +11796,7 @@
           {
             "phrase": "同じ所",
             "gloss-zh": "同处",
-            "gloss-morph-zh": "同处",
+            "gloss-morph-zh": "同 处",
             "words": [
               {
                 "word": "同じ",
@@ -11783,12 +11813,12 @@
           {
             "phrase": "なり。",
             "gloss-zh": "是",
-            "gloss-morph-zh": "COP-CCL",
+            "gloss-morph-zh": "=COP-CCL",
             "words": [
               {
                 "word": "なり",
                 "gloss-zh": "是",
-                "gloss-morph-zh": "COP-CCL"
+                "gloss-morph-zh": "=COP-CCL"
               }
             ]
           }
@@ -11799,6 +11829,12 @@
             "grammatical_function_en": "affix boundary",
             "grammatical_function_ja": "接辞境界",
             "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
           },
           {
             "gloss": "CCL",
@@ -11813,12 +11849,12 @@
             "grammatical_function_zh": "系词"
           }
         ],
-        "translation-zh-natural": "第三天，我们仍在同处。"
+        "translation-zh-natural": "三日，我们仍在同处。"
       },
       {
         "id": 67,
         "koutei-yamagen": "もし風浪のしばしと惜しむ心やあらむ。心もとなし。",
-        "translation-zh": "有没有珍惜风浪的片刻的心吗。不安。",
+        "translation-zh": "有没有可惜风浪片刻的心？不安。",
         "phrase-gloss": [
           {
             "phrase": "もし、",
@@ -11859,8 +11895,8 @@
               },
               {
                 "word": "惜む",
-                "gloss-zh": "珍惜",
-                "gloss-morph-zh": "珍惜-ADN"
+                "gloss-zh": "为...感到可惜",
+                "gloss-morph-zh": "可惜-ADN"
               },
               {
                 "word": "心",
@@ -11959,7 +11995,7 @@
             "grammatical_function_zh": "感叹"
           }
         ],
-        "translation-zh-natural": "不知是否有人会对这短暂的风浪感到留恋？这让我感到不安。"
+        "translation-zh-natural": "不知是否有人会为这风浪的时间感到可惜？这让我感到不安。"
       },
       {
         "id": 68,
@@ -11967,7 +12003,7 @@
         "translation-zh": "四日，因风起，不能出发。",
         "phrase-gloss": [
           {
-            "phrase": "四日、",
+            "phrase": "四日",
             "gloss-zh": "四日",
             "gloss-morph-zh": "四日",
             "words": [
@@ -11980,7 +12016,7 @@
           },
           {
             "phrase": "風吹けば",
-            "gloss-zh": "风吹了起来，因此",
+            "gloss-zh": "风吹了起来，于是",
             "gloss-morph-zh": "风 吹-INC=XCD",
             "words": [
               {
@@ -11995,8 +12031,8 @@
               },
               {
                 "word": "ば",
-                "gloss-zh": "因为",
-                "gloss-morph-zh": "因为"
+                "gloss-zh": "于是",
+                "gloss-morph-zh": "=XCD"
               }
             ]
           },
@@ -12012,7 +12048,7 @@
               },
               {
                 "word": "出で",
-                "gloss-zh": "出去",
+                "gloss-zh": "离开",
                 "gloss-morph-zh": "出去-ADV"
               },
               {
@@ -12090,12 +12126,12 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "第四天，由于风大，无法出航。"
+        "translation-zh-natural": "第四天，因为起风了，无法出航。"
       },
       {
         "id": 69,
         "koutei-yamagen": "昌連、酒、よき物たてまつれり。",
-        "translation-zh": "昌连献了酒、好物。",
+        "translation-zh": "昌连供奉了酒、好物。",
         "phrase-gloss": [
           {
             "phrase": "昌連",
@@ -12204,12 +12240,12 @@
       {
         "id": 70,
         "koutei-yamagen": "このかうやうの物持て来る人に、なほしもえあらでいさざげわざせさすものもなし。",
-        "translation-zh": "对这个带来这些、这样的东西的人，更不能没有（回礼），于是让（人）回些小礼。（用于回礼的）东西都没有。",
+        "translation-zh": "对这个带来这些、那样的东西的人，更不能没有（回礼），于是让（人）回些小礼。（用于回礼的）东西都没有。",
         "phrase-gloss": [
           {
             "phrase": "このかうやうの物",
             "gloss-zh": "这样的东西",
-            "gloss-morph-zh": "DEM=GEN 这+样=GEN 东西",
+            "gloss-morph-zh": "DEM=GEN 那+样=GEN 东西",
             "words": [
               {
                 "word": "この",
@@ -12218,8 +12254,8 @@
               },
               {
                 "word": "かうやう",
-                "gloss-zh": "这样",
-                "gloss-morph-zh": "这+样"
+                "gloss-zh": "那样",
+                "gloss-morph-zh": "那+样"
               },
               {
                 "word": "の",
@@ -12272,8 +12308,8 @@
             "words": [
               {
                 "word": "なほ",
-                "gloss-zh": "仍",
-                "gloss-morph-zh": "仍"
+                "gloss-zh": "更",
+                "gloss-morph-zh": "更"
               },
               {
                 "word": "しも",
@@ -12439,7 +12475,7 @@
             "grammatical_function_zh": "词干元音"
           }
         ],
-        "translation-zh-natural": "对拿着这样的东西来的人，我们更不能让他空手而回，于是国守让人回一些小礼。结果，我们连用来回点小礼的东西也没有。"
+        "translation-zh-natural": "对拿着这样的东西来的人，我们更不能让他空手而回，于是打算让人回一些小礼。结果我们连用来回点小礼的东西也没有。"
       },
       {
         "id": 71,
