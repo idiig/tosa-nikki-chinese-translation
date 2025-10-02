@@ -12611,39 +12611,100 @@
         "phrase-gloss": [
           {
             "phrase": "人々絶えずとぶらひにく。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "人们不断地来拜访。",
+            "gloss-morph-zh": "人+人 停-THM=NEG.SER 拜访-NML=DAT 来-CCL",
             "words": [
               {
                 "word": "人々",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人们",
+                "gloss-morph-zh": "人+人"
               },
               {
                 "word": "絶えず",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "不断地",
+                "gloss-morph-zh": "停-THM=NEG.SER"
               },
               {
                 "word": "とぶらひ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "拜访",
+                "gloss-morph-zh": "拜访-NML"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "く",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "来",
+                "gloss-morph-zh": "来-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "人们络绎不绝地来拜访。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "NEG",
+            "grammatical_function_en": "negative",
+            "grammatical_function_ja": "否定",
+            "grammatical_function_zh": "否定"
+          },
+          {
+            "gloss": "NML",
+            "grammatical_function_en": "qualitative nominalizer",
+            "grammatical_function_ja": "質的名詞化辞",
+            "grammatical_function_zh": "质的名词化辞"
+          },
+          {
+            "gloss": "SER",
+            "grammatical_function_en": "serial",
+            "grammatical_function_ja": "連続",
+            "grammatical_function_zh": "连续"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          }
+        ],
+        "translation-zh-natural": "人们络绎不绝地前来拜访。"
       },
       {
         "id": 74,
@@ -12652,40 +12713,71 @@
         "phrase-gloss": [
           {
             "phrase": "六日、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "六日",
+            "gloss-morph-zh": "六日",
             "words": [
               {
                 "word": "六日",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "六日",
+                "gloss-morph-zh": "六日"
               }
             ]
           },
           {
-            "phrase": "きのふのごとし。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "phrase": "きのふのごとし",
+            "gloss-zh": "像昨天一样",
+            "gloss-morph-zh": "昨天=GEN=SCO-CCL",
             "words": [
               {
                 "word": "きのふ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "昨天",
+                "gloss-morph-zh": "昨天"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "ごとし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "像...一样",
+                "gloss-morph-zh": "=SCO-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "SCO",
+            "grammatical_function_en": null,
+            "grammatical_function_ja": null,
+            "grammatical_function_zh": null
+          }
+        ],
         "translation-zh-natural": "六日，和昨天一样。"
       },
       {
@@ -12695,40 +12787,83 @@
         "phrase-gloss": [
           {
             "phrase": "七日",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "七日",
+            "gloss-morph-zh": "七日",
             "words": [
               {
                 "word": "七日",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "七日",
+                "gloss-morph-zh": "七日"
               }
             ]
           },
           {
             "phrase": "になりぬ。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "到了",
+            "gloss-morph-zh": "=DAT 变成-ADV+MNF-CCL",
             "words": [
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "なり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "变成",
+                "gloss-morph-zh": "变成-ADV"
               },
               {
                 "word": "ぬ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+MNF-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "MNF",
+            "grammatical_function_en": "manifestive",
+            "grammatical_function_ja": "実現",
+            "grammatical_function_zh": "实现"
+          }
+        ],
         "translation-zh-natural": "到了七日。"
       },
       {
@@ -12738,41 +12873,66 @@
         "phrase-gloss": [
           {
             "phrase": "同じ湊",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "同一港口",
+            "gloss-morph-zh": "同一 港口",
             "words": [
               {
                 "word": "同じ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "同一",
+                "gloss-morph-zh": "同一"
               },
               {
                 "word": "湊",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "港口",
+                "gloss-morph-zh": "港口"
               }
             ]
           },
           {
             "phrase": "にあり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "在",
+            "gloss-morph-zh": "=DAT 在-CCL",
             "words": [
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "あり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "在",
+                "gloss-morph-zh": "在-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "仍停泊在同一港口。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          }
+        ],
+        "translation-zh-natural": "我们仍停泊在同一港口。"
       },
       {
         "id": 77,
@@ -12781,63 +12941,112 @@
         "phrase-gloss": [
           {
             "phrase": "今日は",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "今天",
+            "gloss-morph-zh": "今日=TOP",
             "words": [
               {
                 "word": "今日",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "今天",
+                "gloss-morph-zh": "今日"
               },
               {
                 "word": "は",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=TOP"
               }
             ]
           },
           {
             "phrase": "白馬を思へど",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "虽想着白马，但",
+            "gloss-morph-zh": "白+马=ACC 想-INC=XCC",
             "words": [
               {
                 "word": "白馬",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "白马",
+                "gloss-morph-zh": "白+马"
               },
               {
                 "word": "を",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "思へ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "想",
+                "gloss-morph-zh": "想-INC"
               },
               {
                 "word": "ど",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "虽然...但",
+                "gloss-morph-zh": "=XCC"
               }
             ]
           },
           {
             "phrase": "かひなし。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "没有意义",
+            "gloss-morph-zh": "意义+无-CCL",
             "words": [
               {
                 "word": "かひなし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "没有意义",
+                "gloss-morph-zh": "意义+无-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "今天是白马节会的日子。但是，想起白马节会却无济于事。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ACC",
+            "grammatical_function_en": "accusative",
+            "grammatical_function_ja": "対格",
+            "grammatical_function_zh": "宾格"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "TOP",
+            "grammatical_function_en": "topic",
+            "grammatical_function_ja": "主題",
+            "grammatical_function_zh": "主题"
+          },
+          {
+            "gloss": "XCC",
+            "grammatical_function_en": "fixed concessive",
+            "grammatical_function_ja": "確定譲歩",
+            "grammatical_function_zh": "确定让步"
+          }
+        ],
+        "translation-zh-natural": "今天是白马节会的日子。但是，想起白马节会也无济于事。"
       },
       {
         "id": 78,
@@ -12846,98 +13055,147 @@
         "phrase-gloss": [
           {
             "phrase": "たゞ",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "唯独",
+            "gloss-morph-zh": "唯独",
             "words": [
               {
                 "word": "たゞ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "唯独",
+                "gloss-morph-zh": "唯独"
               }
             ]
           },
           {
             "phrase": "浪の白きのみぞ見ゆる。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "浪之白色唯独可见",
+            "gloss-morph-zh": "浪=GEN 白的-ADN.NL=ISO=FOC 可见=ADN",
             "words": [
               {
                 "word": "浪",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "浪",
+                "gloss-morph-zh": "浪"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "白き",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "白",
+                "gloss-morph-zh": "白的-ADN.NL"
               },
               {
                 "word": "のみ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "唯独",
+                "gloss-morph-zh": "=唯独"
               },
               {
                 "word": "ぞ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=FOC"
               },
               {
                 "word": "見ゆる",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "可见",
+                "gloss-morph-zh": "可见=ADN"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "FOC",
+            "grammatical_function_en": "definite focus",
+            "grammatical_function_ja": "確定焦点",
+            "grammatical_function_zh": "确定焦点"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "ISO",
+            "grammatical_function_en": "isolation",
+            "grammatical_function_ja": "孤独",
+            "grammatical_function_zh": "限定/单独"
+          },
+          {
+            "gloss": "NL",
+            "grammatical_function_en": "nominal",
+            "grammatical_function_ja": "連体形準体",
+            "grammatical_function_zh": "连体形准体"
+          }
+        ],
         "translation-zh-natural": "只能看到白色的浪花。"
       },
       {
         "id": 79,
         "koutei-yamagen": "かかる間に人の家の池と名ある所より鯉はなくて鮒よりはじめて川のも、海のも、ことものども、長びつにになひつづけておこせたり。",
-        "translation-zh": "在此般之间，从（某户）人家，有“池”之名之地，没有鲤鱼，始于鲫鱼，河里的、海里的，其他物们，于长箱里，不断抬着送来。",
+        "translation-zh": "在这时候，从人家的有“池”之名的地方，没有鲤鱼，以鲫鱼为首，河里的、海里的，其他东西们，在长箱里不断抬着送来。",
         "phrase-gloss": [
           {
             "phrase": "かゝる間に",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "在这时候",
+            "gloss-morph-zh": "这样.VBL-ADN 间=DAT",
             "words": [
               {
                 "word": "かゝる",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这样",
+                "gloss-morph-zh": "这样.VBL-ADN"
               },
               {
                 "word": "間",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "时候",
+                "gloss-morph-zh": "间"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "人の家（野イ）の池と名ある所より",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "从人家里名为“池”的地方",
+            "gloss-morph-zh": "人=GEN 房子=GEN 池=CMP 名 有-ADN 地方=ABL",
             "words": [
               {
                 "word": "人",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "家",
@@ -12946,180 +13204,289 @@
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "池",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "池子",
+                "gloss-morph-zh": "池"
               },
               {
                 "word": "と",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "名",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "名",
+                "gloss-morph-zh": "名"
               },
               {
                 "word": "ある",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "有...的",
+                "gloss-morph-zh": "有-ADN"
               },
               {
                 "word": "所",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "地方",
+                "gloss-morph-zh": "地方"
               },
               {
                 "word": "より",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "从",
+                "gloss-morph-zh": "=ABL"
               }
             ]
           },
           {
             "phrase": "鯉はなくて鮒よりはじめて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "没有鲤鱼，以鲫鱼为首",
+            "gloss-morph-zh": "鲤鱼=TOP 无-ADV=SEQ 鲫鱼=ABL 开始-ADV=SEQ",
             "words": [
               {
                 "word": "鯉",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "鲤鱼",
+                "gloss-morph-zh": "鲤鱼"
               },
               {
                 "word": "は",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=TOP"
               },
               {
                 "word": "なく",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "没有",
+                "gloss-morph-zh": "无-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "鮒",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "鲫鱼",
+                "gloss-morph-zh": "鲫鱼"
               },
               {
                 "word": "より",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=ABL"
               },
               {
                 "word": "はじめ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "开始",
+                "gloss-morph-zh": "开始-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "川のも、海のも、ことものども、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "河里的、海里的，其他东西们",
+            "gloss-morph-zh": "河=GEN=IFO 海=GEN=IFO 其他+物=PLU",
             "words": [
               {
                 "word": "川",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "河",
+                "gloss-morph-zh": "河"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "も",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "也",
+                "gloss-morph-zh": "=IFO"
               },
               {
                 "word": "海",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "海",
+                "gloss-morph-zh": "海"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "も",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "也",
+                "gloss-morph-zh": "=IFO"
               },
               {
                 "word": "こと物",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "其他东西",
+                "gloss-morph-zh": "其他+物"
               },
               {
                 "word": "ども",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "们",
+                "gloss-morph-zh": "=PLU"
               }
             ]
           },
           {
             "phrase": "ながびつにになひつづけておこせたり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "在长箱里不断抬着送来",
+            "gloss-morph-zh": "长+箱=DAT 拿-ADV+继续-ADV=SEQ 送-THM+STA-CCL",
             "words": [
               {
                 "word": "ながびつ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "长箱",
+                "gloss-morph-zh": "长+箱"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "になひ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "拿着",
+                "gloss-morph-zh": "拿-ADV"
               },
               {
                 "word": "つづけ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "继续",
+                "gloss-morph-zh": "继续-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "おこせ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "送来",
+                "gloss-morph-zh": "送-THM"
               },
               {
                 "word": "たり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+STA-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "在这期间，从一户人家名叫“池”的地方，各种事物被装在长箱里不断搬送过来。没有鲤鱼，但有以鲫鱼为首的、河里的、海里的其他食物。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ABL",
+            "grammatical_function_en": "ablative",
+            "grammatical_function_ja": "奪格",
+            "grammatical_function_zh": "夺格"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "IFO",
+            "grammatical_function_en": "inclusive focus",
+            "grammatical_function_ja": "包括的焦点",
+            "grammatical_function_zh": "包容性焦点"
+          },
+          {
+            "gloss": "PLU",
+            "grammatical_function_en": "pluralizer",
+            "grammatical_function_ja": "複数",
+            "grammatical_function_zh": "复数"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          },
+          {
+            "gloss": "TOP",
+            "grammatical_function_en": "topic",
+            "grammatical_function_ja": "主題",
+            "grammatical_function_zh": "主题"
+          },
+          {
+            "gloss": "VBL",
+            "grammatical_function_en": "verbalizer",
+            "grammatical_function_ja": "動詞化辞",
+            "grammatical_function_zh": "动词化辞"
+          }
+        ],
+        "translation-zh-natural": "在这期间，从一户人家的名叫“池”的地方，各种事物被装在长箱里不断搬送过来。没有鲤鱼，但有以鲫鱼为首的，河里的、海里的其他食物。"
       },
       {
         "id": 80,
