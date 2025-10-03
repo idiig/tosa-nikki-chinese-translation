@@ -108,6 +108,12 @@
     "grammatical_function_zh": "补语表示"
   },
   {
+    "gloss": "CNF",
+    "grammatical_function_en": "confirmative",
+    "grammatical_function_ja": "確認",
+    "grammatical_function_zh": "确认"
+  },
+  {
     "gloss": "CON",
     "grammatical_function_en": "concessive",
     "grammatical_function_ja": "譲歩",
