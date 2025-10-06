@@ -6425,7 +6425,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "虽想要回到京城，但我悲伤是因为，听闻那里有人已经不会再回去了。"
+        "translation-zh-natural": "“虽想要回到京城，但我悲伤是因为，听闻那里有人已经不会再回去了。”"
       },
       {
         "id": 35,
@@ -6696,7 +6696,7 @@
             "grammatical_function_zh": "动词化辞"
           }
         ],
-        "translation-zh-natural": "以为她还在，忘记了她已经不在了，竟然还会问她在哪里。这是多么悲伤。"
+        "translation-zh-natural": "“以为她还在，忘记了她已经不在了，竟然还会问她在哪里。这是多么悲伤。”"
       },
       {
         "id": 37,
@@ -11024,7 +11024,7 @@
             "grammatical_function_zh": "质的名词化辞"
           }
         ],
-        "translation-zh-natural": "我们只能吸着用压制工艺腌渍而成的腌鮎鱼的嘴。"
+        "translation-zh-natural": "我们只能吸着押鮎【用压制工艺腌渍而成的腌鮎鱼】的嘴。"
       },
       {
         "id": 61,
@@ -13484,143 +13484,254 @@
       {
         "id": 80,
         "koutei-yamagen": "わかなこに入れて雉など花につけたり（この17字文異本には無）。",
-        "translation-zh": "若菜，放在篮中。雉等，配着花。",
+        "translation-zh": "若叶，放在篮中。雉等，配着花。",
         "phrase-gloss": [
           {
             "phrase": "わかなこに入れて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "把嫩菜放在篮中",
+            "gloss-morph-zh": "嫩+菜 篮子=DAT 放入-ADV=SEQ",
             "words": [
               {
                 "word": "わかな",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "嫩菜",
+                "gloss-morph-zh": "嫩+菜"
               },
               {
                 "word": "こ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "篮子",
+                "gloss-morph-zh": "篮子"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "入れ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "放入",
+                "gloss-morph-zh": "放入-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "雉など花につけたり",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "雉鸡等，配着花",
+            "gloss-morph-zh": "雉=等 花=DAT 配-INC+STA-CCL",
             "words": [
               {
                 "word": "雉",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "雉鸡",
+                "gloss-morph-zh": "雉"
               },
               {
                 "word": "など",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "等",
+                "gloss-morph-zh": "=等"
               },
               {
                 "word": "花",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "花",
+                "gloss-morph-zh": "花"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "つけ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "配",
+                "gloss-morph-zh": "配-INC"
               },
               {
                 "word": "たり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "着",
+                "gloss-morph-zh": "+STA-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "将若菜放入篮中。把雉之类，配着花装饰。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          }
+        ],
+        "translation-zh-natural": "他们将嫩菜放入篮中，把雉鸡之类，配在花上。"
       },
       {
         "id": 81,
         "koutei-yamagen": "若菜ぞ、今日をば知らせたる。",
-        "translation-zh": "若菜啊，告知着今日。",
+        "translation-zh": "嫩菜啊，告知着今日。",
         "phrase-gloss": [
           {
             "phrase": "若菜ぞ",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "嫩菜啊",
+            "gloss-morph-zh": "嫩+菜=FOC",
             "words": [
               {
                 "word": "若菜",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "嫩菜",
+                "gloss-morph-zh": "嫩+菜"
               },
               {
                 "word": "ぞ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "啊",
+                "gloss-morph-zh": "=FOC"
               }
             ]
           },
           {
             "phrase": "今日をば知らせたる。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "告知着今日",
+            "gloss-morph-zh": "今日=FAC 知-THM+CAU-ADV+STA-ADN",
             "words": [
               {
                 "word": "今日",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "今日",
+                "gloss-morph-zh": "今日"
               },
               {
-                "word": "を",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
-              },
-              {
-                "word": "ば",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "word": "をば",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=FAC"
               },
               {
                 "word": "知ら",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "知道",
+                "gloss-morph-zh": "知-THM"
               },
               {
                 "word": "せ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "让",
+                "gloss-morph-zh": "+CAU-ADV"
               },
               {
                 "word": "たる",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "着",
+                "gloss-morph-zh": "+STA-ADN"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "若菜让我才意识到今天是七草节。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CAU",
+            "grammatical_function_en": "causative",
+            "grammatical_function_ja": "使役",
+            "grammatical_function_zh": "使役"
+          },
+          {
+            "gloss": "FAC",
+            "grammatical_function_en": null,
+            "grammatical_function_ja": null,
+            "grammatical_function_zh": null
+          },
+          {
+            "gloss": "FOC",
+            "grammatical_function_en": "definite focus",
+            "grammatical_function_ja": "確定焦点",
+            "grammatical_function_zh": "确定焦点"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          }
+        ],
+        "translation-zh-natural": "嫩菜让我才意识到今天是七草节。"
       },
       {
         "id": 82,
@@ -13629,169 +13740,291 @@
         "phrase-gloss": [
           {
             "phrase": "歌あり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "有歌",
+            "gloss-morph-zh": "歌 有-CCL",
             "words": [
               {
                 "word": "歌",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "歌",
+                "gloss-morph-zh": "歌"
               },
               {
                 "word": "あり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "有",
+                "gloss-morph-zh": "有-CCL"
               }
             ]
           },
           {
             "phrase": "そのうた、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "那首歌",
+            "gloss-morph-zh": "DEM=GEN 歌",
             "words": [
               {
                 "word": "その",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "那",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "うた",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "歌",
+                "gloss-morph-zh": "歌"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "有一首歌。这首歌是，"
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          }
+        ],
+        "translation-zh-natural": "其中有一首歌。歌曰："
       },
       {
         "id": 83,
         "koutei-yamagen": "浅茅生の野辺にしあれば、水もなき池に積みつる若菜なりけり。",
-        "translation-zh": "因为在茅草生长的/原野/水也没有的/池中摘下的/是若菜。",
+        "translation-zh": "白茅生长地的/原野，因为在（这里）/水也没有的/池中摘下的/是若菜。",
         "phrase-gloss": [
           {
             "phrase": "淺茅生の",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "白茅生长的",
+            "gloss-morph-zh": "白茅+生长地=GEN",
             "words": [
               {
                 "word": "淺茅生",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "茅草生长地",
+                "gloss-morph-zh": "白茅+生长地"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
               }
             ]
           },
           {
             "phrase": "野邊にしあれば",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "因为在原野",
+            "gloss-morph-zh": "原野=DAT=EMP 有-INC=XCD",
             "words": [
               {
                 "word": "野邊",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "原野",
+                "gloss-morph-zh": "原野"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "し",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=EMP"
               },
               {
                 "word": "あれ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "在",
+                "gloss-morph-zh": "在-INC"
               },
               {
                 "word": "ば",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "因为",
+                "gloss-morph-zh": "=XCD"
               }
             ]
           },
           {
             "phrase": "水もなき",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "水也没有的",
+            "gloss-morph-zh": "水=IFO 无-ADN",
             "words": [
               {
                 "word": "水",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "水",
+                "gloss-morph-zh": "水"
               },
               {
                 "word": "も",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "也",
+                "gloss-morph-zh": "=IFO"
               },
               {
                 "word": "なき",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "没有的",
+                "gloss-morph-zh": "无-ADN"
               }
             ]
           },
           {
             "phrase": "池につみつる",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "在池中摘下的",
+            "gloss-morph-zh": "池=DAT 摘-ADV+ATT-ADN",
             "words": [
               {
                 "word": "池",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "池",
+                "gloss-morph-zh": "池"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "つみ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "摘下",
+                "gloss-morph-zh": "摘-ADV"
               },
               {
                 "word": "つる",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了的",
+                "gloss-morph-zh": "+ATT-ADN"
               }
             ]
           },
           {
             "phrase": "わかななりけり",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "是若菜了",
+            "gloss-morph-zh": "嫩+菜=COP-ADV+RET-CCL",
             "words": [
               {
                 "word": "わかな",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "嫩菜",
+                "gloss-morph-zh": "嫩+菜"
               },
               {
                 "word": "なり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "是",
+                "gloss-morph-zh": "=COP-ADV"
               },
               {
                 "word": "けり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+RET-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "ATT",
+            "grammatical_function_en": "attainative",
+            "grammatical_function_ja": "達成",
+            "grammatical_function_zh": "达成"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "EMP",
+            "grammatical_function_en": "emphatic",
+            "grammatical_function_ja": "強意",
+            "grammatical_function_zh": "强调"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "IFO",
+            "grammatical_function_en": "inclusive focus",
+            "grammatical_function_ja": "包括的焦点",
+            "grammatical_function_zh": "包容性焦点"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "RET",
+            "grammatical_function_en": "retrospective",
+            "grammatical_function_ja": "回想",
+            "grammatical_function_zh": "回想"
+          },
+          {
+            "gloss": "XCD",
+            "grammatical_function_en": "fixed conditional",
+            "grammatical_function_ja": "確定条件",
+            "grammatical_function_zh": "确定条件"
+          }
+        ],
         "translation-zh-natural": "这里虽名为“池（ike）”，但这里在茅草生长的原野，所以这个“池”里没有水[，自然没有鲤鱼（koi）与恋情（koi)]。在这个连水也没有的“池（ike）”摘下的只有这些若菜（wakana）、我的名字（wagana）。"
       },
       {
@@ -13801,28 +14034,53 @@
         "phrase-gloss": [
           {
             "phrase": "いとをかしかし。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "非常风雅",
+            "gloss-morph-zh": "非常 风雅-CCL=CNF",
             "words": [
               {
                 "word": "いと",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "非常",
+                "gloss-morph-zh": "非常"
               },
               {
                 "word": "をかし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "风雅",
+                "gloss-morph-zh": "风雅"
               },
               {
                 "word": "かし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CNF"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CNF",
+            "grammatical_function_en": "confirmative",
+            "grammatical_function_ja": "確認",
+            "grammatical_function_zh": "确认"
+          }
+        ],
         "translation-zh-natural": "真是别有一番情趣。"
       },
       {
@@ -13832,65 +14090,132 @@
         "phrase-gloss": [
           {
             "phrase": "この池といふは",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "这个所谓的“池”",
+            "gloss-morph-zh": "这个=GEN 池=CMP 说-ADN.NL=TOP",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这个",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "池",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "池",
+                "gloss-morph-zh": "池"
               },
               {
                 "word": "と",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "所谓",
+                "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "いふ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "说",
+                "gloss-morph-zh": "说-ADN.NL"
               },
               {
                 "word": "は",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=TOP"
               }
             ]
           },
           {
             "phrase": "所の名なり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "地名",
+            "gloss-morph-zh": "地方=GEN 名字=COP.CCL",
             "words": [
               {
                 "word": "所",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "地方",
+                "gloss-morph-zh": "地方"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "名",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "名字",
+                "gloss-morph-zh": "名字"
               },
               {
                 "word": "なり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "是",
+                "gloss-morph-zh": "是"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "NL",
+            "grammatical_function_en": "nominal",
+            "grammatical_function_ja": "連体形準体",
+            "grammatical_function_zh": "连体形准体"
+          },
+          {
+            "gloss": "TOP",
+            "grammatical_function_en": "topic",
+            "grammatical_function_ja": "主題",
+            "grammatical_function_zh": "主题"
+          }
+        ],
         "translation-zh-natural": "这个所谓的“池”是这个地方的名字。"
       },
       {
@@ -13900,292 +14225,486 @@
         "phrase-gloss": [
           {
             "phrase": "よき人の",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "良人的",
+            "gloss-morph-zh": "好-ADN 人=GEN",
             "words": [
               {
                 "word": "よき",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "好的",
+                "gloss-morph-zh": "好-ADN"
               },
               {
                 "word": "人",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
               }
             ]
           },
           {
             "phrase": "男につきて下りて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "随男子下乡",
+            "gloss-morph-zh": "男子=DAT 跟随-ADV=SEQ 下去-ADV=SEQ",
             "words": [
               {
                 "word": "男",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "男子",
+                "gloss-morph-zh": "男子"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "つき",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "跟随",
+                "gloss-morph-zh": "跟随-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "下り",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "下去",
+                "gloss-morph-zh": "下去-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "住みけるなり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "住下了",
+            "gloss-morph-zh": "住-ADV+RET-ADN.NL=COP-CCL",
             "words": [
               {
                 "word": "住み",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "住",
+                "gloss-morph-zh": "住-ADV"
               },
               {
                 "word": "ける",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+RET-ADN.NL"
               },
               {
                 "word": "なり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "是",
+                "gloss-morph-zh": "=COP-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "NL",
+            "grammatical_function_en": "nominal",
+            "grammatical_function_ja": "連体形準体",
+            "grammatical_function_zh": "连体形准体"
+          },
+          {
+            "gloss": "RET",
+            "grammatical_function_en": "retrospective",
+            "grammatical_function_ja": "回想",
+            "grammatical_function_zh": "回想"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          }
+        ],
         "translation-zh-natural": "原来是一个才女跟随男子离京下乡，定居在了这里。"
       },
       {
         "id": 87,
         "koutei-yamagen": "この長櫃の物は皆人童までにくれたれば、飽き満ちて舟子どもは腹鼓を打ちて海をさへおどろかして浪たてつべし。",
-        "translation-zh": "这长箱中的物品，全部分给了大人和小孩，于是，吃饱后船夫们打着腹鼓，甚至好像惊动大海掀起了波浪。",
+        "translation-zh": "这长箱的物品，全部分给了大人和小孩，于是，满足后船员们打着腹鼓，甚至好像惊动大海起了波浪。",
         "phrase-gloss": [
           {
             "phrase": "この長櫃の物は",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "这个长箱中的物品",
+            "gloss-morph-zh": "DEM=GEN 长+箱=GEN 物品=TOP",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这个",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "長櫃",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "长箱",
+                "gloss-morph-zh": "长+箱"
               },
               {
                 "word": "の",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
               },
               {
                 "word": "物",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "物品",
+                "gloss-morph-zh": "物品"
               },
               {
                 "word": "は",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=TOP"
               }
             ]
           },
           {
             "phrase": "皆人童までにくれたれば、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "所有人，连小孩都给了，因此",
+            "gloss-morph-zh": "所有 人 小孩=TER=DAT 给-ADV+STA-INC=XCD",
             "words": [
               {
                 "word": "皆",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "所有",
+                "gloss-morph-zh": "所有"
               },
               {
                 "word": "人",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
               },
               {
                 "word": "童",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "小孩",
+                "gloss-morph-zh": "小孩"
               },
               {
                 "word": "まで",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "连",
+                "gloss-morph-zh": "=TER"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=DAT"
               },
               {
                 "word": "くれ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "给",
+                "gloss-morph-zh": "给-ADV"
               },
               {
                 "word": "たれ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+STA-INC"
               },
               {
                 "word": "ば",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "因此",
+                "gloss-morph-zh": "=XCD"
               }
             ]
           },
           {
             "phrase": "飽き滿ちて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "满足后",
+            "gloss-morph-zh": "满足-ADV 满足-ADV=SEQ",
             "words": [
               {
                 "word": "飽き",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "满足",
+                "gloss-morph-zh": "满足-ADV"
               },
               {
                 "word": "滿ち",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "满足",
+                "gloss-morph-zh": "满足-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "舟子どもは腹鼓をうちて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "船员们打着腹鼓",
+            "gloss-morph-zh": "船+员=PLU=TOP 腹+鼓=ACC 打-ADV=SEQ",
             "words": [
               {
                 "word": "舟子",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "船员",
+                "gloss-morph-zh": "船+员"
               },
               {
                 "word": "ども",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "们",
+                "gloss-morph-zh": "=PLU"
               },
               {
                 "word": "は",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=TOP"
               },
               {
                 "word": "腹鼓",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "腹鼓",
+                "gloss-morph-zh": "腹+鼓"
               },
               {
                 "word": "を",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "うち",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "打",
+                "gloss-morph-zh": "打-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "海をさへおどろかして浪たてつべし。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "似乎连大海都惊动了，起了波浪",
+            "gloss-morph-zh": "海=ACC=ANL 惊-ADV=SEQ 浪 起-INC+ATT-CCL=NEC-CCL",
             "words": [
               {
                 "word": "海",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "海",
+                "gloss-morph-zh": "海"
               },
               {
                 "word": "を",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=ACC"
               },
               {
                 "word": "さへ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "连",
+                "gloss-morph-zh": "=ANL"
               },
               {
                 "word": "おどろかし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "惊动",
+                "gloss-morph-zh": "惊-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "浪",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "波浪",
+                "gloss-morph-zh": "浪"
               },
               {
                 "word": "たて",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "起",
+                "gloss-morph-zh": "起-INC"
               },
               {
                 "word": "つ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+ATT-CCL"
               },
               {
                 "word": "べし",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "似乎",
+                "gloss-morph-zh": "=NEC-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "这长箱中的所有物品，都分给了大家老小。吃饱喝足后船夫们打起腹鼓，声音之大甚至惊动了大海，掀起了波浪。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ACC",
+            "grammatical_function_en": "accusative",
+            "grammatical_function_ja": "対格",
+            "grammatical_function_zh": "宾格"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "ANL",
+            "grammatical_function_en": "expanded analogical",
+            "grammatical_function_ja": "添加類推",
+            "grammatical_function_zh": "扩展类推"
+          },
+          {
+            "gloss": "ATT",
+            "grammatical_function_en": "attainative",
+            "grammatical_function_ja": "達成",
+            "grammatical_function_zh": "达成"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "NEC",
+            "grammatical_function_en": "necessitive",
+            "grammatical_function_ja": "当然",
+            "grammatical_function_zh": "当然"
+          },
+          {
+            "gloss": "PLU",
+            "grammatical_function_en": "pluralizer",
+            "grammatical_function_ja": "複数",
+            "grammatical_function_zh": "复数"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          },
+          {
+            "gloss": "TER",
+            "grammatical_function_en": "terminative",
+            "grammatical_function_ja": "終格",
+            "grammatical_function_zh": "终格"
+          },
+          {
+            "gloss": "TOP",
+            "grammatical_function_en": "topic",
+            "grammatical_function_ja": "主題",
+            "grammatical_function_zh": "主题"
+          },
+          {
+            "gloss": "XCD",
+            "grammatical_function_en": "fixed conditional",
+            "grammatical_function_ja": "確定条件",
+            "grammatical_function_zh": "确定条件"
+          }
+        ],
+        "translation-zh-natural": "这长箱中的所有物品，都分给了大家老小。吃饱喝足后船员们打起腹鼓，声音之大甚至惊动了大海，掀起了波浪。"
       },
       {
         "id": 88,
@@ -14194,178 +14713,331 @@
         "phrase-gloss": [
           {
             "phrase": "かくて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "像这样",
+            "gloss-morph-zh": "这样.SER=SEQ",
             "words": [
               {
                 "word": "かく",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这样",
+                "gloss-morph-zh": "这样.SER"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
           {
             "phrase": "この間に",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "在这期间",
+            "gloss-morph-zh": "DEM=GEN 时间=DAT",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "間",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "时间",
+                "gloss-morph-zh": "时间"
               },
               {
                 "word": "に",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "在",
+                "gloss-morph-zh": "=DAT"
               }
             ]
           },
           {
             "phrase": "事おほかり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "许多事情",
+            "gloss-morph-zh": "事情 多.VBL-CCL",
             "words": [
               {
                 "word": "事",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "事情",
+                "gloss-morph-zh": "事情"
               },
               {
                 "word": "おほかり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "多",
+                "gloss-morph-zh": "多.VBL-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "SER",
+            "grammatical_function_en": "serial",
+            "grammatical_function_ja": "連続",
+            "grammatical_function_zh": "连续"
+          },
+          {
+            "gloss": "VBL",
+            "grammatical_function_en": "verbalizer",
+            "grammatical_function_ja": "動詞化辞",
+            "grammatical_function_zh": "动词化辞"
+          }
+        ],
         "translation-zh-natural": "像这样，在这期间，发生了许多事情。"
       },
       {
         "id": 89,
         "koutei-yamagen": "今日、破子持たせて来たる人、その名などぞや、今思ひ出でむ。",
-        "translation-zh": "今日派人带来便当盒的人，那个名字什么的，很快会想起来。",
+        "translation-zh": "今日派人带来便当的人，那个名字什么的，很快会想起来。",
         "phrase-gloss": [
           {
             "phrase": "けふわりごもたせてきたる人、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "今天派人带来便当的人",
+            "gloss-morph-zh": "今日 便当 拿-THM+CAU-ADV=SEQ 来-ADV+STA-ADN 人",
             "words": [
               {
                 "word": "けふ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "今天",
+                "gloss-morph-zh": "今日"
               },
               {
                 "word": "わりご",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "便当",
+                "gloss-morph-zh": "便当"
               },
               {
                 "word": "もた",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "拿",
+                "gloss-morph-zh": "拿-THM"
               },
               {
                 "word": "せ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "让",
+                "gloss-morph-zh": "+CAU-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "き",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "来",
+                "gloss-morph-zh": "来-ADV"
               },
               {
                 "word": "たる",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了的",
+                "gloss-morph-zh": "+STA-ADN"
               },
               {
                 "word": "人",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
               }
             ]
           },
           {
             "phrase": "その名などぞや、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "那个名字什么的",
+            "gloss-morph-zh": "那个=GEN 名字=EXE=FOC=XML",
             "words": [
               {
                 "word": "その",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "那个",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "名",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "名字",
+                "gloss-morph-zh": "名字"
               },
               {
                 "word": "など",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "什么的",
+                "gloss-morph-zh": "=EXE"
               },
               {
                 "word": "ぞ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=FOC"
               },
               {
                 "word": "や",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "呢",
+                "gloss-morph-zh": "=XML"
               }
             ]
           },
           {
             "phrase": "今思ひ出でむ。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "很快会想起来",
+            "gloss-morph-zh": "现在 想-ADV+出-THM+CJT-CCL",
             "words": [
               {
                 "word": "今",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "现在",
+                "gloss-morph-zh": "现在"
               },
               {
-                "word": "思ひ出",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
-              },
-              {
-                "word": "で",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "word": "思ひ出で",
+                "gloss-zh": "想起",
+                "gloss-morph-zh": "想-ADV+出-THM"
               },
               {
                 "word": "む",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "会",
+                "gloss-morph-zh": "+CJT-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "今天，让人带来便当盒的那个人，那个人的名字是什么来着？我很快会想起来的。"
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CAU",
+            "grammatical_function_en": "causative",
+            "grammatical_function_ja": "使役",
+            "grammatical_function_zh": "使役"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CJT",
+            "grammatical_function_en": "conjectural",
+            "grammatical_function_ja": "推量",
+            "grammatical_function_zh": "推量"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "EXE",
+            "grammatical_function_en": "exemplificative",
+            "grammatical_function_ja": "例示",
+            "grammatical_function_zh": "举例"
+          },
+          {
+            "gloss": "FOC",
+            "grammatical_function_en": "definite focus",
+            "grammatical_function_ja": "確定焦点",
+            "grammatical_function_zh": "确定焦点"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          },
+          {
+            "gloss": "XML",
+            "grammatical_function_en": null,
+            "grammatical_function_ja": null,
+            "grammatical_function_zh": null
+          }
+        ],
+        "translation-zh-natural": "今天，派人带来便当的那个人，那个人的名字是什么来着？我很快会想起来的。"
       },
       {
         "id": 90,
@@ -14374,87 +15046,172 @@
         "phrase-gloss": [
           {
             "phrase": "この人、",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "这个人",
+            "gloss-morph-zh": "DEM=GEN 人",
             "words": [
               {
                 "word": "この",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "这个",
+                "gloss-morph-zh": "DEM=GEN"
               },
               {
                 "word": "人",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
               }
             ]
           },
           {
             "phrase": "歌よまむとおもふ心",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "想要咏歌的心",
+            "gloss-morph-zh": "诗 歌-THM+CJT-CCL=CMP 想-ADN 心",
             "words": [
               {
                 "word": "歌",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "和歌",
+                "gloss-morph-zh": "和歌"
               },
               {
                 "word": "よま",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "咏歌",
+                "gloss-morph-zh": "咏歌-THM"
               },
               {
                 "word": "む",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "+CJT-CCL"
               },
               {
                 "word": "と",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "おもふ",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "想...的",
+                "gloss-morph-zh": "想-ADN"
               },
               {
                 "word": "心",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "心",
+                "gloss-morph-zh": "心"
               }
             ]
           },
           {
             "phrase": "ありてなりけり。",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "有...的",
+            "gloss-morph-zh": "有-ADV=SEQ=COP-ADV+RET-CCL",
             "words": [
               {
                 "word": "あり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "有",
+                "gloss-morph-zh": "有-ADV"
               },
               {
                 "word": "て",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
               },
               {
                 "word": "なり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "",
+                "gloss-morph-zh": "=COP-ADV"
               },
               {
                 "word": "けり",
-                "gloss-zh": null,
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+RET-CCL"
               }
             ]
           }
         ],
-        "glossary-abbreviations": [],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CJT",
+            "grammatical_function_en": "conjectural",
+            "grammatical_function_ja": "推量",
+            "grammatical_function_zh": "推量"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "RET",
+            "grammatical_function_en": "retrospective",
+            "grammatical_function_ja": "回想",
+            "grammatical_function_zh": "回想"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          }
+        ],
         "translation-zh-natural": "这个人当时有想要咏歌一曲的心情。"
       },
       {
