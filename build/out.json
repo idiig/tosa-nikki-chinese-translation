@@ -5760,7 +5760,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "在之前这种情况持续的时候，生于京都的女孩在这里突然离世了，所以人们这次看到我们的出发准备，什么也说不出来了。"
+        "translation-zh-natural": "在之前这种情况持续的时候，生于京都的女孩在这里突然离世了，所以这次人们看到我们的出发准备，什么也说不出来了。"
       },
       {
         "id": 31,
@@ -8502,7 +8502,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "在说着这些话的时候，船夫没有感受到离别的哀愁，自顾自喝着酒。像是催着快走一般，大声叫道：“要涨潮了。要起风了。”于是，国守决定登船。"
+        "translation-zh-natural": "在说着这些话的时候，船夫没有感受到离别的哀愁，自顾自喝着酒，像是催着快走一般，大声叫道：“要涨潮了。要起风了。”于是，国守决定登船。"
       },
       {
         "id": 44,
@@ -11024,7 +11024,7 @@
             "grammatical_function_zh": "质的名词化辞"
           }
         ],
-        "translation-zh-natural": "（元旦）只能吸着用压制工艺腌渍而成的腌鮎鱼的嘴。"
+        "translation-zh-natural": "我们只能吸着用压制工艺腌渍而成的腌鮎鱼的嘴。"
       },
       {
         "id": 61,
@@ -11557,22 +11557,15 @@
             ]
           },
           {
-            "phrase": "なほ",
-            "gloss-zh": "仍然",
-            "gloss-morph-zh": "仍然",
+            "phrase": "なほ大湊に",
+            "gloss-zh": "仍在大湊",
+            "gloss-morph-zh": "仍 大湊=DAT",
             "words": [
               {
                 "word": "なほ",
                 "gloss-zh": "还是",
                 "gloss-morph-zh": "仍然"
-              }
-            ]
-          },
-          {
-            "phrase": "大湊に",
-            "gloss-zh": "在大湊",
-            "gloss-morph-zh": "大湊=DAT",
-            "words": [
+              },
               {
                 "word": "大湊",
                 "gloss-zh": "大湊",
@@ -12126,7 +12119,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "第四天，因为起风了，无法出航。"
+        "translation-zh-natural": "四日，因为起风了，我们无法出航。"
       },
       {
         "id": 69,
@@ -12602,7 +12595,7 @@
             "grammatical_function_zh": "确定条件"
           }
         ],
-        "translation-zh-natural": "第五天，风浪未平，我们仍停泊在同一处。"
+        "translation-zh-natural": "五日，风浪未平，我们仍停泊在同一处。"
       },
       {
         "id": 73,
@@ -13492,7 +13485,77 @@
         "id": 80,
         "koutei-yamagen": "わかなこに入れて雉など花につけたり（この17字文異本には無）。",
         "translation-zh": "若菜，放在篮中。雉等，配着花。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "わかなこに入れて",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "わかな",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "こ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "入れ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "雉など花につけたり",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "雉",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "など",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "花",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "つけ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "たり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "将若菜放入篮中。把雉之类，配着花装饰。"
       },
@@ -13500,7 +13563,62 @@
         "id": 81,
         "koutei-yamagen": "若菜ぞ、今日をば知らせたる。",
         "translation-zh": "若菜啊，告知着今日。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "若菜ぞ",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "若菜",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ぞ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "今日をば知らせたる。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "今日",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "を",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ば",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "知ら",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "せ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "たる",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "若菜让我才意识到今天是七草节。"
       },
@@ -13508,7 +13626,42 @@
         "id": 82,
         "koutei-yamagen": "歌あり。その歌、",
         "translation-zh": "有歌。那首歌，",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "歌あり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "歌",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "あり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "そのうた、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "その",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "うた",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "有一首歌。这首歌是，"
       },
@@ -13516,7 +13669,128 @@
         "id": 83,
         "koutei-yamagen": "浅茅生の野辺にしあれば、水もなき池に積みつる若菜なりけり。",
         "translation-zh": "因为在茅草生长的/原野/水也没有的/池中摘下的/是若菜。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "淺茅生の",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "淺茅生",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "の",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "野邊にしあれば",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "野邊",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "し",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "あれ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ば",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "水もなき",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "水",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "も",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なき",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "池につみつる",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "池",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "つみ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "つる",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "わかななりけり",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "わかな",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "けり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "这里虽名为“池（ike）”，但这里在茅草生长的原野，所以这个“池”里没有水[，自然没有鲤鱼（koi）与恋情（koi)]。在这个连水也没有的“池（ike）”摘下的只有这些若菜（wakana）、我的名字（wagana）。"
       },
@@ -13524,7 +13798,30 @@
         "id": 84,
         "koutei-yamagen": "いとをかしかし。",
         "translation-zh": "非常风雅。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "いとをかしかし。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "いと",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "をかし",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "かし",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "真是别有一番情趣。"
       },
@@ -13532,7 +13829,67 @@
         "id": 85,
         "koutei-yamagen": "この池といふは所の名なり。",
         "translation-zh": "这个所谓的“池”是地名。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "この池といふは",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "池",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "と",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "いふ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "は",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "所の名なり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "所",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "の",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "名",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "这个所谓的“池”是这个地方的名字。"
       },
@@ -13540,7 +13897,89 @@
         "id": 86,
         "koutei-yamagen": "良き人の男につきて下りて住みけるなり。",
         "translation-zh": "乃是良人随男子下乡住下了。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "よき人の",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "よき",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "人",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "の",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "男につきて下りて",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "男",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "つき",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "下り",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "住みけるなり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "住み",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ける",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "原来是一个才女跟随男子离京下乡，定居在了这里。"
       },
@@ -13548,7 +13987,203 @@
         "id": 87,
         "koutei-yamagen": "この長櫃の物は皆人童までにくれたれば、飽き満ちて舟子どもは腹鼓を打ちて海をさへおどろかして浪たてつべし。",
         "translation-zh": "这长箱中的物品，全部分给了大人和小孩，于是，吃饱后船夫们打着腹鼓，甚至好像惊动大海掀起了波浪。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "この長櫃の物は",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "長櫃",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "の",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "物",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "は",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "皆人童までにくれたれば、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "皆",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "人",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "童",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "まで",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "くれ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "たれ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ば",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "飽き滿ちて",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "飽き",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "滿ち",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "舟子どもは腹鼓をうちて",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "舟子",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ども",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "は",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "腹鼓",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "を",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "うち",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "海をさへおどろかして浪たてつべし。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "海",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "を",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "さへ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "おどろかし",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "浪",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "たて",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "つ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "べし",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "这长箱中的所有物品，都分给了大家老小。吃饱喝足后船夫们打起腹鼓，声音之大甚至惊动了大海，掀起了波浪。"
       },
@@ -13556,7 +14191,64 @@
         "id": 88,
         "koutei-yamagen": "かくて、この間に事多かり。",
         "translation-zh": "此般，在这期间，事多。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "かくて",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "かく",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "この間に",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "間",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "に",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "事おほかり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "事",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "おほかり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "像这样，在这期间，发生了许多事情。"
       },
@@ -13564,7 +14256,114 @@
         "id": 89,
         "koutei-yamagen": "今日、破子持たせて来たる人、その名などぞや、今思ひ出でむ。",
         "translation-zh": "今日派人带来便当盒的人，那个名字什么的，很快会想起来。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "けふわりごもたせてきたる人、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "けふ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "わりご",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "もた",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "せ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "き",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "たる",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "人",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "その名などぞや、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "その",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "名",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "など",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "ぞ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "や",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "今思ひ出でむ。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "今",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "思ひ出",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "で",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "む",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "今天，让人带来便当盒的那个人，那个人的名字是什么来着？我很快会想起来的。"
       },
@@ -13572,7 +14371,89 @@
         "id": 90,
         "koutei-yamagen": "この人、歌よまむと思ふ心ありてなりけり。",
         "translation-zh": "此人有欲咏歌之心。",
-        "phrase-gloss": null,
+        "phrase-gloss": [
+          {
+            "phrase": "この人、",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "人",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "歌よまむとおもふ心",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "歌",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "よま",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "む",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "と",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "おもふ",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "心",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          },
+          {
+            "phrase": "ありてなりけり。",
+            "gloss-zh": null,
+            "gloss-morph-zh": null,
+            "words": [
+              {
+                "word": "あり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "て",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "なり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              },
+              {
+                "word": "けり",
+                "gloss-zh": null,
+                "gloss-morph-zh": null
+              }
+            ]
+          }
+        ],
         "glossary-abbreviations": [],
         "translation-zh-natural": "这个人当时有想要咏歌一曲的心情。"
       },
@@ -15427,22 +16308,15 @@
             ]
           },
           {
-            "phrase": "かしこく",
-            "gloss-zh": "大大地",
-            "gloss-morph-zh": "大-SER",
+            "phrase": "かしこく歎く",
+            "gloss-zh": "大大地叹气",
+            "gloss-morph-zh": "大-SER 叹气-CCL",
             "words": [
               {
                 "word": "かしこく",
                 "gloss-zh": "大大地",
                 "gloss-morph-zh": "大-SER"
-              }
-            ]
-          },
-          {
-            "phrase": "歎く",
-            "gloss-zh": "叹气",
-            "gloss-morph-zh": "叹气-CCL",
-            "words": [
+              },
               {
                 "word": "歎く",
                 "gloss-zh": "叹气",
@@ -15534,9 +16408,9 @@
             ]
           },
           {
-            "phrase": "「日を望めば都遠し」などいふなる事のさまを",
+            "phrase": "「日を望めば都遠し」など",
             "gloss-zh": "日 ACC 望-于是 都城 远 等等 说 是 事 的 样子 ACC",
-            "gloss-morph-zh": "日=ACC 望-INC=XCD 都城 远-CCL=EXE 说-ADN COP-ADN 事=GEN 样子=ACC",
+            "gloss-morph-zh": "日=ACC 望-INC=XCD 都城 远-CCL=EXE",
             "words": [
               {
                 "word": "日",
@@ -15572,7 +16446,14 @@
                 "word": "など",
                 "gloss-zh": "等等",
                 "gloss-morph-zh": "EXE"
-              },
+              }
+            ]
+          },
+          {
+            "phrase": "いふなる事のさまを聞きて",
+            "gloss-zh": "说 是 事 的 样子 ACC 听着",
+            "gloss-morph-zh": "说-ADN COP-ADN 事=GEN 样子=ACC 听-ADV=SEQ",
+            "words": [
               {
                 "word": "いふ",
                 "gloss-zh": "说",
@@ -15602,14 +16483,7 @@
                 "word": "を",
                 "gloss-zh": "ACC",
                 "gloss-morph-zh": "=ACC"
-              }
-            ]
-          },
-          {
-            "phrase": "聞きて",
-            "gloss-zh": "听-着",
-            "gloss-morph-zh": "听-ADV=SEQ",
-            "words": [
+              },
               {
                 "word": "聞き",
                 "gloss-zh": "听",
@@ -17263,9 +18137,9 @@
           },
           {
             "gloss": "CNF",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "confirmative",
+            "grammatical_function_ja": "確認",
+            "grammatical_function_zh": "确认"
           },
           {
             "gloss": "COP",
@@ -30812,9 +31686,9 @@
           },
           {
             "gloss": "CNF",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "confirmative",
+            "grammatical_function_ja": "確認",
+            "grammatical_function_zh": "确认"
           },
           {
             "gloss": "DEM",
@@ -32519,9 +33393,9 @@
           },
           {
             "gloss": "CNF",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "confirmative",
+            "grammatical_function_ja": "確認",
+            "grammatical_function_zh": "确认"
           },
           {
             "gloss": "COP",
