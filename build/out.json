@@ -4258,9 +4258,9 @@
           },
           {
             "gloss": "2SG",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "second person singular",
+            "grammatical_function_ja": "二人称単数",
+            "grammatical_function_zh": "第二人称单数"
           },
           {
             "gloss": "=",
@@ -8024,9 +8024,9 @@
           },
           {
             "gloss": "2SG",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "second person singular",
+            "grammatical_function_ja": "二人称単数",
+            "grammatical_function_zh": "第二人称单数"
           },
           {
             "gloss": "=",
@@ -13708,9 +13708,9 @@
           },
           {
             "gloss": "FAC",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "focused accusativ",
+            "grammatical_function_ja": "焦点対格",
+            "grammatical_function_zh": "焦点宾格"
           },
           {
             "gloss": "FOC",
@@ -19215,9 +19215,9 @@
           },
           {
             "gloss": "CFT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "counterfactual",
+            "grammatical_function_ja": "反実仮想",
+            "grammatical_function_zh": "反事实"
           },
           {
             "gloss": "CON",
@@ -19239,9 +19239,9 @@
           },
           {
             "gloss": "HCD",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "hypothetical conditional",
+            "grammatical_function_ja": "仮定条件",
+            "grammatical_function_zh": "假定条件"
           },
           {
             "gloss": "THM",
@@ -31156,9 +31156,9 @@
           },
           {
             "gloss": "FAC",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "focused accusativ",
+            "grammatical_function_ja": "焦点対格",
+            "grammatical_function_zh": "焦点宾格"
           },
           {
             "gloss": "FOC",
@@ -32636,9 +32636,9 @@
           },
           {
             "gloss": "HUM",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "humble",
+            "grammatical_function_ja": "謙譲",
+            "grammatical_function_zh": "自谦"
           },
           {
             "gloss": "IMP",
@@ -35485,9 +35485,9 @@
           },
           {
             "gloss": "EMO",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "emotional verbalizer",
+            "grammatical_function_ja": "感動的動詞化辞",
+            "grammatical_function_zh": "感情动词化接续辞"
           },
           {
             "gloss": "GEN",
@@ -38013,9 +38013,9 @@
           },
           {
             "gloss": "EMO",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "emotional verbalizer",
+            "grammatical_function_ja": "感動的動詞化辞",
+            "grammatical_function_zh": "感情动词化接续辞"
           },
           {
             "gloss": "MNF",
@@ -40571,9 +40571,9 @@
           },
           {
             "gloss": "CFT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "counterfactual",
+            "grammatical_function_ja": "反実仮想",
+            "grammatical_function_zh": "反事实"
           },
           {
             "gloss": "DAT",
@@ -40589,9 +40589,9 @@
           },
           {
             "gloss": "HCD",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "hypothetical conditional",
+            "grammatical_function_ja": "仮定条件",
+            "grammatical_function_zh": "假定条件"
           },
           {
             "gloss": "NEG",
@@ -41415,9 +41415,9 @@
           },
           {
             "gloss": "2SG",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "second person singular",
+            "grammatical_function_ja": "二人称単数",
+            "grammatical_function_zh": "第二人称单数"
           },
           {
             "gloss": "=",
@@ -43999,9 +43999,9 @@
           },
           {
             "gloss": "HUM",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "humble",
+            "grammatical_function_ja": "謙譲",
+            "grammatical_function_zh": "自谦"
           },
           {
             "gloss": "SEQ",
@@ -44843,9 +44843,9 @@
           },
           {
             "gloss": "FAC",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "focused accusativ",
+            "grammatical_function_ja": "焦点対格",
+            "grammatical_function_zh": "焦点宾格"
           },
           {
             "gloss": "FOC",
@@ -46766,9 +46766,9 @@
           },
           {
             "gloss": "NNE",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "negative necessitive",
+            "grammatical_function_ja": "否定当然",
+            "grammatical_function_zh": "否定当然"
           }
         ],
         "translation-zh-natural": "这并非是必要的。"
@@ -48228,9 +48228,9 @@
           },
           {
             "gloss": "HCC",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "hypothetical concessive",
+            "grammatical_function_ja": "仮定譲歩",
+            "grammatical_function_zh": "假定让步"
           },
           {
             "gloss": "MNF",
@@ -50064,9 +50064,9 @@
           },
           {
             "gloss": "FAC",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "focused accusativ",
+            "grammatical_function_ja": "焦点対格",
+            "grammatical_function_zh": "焦点宾格"
           },
           {
             "gloss": "IFO",
@@ -50518,9 +50518,9 @@
           },
           {
             "gloss": "PCJ",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "past conjectural",
+            "grammatical_function_ja": "過去推量",
+            "grammatical_function_zh": "过去推量"
           },
           {
             "gloss": "RET",
@@ -51361,9 +51361,9 @@
           },
           {
             "gloss": "COM",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "comitative",
+            "grammatical_function_ja": "共格",
+            "grammatical_function_zh": "共格"
           },
           {
             "gloss": "DAT",
@@ -52014,9 +52014,9 @@
           },
           {
             "gloss": "CFT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "counterfactual",
+            "grammatical_function_ja": "反実仮想",
+            "grammatical_function_zh": "反事实"
           },
           {
             "gloss": "DAT",
