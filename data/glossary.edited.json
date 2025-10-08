@@ -78,6 +78,12 @@
     "grammatical_function_zh": "扩展类推"
   },
   {
+    "gloss": "APPR",
+    "grammatical_function_en": "approximation",
+    "grammatical_function_ja": "近似",
+    "grammatical_function_zh": "近似"
+  },
+  {
     "gloss": "ATT",
     "grammatical_function_en": "attainative",
     "grammatical_function_ja": "達成",
@@ -162,6 +168,12 @@
     "grammatical_function_zh": "指示语"
   },
   {
+    "gloss": "DES",
+    "grammatical_function_en": "desiderativ",
+    "grammatical_function_ja": "願望",
+    "grammatical_function_zh": "愿望"
+  },
+  {
     "gloss": "EMO",
     "grammatical_function_en": "emotional verbalizer",
     "grammatical_function_ja": "感動的動詞化辞",
@@ -172,6 +184,12 @@
     "grammatical_function_en": "emphatic",
     "grammatical_function_ja": "強意",
     "grammatical_function_zh": "强调"
+  },
+  {
+    "gloss": "EVD",
+    "grammatical_function_en": "evidential",
+    "grammatical_function_ja": "証拠",
+    "grammatical_function_zh": "证据"
   },
   {
     "gloss": "EXE",
@@ -216,6 +234,12 @@
     "grammatical_function_zh": "传闻证据"
   },
   {
+    "gloss": "HON",
+    "grammatical_function_en": "honorific",
+    "grammatical_function_ja": "尊敬",
+    "grammatical_function_zh": "尊敬"
+  },
+  {
     "gloss": "HUM",
     "grammatical_function_en": "humble",
     "grammatical_function_ja": "謙譲",
@@ -228,16 +252,34 @@
     "grammatical_function_zh": "包容性焦点"
   },
   {
+    "gloss": "IMP",
+    "grammatical_function_en": "imperative",
+    "grammatical_function_ja": "命令形",
+    "grammatical_function_zh": "命令形"
+  },
+  {
     "gloss": "INC",
     "grammatical_function_en": "inconclusive",
     "grammatical_function_ja": "非終止",
     "grammatical_function_zh": "非终止"
   },
   {
+    "gloss": "IND",
+    "grammatical_function_en": "indefinite focus",
+    "grammatical_function_ja": "不定焦点",
+    "grammatical_function_zh": "不定焦点"
+  },
+  {
     "gloss": "INS",
     "grammatical_function_en": "instrumental",
     "grammatical_function_ja": "具格",
     "grammatical_function_zh": "工具格"
+  },
+  {
+    "gloss": "INTJ",
+    "grammatical_function_en": "interjection",
+    "grammatical_function_ja": "間投詞",
+    "grammatical_function_zh": "感叹词"
   },
   {
     "gloss": "ISO",
@@ -300,6 +342,12 @@
     "grammatical_function_zh": "主格"
   },
   {
+    "gloss": "OPT",
+    "grammatical_function_en": "optative",
+    "grammatical_function_ja": "希求",
+    "grammatical_function_zh": "希求"
+  },
+  {
     "gloss": "PAS",
     "grammatical_function_en": "passive",
     "grammatical_function_ja": "受身",
@@ -336,6 +384,12 @@
     "grammatical_function_zh": "过去"
   },
   {
+    "gloss": "PRH",
+    "grammatical_function_en": "prohibitive",
+    "grammatical_function_ja": "禁止",
+    "grammatical_function_zh": "禁止"
+  },
+  {
     "gloss": "PUR",
     "grammatical_function_en": "purposive",
     "grammatical_function_ja": "目的",
@@ -364,6 +418,12 @@
     "grammatical_function_en": "sequential complementizer",
     "grammatical_function_ja": "継起補語表示",
     "grammatical_function_zh": "继起补语表示"
+  },
+  {
+    "gloss": "SCO",
+    "grammatical_function_en": "similitude copula",
+    "grammatical_function_ja": "比況繋辞",
+    "grammatical_function_zh": "类比系词"
   },
   {
     "gloss": "SEQ",
