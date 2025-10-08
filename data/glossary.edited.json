@@ -24,6 +24,12 @@
     "grammatical_function_zh": "第一人称单数"
   },
   {
+    "gloss": "2SG",
+    "grammatical_function_en": "second person singular",
+    "grammatical_function_ja": "二人称単数",
+    "grammatical_function_zh": "第二人称单数"
+  },
+  {
     "gloss": "=",
     "grammatical_function_en": "clitic boundary",
     "grammatical_function_ja": "付属語境界",
@@ -90,6 +96,12 @@
     "grammatical_function_zh": "终止形"
   },
   {
+    "gloss": "CFT",
+    "grammatical_function_en": "counterfactual",
+    "grammatical_function_ja": "反実仮想",
+    "grammatical_function_zh": "反事实"
+  },
+  {
     "gloss": "CJT",
     "grammatical_function_en": "conjectural",
     "grammatical_function_ja": "推量",
@@ -112,6 +124,12 @@
     "grammatical_function_en": "confirmative",
     "grammatical_function_ja": "確認",
     "grammatical_function_zh": "确认"
+  },
+  {
+    "gloss": "COM",
+    "grammatical_function_en": "comitative",
+    "grammatical_function_ja": "共格",
+    "grammatical_function_zh": "共格"
   },
   {
     "gloss": "CON",
@@ -144,6 +162,12 @@
     "grammatical_function_zh": "指示语"
   },
   {
+    "gloss": "EMO",
+    "grammatical_function_en": "emotional verbalizer",
+    "grammatical_function_ja": "感動的動詞化辞",
+    "grammatical_function_zh": "感情动词化接续辞"
+  },
+  {
     "gloss": "EMP",
     "grammatical_function_en": "emphatic",
     "grammatical_function_ja": "強意",
@@ -154,6 +178,12 @@
     "grammatical_function_en": "exemplificative",
     "grammatical_function_ja": "例示",
     "grammatical_function_zh": "举例"
+  },
+  {
+    "gloss": "FAC",
+    "grammatical_function_en": "focused accusativ",
+    "grammatical_function_ja": "焦点対格",
+    "grammatical_function_zh": "焦点宾格"
   },
   {
     "gloss": "FOC",
@@ -168,10 +198,28 @@
     "grammatical_function_zh": "属格"
   },
   {
+    "gloss": "HCC",
+    "grammatical_function_en": "hypothetical concessive",
+    "grammatical_function_ja": "仮定譲歩",
+    "grammatical_function_zh": "假定让步"
+  },
+  {
+    "gloss": "HCD",
+    "grammatical_function_en": "hypothetical conditional",
+    "grammatical_function_ja": "仮定条件",
+    "grammatical_function_zh": "假定条件"
+  },
+  {
     "gloss": "HEV",
     "grammatical_function_en": "hearsay evidential",
     "grammatical_function_ja": "伝聞証拠",
     "grammatical_function_zh": "传闻证据"
+  },
+  {
+    "gloss": "HUM",
+    "grammatical_function_en": "humble",
+    "grammatical_function_ja": "謙譲",
+    "grammatical_function_zh": "自谦"
   },
   {
     "gloss": "IFO",
@@ -240,6 +288,12 @@
     "grammatical_function_zh": "质的名词化辞"
   },
   {
+    "gloss": "NNE",
+    "grammatical_function_en": "negative necessitive",
+    "grammatical_function_ja": "否定当然",
+    "grammatical_function_zh": "否定当然"
+  },
+  {
     "gloss": "NOM",
     "grammatical_function_en": "nominative",
     "grammatical_function_ja": "主格",
@@ -250,6 +304,12 @@
     "grammatical_function_en": "passive",
     "grammatical_function_ja": "受身",
     "grammatical_function_zh": "被动"
+  },
+  {
+    "gloss": "PCJ",
+    "grammatical_function_en": "past conjectural",
+    "grammatical_function_ja": "過去推量",
+    "grammatical_function_zh": "过去推量"
   },
   {
     "gloss": "PLU",
