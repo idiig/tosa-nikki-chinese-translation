@@ -168,18 +168,6 @@
     "grammatical_function_zh": "原因"
   },
   {
-    "gloss": "CTF",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "CTJ",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
     "gloss": "DAT",
     "grammatical_function_en": "dative",
     "grammatical_function_ja": "与格",
@@ -336,12 +324,6 @@
     "grammatical_function_zh": "实现"
   },
   {
-    "gloss": "MPF",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
     "gloss": "NEC",
     "grammatical_function_en": "necessitive",
     "grammatical_function_ja": "当然",
@@ -364,12 +346,6 @@
     "grammatical_function_en": "qualitative nominalizer",
     "grammatical_function_ja": "質的名詞化辞",
     "grammatical_function_zh": "质的名词化辞"
-  },
-  {
-    "gloss": "NMLZ",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   },
   {
     "gloss": "NNE",
@@ -444,18 +420,6 @@
     "grammatical_function_zh": "目的"
   },
   {
-    "gloss": "QT",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "QUOT",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
     "gloss": "REC",
     "grammatical_function_en": "reciprocal",
     "grammatical_function_ja": "相互",
@@ -472,12 +436,6 @@
     "grammatical_function_en": "respectful",
     "grammatical_function_ja": "尊敬",
     "grammatical_function_zh": "尊敬"
-  },
-  {
-    "gloss": "RST",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   },
   {
     "gloss": "SCM",
@@ -562,23 +520,5 @@
     "grammatical_function_en": "exclamative",
     "grammatical_function_ja": "感嘆",
     "grammatical_function_zh": "感叹"
-  },
-  {
-    "gloss": "XML",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "。",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
-  },
-  {
-    "gloss": "－",
-    "grammatical_function_en": null,
-    "grammatical_function_ja": null,
-    "grammatical_function_zh": null
   }
 ]

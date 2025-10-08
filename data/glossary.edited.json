@@ -294,6 +294,12 @@
     "grammatical_function_zh": "反复"
   },
   {
+    "gloss": "LAB",
+    "grammatical_function_en": "laborative",
+    "grammatical_function_ja": "困難",
+    "grammatical_function_zh": "困难"
+  },
+  {
     "gloss": "LOC",
     "grammatical_function_en": "locative",
     "grammatical_function_ja": "所格",

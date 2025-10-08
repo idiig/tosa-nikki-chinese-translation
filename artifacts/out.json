@@ -578,8 +578,8 @@
               },
               {
                 "word": "て",
-                "gloss-zh": "=SEQ",
-                "gloss-morph-zh": null
+                "gloss-zh": "了",
+                "gloss-morph-zh": "=SEQ"
               }
             ]
           },
@@ -1071,9 +1071,9 @@
           },
           {
             "gloss": "LAB",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "laborative",
+            "grammatical_function_ja": "困難",
+            "grammatical_function_zh": "困难"
           },
           {
             "gloss": "MNF",
@@ -6998,9 +6998,9 @@
           },
           {
             "gloss": "LAB",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "laborative",
+            "grammatical_function_ja": "困難",
+            "grammatical_function_zh": "困难"
           },
           {
             "gloss": "NML",
@@ -7430,9 +7430,9 @@
           },
           {
             "gloss": "LAB",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "laborative",
+            "grammatical_function_ja": "困難",
+            "grammatical_function_zh": "困难"
           },
           {
             "gloss": "LOC",
@@ -12766,9 +12766,9 @@
           },
           {
             "gloss": "SCO",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "similitude copula",
+            "grammatical_function_ja": "比況繋辞",
+            "grammatical_function_zh": "类比系词"
           }
         ],
         "translation-zh-natural": "六日，和昨天一样。"
@@ -14887,7 +14887,7 @@
           {
             "phrase": "その名などぞや、",
             "gloss-zh": "那个名字什么的",
-            "gloss-morph-zh": "那个=GEN 名字=EXE=FOC=XML",
+            "gloss-morph-zh": "那个=GEN 名字=EXE=FOC=XCL",
             "words": [
               {
                 "word": "その",
@@ -14912,7 +14912,7 @@
               {
                 "word": "や",
                 "gloss-zh": "呢",
-                "gloss-morph-zh": "=XML"
+                "gloss-morph-zh": "=XCL"
               }
             ]
           },
@@ -15031,10 +15031,10 @@
             "grammatical_function_zh": "词干元音"
           },
           {
-            "gloss": "XML",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "gloss": "XCL",
+            "grammatical_function_en": "exclamative",
+            "grammatical_function_ja": "感嘆",
+            "grammatical_function_zh": "感叹"
           }
         ],
         "translation-zh-natural": "今天，派人带来便当的那个人，那个人的名字是什么来着？我很快会想起来的。"
@@ -17480,7 +17480,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -18807,7 +18807,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -18918,9 +18918,9 @@
           },
           {
             "gloss": "OPT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "optative",
+            "grammatical_function_ja": "希求",
+            "grammatical_function_zh": "希求"
           },
           {
             "gloss": "SEQ",
@@ -20022,7 +20022,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -20112,9 +20112,9 @@
           },
           {
             "gloss": "IND",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "indefinite focus",
+            "grammatical_function_ja": "不定焦点",
+            "grammatical_function_zh": "不定焦点"
           },
           {
             "gloss": "RET",
@@ -20159,7 +20159,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -20440,11 +20440,11 @@
           {
             "phrase": "といひてよめる歌、",
             "gloss-zh": "QUOT 说-着 咏-了-的 歌",
-            "gloss-morph-zh": "QT 说-ADV=SEQ 咏-INC+STA-ADN 歌",
+            "gloss-morph-zh": "=CMP 说-ADV=SEQ 咏-INC+STA-ADN 歌",
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -20538,9 +20538,9 @@
           },
           {
             "gloss": "EVD",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "evidential",
+            "grammatical_function_ja": "証拠",
+            "grammatical_function_zh": "证据"
           },
           {
             "gloss": "FOC",
@@ -20571,12 +20571,6 @@
             "grammatical_function_en": "past",
             "grammatical_function_ja": "過去",
             "grammatical_function_zh": "过去"
-          },
-          {
-            "gloss": "QT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           },
           {
             "gloss": "RET",
@@ -20730,7 +20724,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -20992,7 +20986,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -21134,9 +21128,9 @@
           },
           {
             "gloss": "APPR",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "approximation",
+            "grammatical_function_ja": "近似",
+            "grammatical_function_zh": "近似"
           },
           {
             "gloss": "CCL",
@@ -21502,7 +21496,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -21544,7 +21538,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -21609,9 +21603,9 @@
           },
           {
             "gloss": "APPR",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "approximation",
+            "grammatical_function_ja": "近似",
+            "grammatical_function_zh": "近似"
           },
           {
             "gloss": "CCL",
@@ -21675,7 +21669,7 @@
           },
           {
             "phrase": "和泉の灘といふ所に至りぬ",
-            "gloss-zh": "和泉 的 海岸 QUOT 叫－的 地方 于 抵达-了",
+            "gloss-zh": "和泉 的 海岸 QUOT 叫-的 地方 于 抵达-了",
             "gloss-morph-zh": "和泉=GEN+海岸=CMP 叫-ADN 地方=DAT 抵达-ADV=MNF-CCL",
             "words": [
               {
@@ -21695,7 +21689,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -22619,7 +22613,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -22713,9 +22707,9 @@
           },
           {
             "gloss": "APPR",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "approximation",
+            "grammatical_function_ja": "近似",
+            "grammatical_function_zh": "近似"
           },
           {
             "gloss": "CCL",
@@ -22797,7 +22791,7 @@
           },
           {
             "phrase": "昨日の如く",
-            "gloss-zh": "昨日 之 如同－般",
+            "gloss-zh": "昨日 之 如同-般",
             "gloss-morph-zh": "昨日=GEN=SCO",
             "words": [
               {
@@ -22812,7 +22806,7 @@
               },
               {
                 "word": "如く",
-                "gloss-zh": "如同－般",
+                "gloss-zh": "如同...般",
                 "gloss-morph-zh": "=SCO.SER"
               }
             ]
@@ -22885,9 +22879,9 @@
           },
           {
             "gloss": "SCO",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "similitude copula",
+            "grammatical_function_ja": "比況繋辞",
+            "grammatical_function_zh": "类比系词"
           },
           {
             "gloss": "SER",
@@ -23071,7 +23065,7 @@
           },
           {
             "phrase": "磯の浪は雪の如くに、",
-            "gloss-zh": "海岸 之 浪 是 雪 之 如同－般 地",
+            "gloss-zh": "海岸 之 浪 是 雪 之 如同...般 地",
             "gloss-morph-zh": "海岸=GEN 浪=TOP 雪=GEN SCO.SER=SER?",
             "words": [
               {
@@ -23106,7 +23100,7 @@
               },
               {
                 "word": "如く",
-                "gloss-zh": "如同－般",
+                "gloss-zh": "如同...般",
                 "gloss-morph-zh": "SCO.SER"
               },
               {
@@ -23266,9 +23260,9 @@
           },
           {
             "gloss": "SCO",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "similitude copula",
+            "grammatical_function_ja": "比況繋辞",
+            "grammatical_function_zh": "类比系词"
           },
           {
             "gloss": "SEQ",
@@ -23353,7 +23347,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -23577,7 +23571,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
@@ -23666,9 +23660,9 @@
           },
           {
             "gloss": "IND",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "indefinite focus",
+            "grammatical_function_ja": "不定焦点",
+            "grammatical_function_zh": "不定焦点"
           },
           {
             "gloss": "NEG",
@@ -23773,7 +23767,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -23977,9 +23971,9 @@
           },
           {
             "gloss": "INTJ",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "interjection",
+            "grammatical_function_ja": "間投詞",
+            "grammatical_function_zh": "感叹词"
           },
           {
             "gloss": "MNF",
@@ -24322,7 +24316,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
@@ -24481,7 +24475,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -25812,7 +25806,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -26678,9 +26672,9 @@
           },
           {
             "gloss": "DES",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "desiderativ",
+            "grammatical_function_ja": "願望",
+            "grammatical_function_zh": "愿望"
           },
           {
             "gloss": "GEN",
@@ -27036,7 +27030,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -27158,7 +27152,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -27455,7 +27449,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
@@ -27656,7 +27650,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -28058,7 +28052,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -29033,9 +29027,9 @@
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "INC",
@@ -29159,7 +29153,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -29227,9 +29221,9 @@
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "NEG",
@@ -29502,7 +29496,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -29918,7 +29912,7 @@
           {
             "phrase": "浪なたちそと",
             "gloss-zh": "波 不要 起  QUOT",
-            "gloss-morph-zh": "波 PRH+起-ADV+PRH QUOT",
+            "gloss-morph-zh": "波 PRH+起-ADV+PRH=CMP",
             "words": [
               {
                 "word": "浪",
@@ -29942,7 +29936,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
@@ -30075,15 +30069,9 @@
           },
           {
             "gloss": "PRH",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
-          },
-          {
-            "gloss": "QUOT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "prohibitive",
+            "grammatical_function_ja": "禁止",
+            "grammatical_function_zh": "禁止"
           },
           {
             "gloss": "SEQ",
@@ -30415,7 +30403,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -30472,7 +30460,7 @@
           {
             "phrase": "なみと見ゆらむ",
             "gloss-zh": "浪 QUOT 看起来 像",
-            "gloss-morph-zh": "浪=QT 看起来-CCL=CJT",
+            "gloss-morph-zh": "浪=CMP 看起来-CCL=CJT",
             "words": [
               {
                 "word": "なみ",
@@ -30481,7 +30469,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -30559,12 +30547,6 @@
             "grammatical_function_zh": "让步"
           },
           {
-            "gloss": "QT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
-          },
-          {
             "gloss": "SER",
             "grammatical_function_en": "serial",
             "grammatical_function_ja": "連続",
@@ -30585,7 +30567,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -30634,7 +30616,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -31083,7 +31065,7 @@
               {
                 "word": "に",
                 "gloss-zh": "了",
-                "gloss-morph-zh": "+MPF-CCL"
+                "gloss-morph-zh": "+MNF-CCL"
               },
               {
                 "word": "けり",
@@ -31177,12 +31159,6 @@
             "grammatical_function_en": "manifestive",
             "grammatical_function_ja": "実現",
             "grammatical_function_zh": "实现"
-          },
-          {
-            "gloss": "MPF",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           },
           {
             "gloss": "SEQ",
@@ -31492,7 +31468,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               }
             ]
@@ -31576,9 +31552,9 @@
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "NEC",
@@ -31631,7 +31607,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -31691,7 +31667,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -31766,7 +31742,7 @@
               {
                 "word": "戀ふる",
                 "gloss-zh": "怀念-的",
-                "gloss-morph-zh": "怀念－ADN"
+                "gloss-morph-zh": "怀念-ADN"
               },
               {
                 "word": "力",
@@ -31790,13 +31766,13 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
                 "word": "なる",
-                "gloss-zh": "是",
-                "gloss-morph-zh": "是-CCL"
+                "gloss-zh": "",
+                "gloss-morph-zh": "变-CCL"
               },
               {
                 "word": "べし",
@@ -31887,9 +31863,9 @@
           },
           {
             "gloss": "OPT",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "optative",
+            "grammatical_function_ja": "希求",
+            "grammatical_function_zh": "希求"
           },
           {
             "gloss": "SEQ",
@@ -31914,12 +31890,6 @@
             "grammatical_function_en": "topic",
             "grammatical_function_ja": "主題",
             "grammatical_function_zh": "主题"
-          },
-          {
-            "gloss": "－",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           }
         ],
         "translation-zh-natural": "并非是想着要忘记，而应该是想稍微宽解寂寞的心情，再把它作为怀念的动力。"
@@ -32366,7 +32336,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -32530,7 +32500,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -32630,9 +32600,9 @@
           },
           {
             "gloss": "HON",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "honorific",
+            "grammatical_function_ja": "尊敬",
+            "grammatical_function_zh": "尊敬"
           },
           {
             "gloss": "HUM",
@@ -32642,9 +32612,9 @@
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "NL",
@@ -32830,7 +32800,7 @@
               {
                 "word": "御心",
                 "gloss-zh": "心意",
-                "gloss-morph-zh": "RST+心"
+                "gloss-morph-zh": "RSP+心"
               },
               {
                 "word": "の",
@@ -32943,9 +32913,9 @@
           },
           {
             "gloss": "HON",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "honorific",
+            "grammatical_function_ja": "尊敬",
+            "grammatical_function_zh": "尊敬"
           },
           {
             "gloss": "IFO",
@@ -32976,12 +32946,6 @@
             "grammatical_function_en": "respectful",
             "grammatical_function_ja": "尊敬",
             "grammatical_function_zh": "尊敬"
-          },
-          {
-            "gloss": "RST",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           },
           {
             "gloss": "SEQ",
@@ -33044,7 +33008,7 @@
               },
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -33093,7 +33057,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -33155,15 +33119,15 @@
           },
           {
             "gloss": "HON",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "honorific",
+            "grammatical_function_ja": "尊敬",
+            "grammatical_function_zh": "尊敬"
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "NEC",
@@ -33246,12 +33210,12 @@
           },
           {
             "phrase": "とて",
-            "gloss-zh": null,
-            "gloss-morph-zh": null,
+            "gloss-zh": "于是",
+            "gloss-morph-zh": "=SCM",
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -33363,15 +33327,21 @@
           },
           {
             "gloss": "IMP",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "imperative",
+            "grammatical_function_ja": "命令形",
+            "grammatical_function_zh": "命令形"
           },
           {
             "gloss": "NL",
             "grammatical_function_en": "nominal",
             "grammatical_function_ja": "連体形準体",
             "grammatical_function_zh": "连体形准体"
+          },
+          {
+            "gloss": "SCM",
+            "grammatical_function_en": "sequential complementizer",
+            "grammatical_function_ja": "継起補語表示",
+            "grammatical_function_zh": "继起补语表示"
           },
           {
             "gloss": "SEQ",
@@ -33443,7 +33413,7 @@
             "words": [
               {
                 "word": "と",
-                "gloss-zh": "QUOT",
+                "gloss-zh": "",
                 "gloss-morph-zh": "=CMP"
               },
               {
@@ -33578,9 +33548,9 @@
           },
           {
             "gloss": "HON",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "grammatical_function_en": "honorific",
+            "grammatical_function_ja": "尊敬",
+            "grammatical_function_zh": "尊敬"
           },
           {
             "gloss": "INC",
@@ -34765,7 +34735,7 @@
           {
             "phrase": "喜ぶこと二つなし",
             "gloss-zh": "欢喜无双",
-            "gloss-morph-zh": null,
+            "gloss-morph-zh": "欢喜-ADN=NML 二 NEG.CCL",
             "words": [
               {
                 "word": "喜ぶ",
@@ -34775,7 +34745,7 @@
               {
                 "word": "こと",
                 "gloss-zh": "事",
-                "gloss-morph-zh": "=NMLZ"
+                "gloss-morph-zh": "=NML"
               },
               {
                 "word": "二つ",
@@ -34852,10 +34822,10 @@
             "grammatical_function_zh": "否定"
           },
           {
-            "gloss": "NMLZ",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
+            "gloss": "NML",
+            "grammatical_function_en": "qualitative nominalizer",
+            "grammatical_function_ja": "質的名詞化辞",
+            "grammatical_function_zh": "质的名词化辞"
           },
           {
             "gloss": "SEQ",
@@ -34961,7 +34931,7 @@
               {
                 "word": "喜び",
                 "gloss-zh": "为...高兴",
-                "gloss-morph-zh": "为..。高兴-ADV"
+                "gloss-morph-zh": "为...高兴-ADV"
               },
               {
                 "word": "て",
@@ -35155,12 +35125,6 @@
             "grammatical_function_en": "topic",
             "grammatical_function_ja": "主題",
             "grammatical_function_zh": "主题"
-          },
-          {
-            "gloss": "。",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           }
         ],
         "translation-zh-natural": "那位晕船的淡路岛老妇，听说京都近了，高兴地从船底抬起头来，说道。"
@@ -37865,7 +37829,7 @@
               {
                 "word": "まし",
                 "gloss-zh": "就好了",
-                "gloss-morph-zh": "+CTF.ADN"
+                "gloss-morph-zh": "+CFT.ADN"
               },
               {
                 "word": "ものを",
@@ -37988,6 +37952,12 @@
             "grammatical_function_zh": "终止形"
           },
           {
+            "gloss": "CFT",
+            "grammatical_function_en": "counterfactual",
+            "grammatical_function_ja": "反実仮想",
+            "grammatical_function_zh": "反事实"
+          },
+          {
             "gloss": "CMP",
             "grammatical_function_en": "complementizer",
             "grammatical_function_ja": "補語表示",
@@ -37998,12 +37968,6 @@
             "grammatical_function_en": "concessive",
             "grammatical_function_ja": "譲歩",
             "grammatical_function_zh": "让步"
-          },
-          {
-            "gloss": "CTF",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           },
           {
             "gloss": "DAT",
@@ -39800,7 +39764,7 @@
               {
                 "word": "なり",
                 "gloss-zh": "是",
-                "gloss-morph-zh": "COP－CCL"
+                "gloss-morph-zh": "COP-CCL"
               }
             ]
           }
@@ -39895,12 +39859,6 @@
             "grammatical_function_en": "fixed conditional",
             "grammatical_function_ja": "確定条件",
             "grammatical_function_zh": "确定条件"
-          },
-          {
-            "gloss": "－",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           }
         ],
         "translation-zh-natural": "那个宅邸，回想着过去再看的话，真是个别有风情的地方。"
@@ -42796,7 +42754,7 @@
               {
                 "word": "む",
                 "gloss-zh": "会",
-                "gloss-morph-zh": "+CTJ-CCL"
+                "gloss-morph-zh": "+CJT-CCL"
               }
             ]
           }
@@ -42839,16 +42797,16 @@
             "grammatical_function_zh": "终止形"
           },
           {
+            "gloss": "CJT",
+            "grammatical_function_en": "conjectural",
+            "grammatical_function_ja": "推量",
+            "grammatical_function_zh": "推量"
+          },
+          {
             "gloss": "COP",
             "grammatical_function_en": "copula",
             "grammatical_function_ja": "繋辞",
             "grammatical_function_zh": "系词"
-          },
-          {
-            "gloss": "CTJ",
-            "grammatical_function_en": null,
-            "grammatical_function_ja": null,
-            "grammatical_function_zh": null
           },
           {
             "gloss": "DEM",
