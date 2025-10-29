@@ -17144,51 +17144,918 @@
       },
       {
         "id": 104,
-        "koutei-yamagen": "「またまからずとて立ちぬる人を待ちて詠まむ」とて求めけるを、夜更けぬとにやありけむ、やがていにけり。",
+        "koutei-yamagen": "「まからずとて立ちぬる人を待ちて詠まむ」とて求めけるを、夜更けぬとにやありけむ、やがていにけり。",
         "translation-zh": "说着“等说‘还不回去’站起来的人（来后）再吟咏。”去找（那个人），但由于夜已深吧，就这样已经离开了。",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "小孩说着“等说‘还不回去’站起来的人回来后再吟咏。”去找那个人，但也许是因为夜已深的缘故吧，那个人最后就这样已经离开了。"
+        "phrase-gloss": [
+          {
+            "phrase": "まからずとて立ちぬる人を待ちて詠まむとて求めけるを、",
+            "gloss-zh": "“等那个说‘还不回去’站了起来的人回来再咏吧。”这么说着去找，但...",
+            "gloss-morph-zh": "离开-THM=NEG.CCL=SCM 站-ADV+MNF-ADN 人=ACC 等-ADV=SEQ 咏-THM+CJT-CCL=SCM 寻找-ADV+RET-ADN.NL=CON",
+            "words": [
+              {
+                "word": "まから",
+                "gloss-zh": "回去",
+                "gloss-morph-zh": "离开-THM"
+              },
+              {
+                "word": "ず",
+                "gloss-zh": "没",
+                "gloss-morph-zh": "=NEG.CCL"
+              },
+              {
+                "word": "と",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "立ち",
+                "gloss-zh": "站",
+                "gloss-morph-zh": "站-ADV"
+              },
+              {
+                "word": "ぬる",
+                "gloss-zh": "起来的",
+                "gloss-morph-zh": "+MNF-ADN"
+              },
+              {
+                "word": "人",
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
+              },
+              {
+                "word": "を",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=ACC"
+              },
+              {
+                "word": "待ち",
+                "gloss-zh": "等",
+                "gloss-morph-zh": "等-ADV"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "詠ま",
+                "gloss-zh": "咏",
+                "gloss-morph-zh": "咏-THM"
+              },
+              {
+                "word": "む",
+                "gloss-zh": "吧",
+                "gloss-morph-zh": "+CJT-CCL"
+              },
+              {
+                "word": "と",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "求め",
+                "gloss-zh": "找",
+                "gloss-morph-zh": "寻找-ADV"
+              },
+              {
+                "word": "ける",
+                "gloss-zh": "",
+                "gloss-morph-zh": "+RET-ADN.NL"
+              },
+              {
+                "word": "を",
+                "gloss-zh": "但",
+                "gloss-morph-zh": "=CON"
+              }
+            ]
+          },
+          {
+            "phrase": "夜更けぬとにやありけむ、やがていにけり。",
+            "gloss-zh": "因为是想着夜已深了吧，（那个人）早就走了。",
+            "gloss-morph-zh": "夜 晚-ADV+MNF-CCL=CMP=DAT=XCL=COP-ADV+RET.CJT-CCL 最后 离开-ADV+RET-CCL",
+            "words": [
+              {
+                "word": "夜",
+                "gloss-zh": "夜",
+                "gloss-morph-zh": "夜"
+              },
+              {
+                "word": "更け",
+                "gloss-zh": "深",
+                "gloss-morph-zh": "晚-ADV"
+              },
+              {
+                "word": "ぬ",
+                "gloss-zh": "",
+                "gloss-morph-zh": "+MNF-CCL"
+              },
+              {
+                "word": "と",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
+              },
+              {
+                "word": "に",
+                "gloss-zh": "因为",
+                "gloss-morph-zh": "=DAT"
+              },
+              {
+                "word": "や",
+                "gloss-zh": "吗",
+                "gloss-morph-zh": "=XCL"
+              },
+              {
+                "word": "あり",
+                "gloss-zh": "是",
+                "gloss-morph-zh": "=COP-ADV"
+              },
+              {
+                "word": "けむ",
+                "gloss-zh": "了吧",
+                "gloss-morph-zh": "+RET.CJT-CCL"
+              },
+              {
+                "word": "やがて",
+                "gloss-zh": "早就",
+                "gloss-morph-zh": "最后"
+              },
+              {
+                "word": "いに",
+                "gloss-zh": "走",
+                "gloss-morph-zh": "离开-ADV"
+              },
+              {
+                "word": "けり",
+                "gloss-zh": "了",
+                "gloss-morph-zh": "+RET-CCL"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ACC",
+            "grammatical_function_en": "accusative",
+            "grammatical_function_ja": "対格",
+            "grammatical_function_zh": "宾格"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CJT",
+            "grammatical_function_en": "conjectural",
+            "grammatical_function_ja": "推量",
+            "grammatical_function_zh": "推量"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "CON",
+            "grammatical_function_en": "concessive",
+            "grammatical_function_ja": "譲歩",
+            "grammatical_function_zh": "让步"
+          },
+          {
+            "gloss": "COP",
+            "grammatical_function_en": "copula",
+            "grammatical_function_ja": "繋辞",
+            "grammatical_function_zh": "系词"
+          },
+          {
+            "gloss": "DAT",
+            "grammatical_function_en": "dative",
+            "grammatical_function_ja": "与格",
+            "grammatical_function_zh": "与格"
+          },
+          {
+            "gloss": "MNF",
+            "grammatical_function_en": "manifestive",
+            "grammatical_function_ja": "実現",
+            "grammatical_function_zh": "实现"
+          },
+          {
+            "gloss": "NEG",
+            "grammatical_function_en": "negative",
+            "grammatical_function_ja": "否定",
+            "grammatical_function_zh": "否定"
+          },
+          {
+            "gloss": "NL",
+            "grammatical_function_en": "nominal",
+            "grammatical_function_ja": "連体形準体",
+            "grammatical_function_zh": "连体形准体"
+          },
+          {
+            "gloss": "RET",
+            "grammatical_function_en": "retrospective",
+            "grammatical_function_ja": "回想",
+            "grammatical_function_zh": "回想"
+          },
+          {
+            "gloss": "SCM",
+            "grammatical_function_en": "sequential complementizer",
+            "grammatical_function_ja": "継起補語表示",
+            "grammatical_function_zh": "继起补语表示"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          },
+          {
+            "gloss": "XCL",
+            "grammatical_function_en": "exclamative",
+            "grammatical_function_ja": "感嘆",
+            "grammatical_function_zh": "感叹"
+          }
+        ],
+        "translation-zh-natural": "“等那个说‘还不回去’站起来的人回来后再让我咏吧。”小孩说这么说道，去找那个人。但也许是因为觉得夜已深的缘故吧，那个人原来早已离开了。"
       },
       {
         "id": 105,
         "koutei-yamagen": "「そもそもいかが詠んだる」と言ふかしがりて問ふ。",
-        "translation-zh": "疑惑着问道：“结果怎么吟咏的？”",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "大家好奇地问：“结果你打算怎么吟咏？”"
+        "translation-zh": "疑惑着问道：“本来如何咏的？”",
+        "phrase-gloss": [
+          {
+            "phrase": "そもそもいかが詠んだると",
+            "gloss-zh": "你本打算咏什么呢",
+            "gloss-morph-zh": "本来 如何 咏.ADV+STA-ADN=CMP",
+            "words": [
+              {
+                "word": "そもそも",
+                "gloss-zh": "本来",
+                "gloss-morph-zh": "本来"
+              },
+              {
+                "word": "いかが",
+                "gloss-zh": "如何",
+                "gloss-morph-zh": "如何"
+              },
+              {
+                "word": "詠ん",
+                "gloss-zh": "咏",
+                "gloss-morph-zh": "咏.ADV"
+              },
+              {
+                "word": "だる",
+                "gloss-zh": "",
+                "gloss-morph-zh": ""
+              },
+              {
+                "word": "と",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
+              }
+            ]
+          },
+          {
+            "phrase": "いぶかしがりて問ふ。",
+            "gloss-zh": "疑惑地问",
+            "gloss-morph-zh": "令人疑惑的-EMO-ADV=SEQ 问-CCL",
+            "words": [
+              {
+                "word": "いぶかしがり",
+                "gloss-zh": "疑惑",
+                "gloss-morph-zh": "令人疑惑的-EMO-ADV"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "着",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "問ふ",
+                "gloss-zh": "问",
+                "gloss-morph-zh": "问-CCL"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "EMO",
+            "grammatical_function_en": "emotional verbalizer",
+            "grammatical_function_ja": "感動的動詞化辞",
+            "grammatical_function_zh": "感情动词化接续辞"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          }
+        ],
+        "translation-zh-natural": "大家好奇地问他：“你本来打算咏什么？”"
       },
       {
         "id": 106,
         "koutei-yamagen": "この童、さすがに恥ぢていはず。",
         "translation-zh": "这个孩子，果然害羞没说。",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
+        "phrase-gloss": [
+          {
+            "phrase": "この童、",
+            "gloss-zh": "这个孩子",
+            "gloss-morph-zh": "DEM=GEN 孩子",
+            "words": [
+              {
+                "word": "この",
+                "gloss-zh": "这个",
+                "gloss-morph-zh": "DEM=GEN"
+              },
+              {
+                "word": "童",
+                "gloss-zh": "孩子",
+                "gloss-morph-zh": "孩子"
+              }
+            ]
+          },
+          {
+            "phrase": "さすがに恥ぢていはず。",
+            "gloss-zh": "果然害羞没说",
+            "gloss-morph-zh": "果然=SER 害羞-ADV=SEQ 说-THM=NEG.CCL",
+            "words": [
+              {
+                "word": "さすがに",
+                "gloss-zh": "果然",
+                "gloss-morph-zh": "果然=SER"
+              },
+              {
+                "word": "恥ぢ",
+                "gloss-zh": "害羞",
+                "gloss-morph-zh": "害羞-ADV"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "着",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "いは",
+                "gloss-zh": "说",
+                "gloss-morph-zh": "说-THM"
+              },
+              {
+                "word": "ず",
+                "gloss-zh": "没",
+                "gloss-morph-zh": "=NEG.CCL"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "CCL",
+            "grammatical_function_en": "conclusive",
+            "grammatical_function_ja": "終止形",
+            "grammatical_function_zh": "终止形"
+          },
+          {
+            "gloss": "DEM",
+            "grammatical_function_en": "demonstrative",
+            "grammatical_function_ja": "指示語",
+            "grammatical_function_zh": "指示语"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "NEG",
+            "grammatical_function_en": "negative",
+            "grammatical_function_ja": "否定",
+            "grammatical_function_zh": "否定"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "SER",
+            "grammatical_function_en": "serial",
+            "grammatical_function_ja": "連続",
+            "grammatical_function_zh": "连续"
+          },
+          {
+            "gloss": "THM",
+            "grammatical_function_en": "thematic vowel",
+            "grammatical_function_ja": "語幹母音",
+            "grammatical_function_zh": "词干元音"
+          }
+        ],
         "translation-zh-natural": "这个孩子果然害羞没说。"
       },
       {
         "id": 107,
         "koutei-yamagen": "強ひて問へば、いへる歌、",
-        "translation-zh": "被强迫问时，说出的和歌，",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "被强迫问时，终于说出的和歌是，"
+        "translation-zh": "追着问后咏的和歌，",
+        "phrase-gloss": [
+          {
+            "phrase": "強ひて問へば、",
+            "gloss-zh": "硬要问，结果",
+            "gloss-morph-zh": "强迫-ADV=SEQ 问-INC=XCD",
+            "words": [
+              {
+                "word": "強ひ",
+                "gloss-zh": "硬要",
+                "gloss-morph-zh": "强迫-ADV"
+              },
+              {
+                "word": "て",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=SEQ"
+              },
+              {
+                "word": "問へ",
+                "gloss-zh": "问",
+                "gloss-morph-zh": "问-INC"
+              },
+              {
+                "word": "ば",
+                "gloss-zh": "结果",
+                "gloss-morph-zh": "=XCD"
+              }
+            ]
+          },
+          {
+            "phrase": "いへる歌、",
+            "gloss-zh": "咏的和歌",
+            "gloss-morph-zh": "说-INC+STA-ADN 和歌",
+            "words": [
+              {
+                "word": "いへ",
+                "gloss-zh": "咏",
+                "gloss-morph-zh": "说-INC"
+              },
+              {
+                "word": "る",
+                "gloss-zh": "的",
+                "gloss-morph-zh": "+STA-ADN"
+              },
+              {
+                "word": "歌",
+                "gloss-zh": "和歌",
+                "gloss-morph-zh": "和歌"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "SEQ",
+            "grammatical_function_en": "sequential",
+            "grammatical_function_ja": "継起",
+            "grammatical_function_zh": "继起"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          },
+          {
+            "gloss": "XCD",
+            "grammatical_function_en": "fixed conditional",
+            "grammatical_function_ja": "確定条件",
+            "grammatical_function_zh": "确定条件"
+          }
+        ],
+        "translation-zh-natural": "大家硬要问他，他总算咏了这首和歌："
       },
       {
         "id": 108,
-        "koutei-yamagen": "行く人も止まるも袖の涙川、水際のみこそ濡れまさりけれ",
+        "koutei-yamagen": "行く人も/止まるも袖の/涙川/水際のみこそ/濡れまさりけれ",
         "translation-zh": "去者也/留者也/袖子的泪河/只是近水处/更沾湿",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "无论是离去的人还是停留的人，袖子上的泪水流淌如河水，只有岸边濡染更胜一筹。"
+        "phrase-gloss": [
+          {
+            "phrase": "ゆく人もとまるも袖の涙川",
+            "gloss-zh": "去者和留者都，袖子（湿成）泪河",
+            "gloss-morph-zh": "去-ADN 人=IFO 留-ADN.NL=IFO 袖子=GEN 泪+河",
+            "words": [
+              {
+                "word": "ゆく",
+                "gloss-zh": "去的",
+                "gloss-morph-zh": "去-ADN"
+              },
+              {
+                "word": "人",
+                "gloss-zh": "人",
+                "gloss-morph-zh": "人"
+              },
+              {
+                "word": "も",
+                "gloss-zh": "也",
+                "gloss-morph-zh": "=IFO"
+              },
+              {
+                "word": "とまる",
+                "gloss-zh": "留的",
+                "gloss-morph-zh": "留-ADN.NL"
+              },
+              {
+                "word": "も",
+                "gloss-zh": "也",
+                "gloss-morph-zh": "=IFO"
+              },
+              {
+                "word": "袖",
+                "gloss-zh": "袖子",
+                "gloss-morph-zh": "袖"
+              },
+              {
+                "word": "の",
+                "gloss-zh": "的",
+                "gloss-morph-zh": "=GEN"
+              },
+              {
+                "word": "涙川",
+                "gloss-zh": "泪河",
+                "gloss-morph-zh": "泪+河"
+              }
+            ]
+          },
+          {
+            "phrase": "水際のみこそ濡れまさりけれ",
+            "gloss-zh": "正如水边，变得越来越湿",
+            "gloss-morph-zh": "水边=ISO=EMP 湿-ADV 增加-ADV+RET-INC",
+            "words": [
+              {
+                "word": "水際",
+                "gloss-zh": "水边",
+                "gloss-morph-zh": "水边"
+              },
+              {
+                "word": "のみ",
+                "gloss-zh": "只有",
+                "gloss-morph-zh": "只有"
+              },
+              {
+                "word": "こそ",
+                "gloss-zh": "才",
+                "gloss-morph-zh": "=EMP"
+              },
+              {
+                "word": "濡れ",
+                "gloss-zh": "湿",
+                "gloss-morph-zh": "湿-ADV"
+              },
+              {
+                "word": "まさり",
+                "gloss-zh": "越来越",
+                "gloss-morph-zh": "增加-ADV"
+              },
+              {
+                "word": "けれ",
+                "gloss-zh": "",
+                "gloss-morph-zh": "+RET-INC"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": ".",
+            "grammatical_function_en": "explicition",
+            "grammatical_function_ja": "明示",
+            "grammatical_function_zh": "明示"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "ADV",
+            "grammatical_function_en": "adverbial",
+            "grammatical_function_ja": "連用形",
+            "grammatical_function_zh": "连用形"
+          },
+          {
+            "gloss": "EMP",
+            "grammatical_function_en": "emphatic",
+            "grammatical_function_ja": "強意",
+            "grammatical_function_zh": "强调"
+          },
+          {
+            "gloss": "GEN",
+            "grammatical_function_en": "genitive",
+            "grammatical_function_ja": "属格",
+            "grammatical_function_zh": "属格"
+          },
+          {
+            "gloss": "IFO",
+            "grammatical_function_en": "inclusive focus",
+            "grammatical_function_ja": "包括的焦点",
+            "grammatical_function_zh": "包容性焦点"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "ISO",
+            "grammatical_function_en": "isolation",
+            "grammatical_function_ja": "孤独",
+            "grammatical_function_zh": "限定/单独"
+          },
+          {
+            "gloss": "NL",
+            "grammatical_function_en": "nominal",
+            "grammatical_function_ja": "連体形準体",
+            "grammatical_function_zh": "连体形准体"
+          },
+          {
+            "gloss": "RET",
+            "grammatical_function_en": "retrospective",
+            "grammatical_function_ja": "回想",
+            "grammatical_function_zh": "回想"
+          }
+        ],
+        "translation-zh-natural": "“无论是离去的人还是停留的人，袖子如同泪河。河水涨，打湿了近水处。泪水落，打湿了袖子。”"
       },
       {
         "id": 109,
         "koutei-yamagen": "となむ詠める。",
-        "translation-zh": "吟咏道。",
-        "phrase-gloss": null,
-        "glossary-abbreviations": [],
-        "translation-zh-natural": "孩子吟咏道。"
+        "translation-zh": "咏道。",
+        "phrase-gloss": [
+          {
+            "phrase": "となむ詠める。",
+            "gloss-zh": "咏道",
+            "gloss-morph-zh": "=CMP=FOC 咏-INC+STA-ADN",
+            "words": [
+              {
+                "word": "と",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=CMP"
+              },
+              {
+                "word": "なむ",
+                "gloss-zh": "",
+                "gloss-morph-zh": "=FOC"
+              },
+              {
+                "word": "詠め",
+                "gloss-zh": "咏",
+                "gloss-morph-zh": "咏-INC"
+              },
+              {
+                "word": "る",
+                "gloss-zh": "道",
+                "gloss-morph-zh": "+STA-ADN"
+              }
+            ]
+          }
+        ],
+        "glossary-abbreviations": [
+          {
+            "gloss": "+",
+            "grammatical_function_en": "auxiliary boundary",
+            "grammatical_function_ja": "助動詞境界",
+            "grammatical_function_zh": "助动词边界"
+          },
+          {
+            "gloss": "-",
+            "grammatical_function_en": "affix boundary",
+            "grammatical_function_ja": "接辞境界",
+            "grammatical_function_zh": "接辞边界"
+          },
+          {
+            "gloss": "=",
+            "grammatical_function_en": "clitic boundary",
+            "grammatical_function_ja": "付属語境界",
+            "grammatical_function_zh": "附属语边界"
+          },
+          {
+            "gloss": "ADN",
+            "grammatical_function_en": "adnominal",
+            "grammatical_function_ja": "連体形",
+            "grammatical_function_zh": "连体形"
+          },
+          {
+            "gloss": "CMP",
+            "grammatical_function_en": "complementizer",
+            "grammatical_function_ja": "補語表示",
+            "grammatical_function_zh": "补语表示"
+          },
+          {
+            "gloss": "FOC",
+            "grammatical_function_en": "definite focus",
+            "grammatical_function_ja": "確定焦点",
+            "grammatical_function_zh": "确定焦点"
+          },
+          {
+            "gloss": "INC",
+            "grammatical_function_en": "inconclusive",
+            "grammatical_function_ja": "非終止",
+            "grammatical_function_zh": "非终止"
+          },
+          {
+            "gloss": "STA",
+            "grammatical_function_en": "stative",
+            "grammatical_function_ja": "既然",
+            "grammatical_function_zh": "静态"
+          }
+        ],
+        "translation-zh-natural": "孩子这么咏道。"
       },
       {
         "id": 110,

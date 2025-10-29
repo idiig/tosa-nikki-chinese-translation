@@ -50,22 +50,18 @@
             ghostscript
             gnumake
           ];
-
-          # Keep shell startup fast; do not rebuild font cache on every entry.
+          
           shellHook = ''
             echo "Tosa Nikki dev"
-            echo "Use: make glossary | make fill"
-            # Optional: one-time font cache refresh; create a stamp file and add it to .gitignore.
-            # if command -v fc-cache >/dev/null; then
-            #   if [ ! -e .font-cache.stamp ]; then
-            #     fc-cache -r >/dev/null 2>&1 || true
-            #     touch .font-cache.stamp
-            #   fi
-            # fi
-            # Optional: check inkscape availability
-            # if command -v inkscape >/dev/null 2>&1; then
-            #   inkscape --version >/dev/null 2>&1
-            # fi
+            echo "Usage:"
+            echo "  make update              # update the submodule and extract the raw translation"
+            echo "  make glossary			       # generate glossary.json"
+            echo "  [Note] Manually edit ./build/glossary.json to ./data/glossary.edited.json"
+            echo "  make stage			         # stage the edited glossary"
+            echo "  make activate			       # activate the edited glossary"
+            echo "  make fill			           # fill the glossary abbreviations in the main text"
+            echo "  make publish			       # publish the auto-generated results"
+            echo "  make publish-edited		   # publish the edited glossary"
           '';
         });
 
