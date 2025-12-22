@@ -49,6 +49,8 @@
             inkscape
             ghostscript
             gnumake
+            guile
+            guile-json
           ];
           
           shellHook = ''
